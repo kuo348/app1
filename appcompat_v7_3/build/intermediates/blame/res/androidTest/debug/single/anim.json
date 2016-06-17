@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\bundles\\debug\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\bundles\\debug\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\bundles\\debug\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\bundles\\debug\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\bundles\\debug\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\bundles\\debug\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\bundles\\debug\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\bundles\\debug\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\C:\\Users\\cooper\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\C:\\Users\\cooper\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\bundles\\debug\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\C:\\Users\\cooper\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\C:\\Users\\cooper\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\bundles\\debug\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\C:\\Users\\cooper\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\C:\\Users\\cooper\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\bundles\\debug\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\C:\\Users\\cooper\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\C:\\Users\\cooper\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\bundles\\debug\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\bundles\\debug\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\C:\\Users\\cooper\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\C:\\Users\\cooper\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\bundles\\debug\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\C:\\Users\\cooper\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\C:\\Users\\cooper\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\bundles\\debug\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\bundles\\debug\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\bundles\\debug\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\appcompat_v7_3\\build\\intermediates\\bundles\\debug\\res\\anim\\abc_slide_in_top.xml"
+    }
+]
