@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/white" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <TableLayout
+            android:id="@+id/T1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"           
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:stretchColumns="*" >
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white" >
+    <RelativeLayout android:id="@+id/faelayout" 
+        android:layout_width="96.0dip" 
+        android:layout_height="96.0dip"     
+        android:layout_weight="1"
+         >
+        <ImageView android:id="@+id/imgFAE" 
+            android:layout_width="fill_parent" 
+            android:layout_height="72.0dip" 
+            android:src="@drawable/fae" 
+            android:layout_alignParentLeft="true" 
+            android:layout_alignParentTop="true" 
+            android:onClick="onFAEClick" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" 
+            android:textColor="@color/black" android:id="@+id/fae_logo" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:text="FAE" 
+            android:layout_alignParentBottom="true" 
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+     <RelativeLayout android:id="@+id/layout1" 
+        android:layout_width="96.0dip" 
+        android:layout_height="96.0dip"     
+        android:layout_weight="1"
+         >
+        </RelativeLayout>
+    </TableRow>
+    </TableLayout>
+</RelativeLayout>

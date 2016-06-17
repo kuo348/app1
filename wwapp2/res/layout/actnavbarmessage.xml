@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white" >
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="fill_parent"
+        android:layout_height="80.0dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/actionbar_bg"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/btnAnnounce"
+            style="@style/navbar_button"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:drawableTop="@drawable/home_announce"
+            android:gravity="center"
+            android:onClick="home_announce_click"
+            android:paddingTop="10.0dip"
+            android:text="Announce"
+            android:textColor="@color/white"
+            android:textSize="18.0dip" />
+
+        <RadioButton
+            android:id="@+id/btnMessage"
+            style="@style/navbar_button"
+            android:layout_width="10.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@color/white"
+            android:drawableTop="@drawable/home_message_hover"
+            android:gravity="center"
+            android:paddingTop="10.0dip"
+            android:text="Message"
+            android:textColor="@color/red"
+            android:textSize="18.0dip" />
+
+        <RadioButton
+            android:id="@+id/btnFavorite"
+            style="@style/navbar_button"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:drawableTop="@drawable/home_favorite"
+            android:gravity="center"
+            android:onClick="home_favorite_click"
+            android:paddingTop="10.0dip"
+            android:text="Favorite"
+            android:textColor="@color/white"
+            android:textSize="18.0dip" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80.0dip"
+        android:layout_alignParentBottom="true"
+        android:background="#00000000"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btnMsg"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:visibility="invisible" />
+
+        <Button
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/radiogroup"
+        android:divider="@color/list_divider"
+        android:orientation="vertical"
+        android:showDividers="end" >
+
+        <RelativeLayout
+            android:id="@+id/message_r1"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/actionbar_bg"
+            android:visibility="visible" >
+
+            <EditText
+                android:id="@+id/search_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_toLeftOf="@+id/btn_cancel"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/ic_action_search"
+                android:hint="search"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@color/transparent"
+                android:text="Cancel"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/white"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <com.winway.wwapp2.PullDownView
+            android:id="@+id/pull_down_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="0.0dip" />
+    </LinearLayout>
+
+</RelativeLayout>

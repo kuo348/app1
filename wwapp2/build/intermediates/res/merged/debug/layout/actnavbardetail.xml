@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+     <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/actionbar_bg" >
+
+     <Button
+                android:id="@+id/btnReturnHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:background="@color/transparent"
+                android:drawableLeft="@drawable/group_arrow_left"
+                android:gravity="left|center_vertical"
+                android:text="Home"
+                android:onClick="returnHome"
+                 android:layout_marginLeft="10dp"
+                android:textColor="@color/white" />
+        <TextView
+            android:id="@+id/detail_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Detail"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/black" >
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="fill_parent"
+            android:layout_height="80.0dip"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/actionbar_bg"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/btnAnnounce"
+                style="@style/navbar_button"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:drawableTop="@drawable/home_announce"
+                android:gravity="center"
+                android:onClick="home_announce_click"
+                android:paddingTop="10.0dip"
+                android:text="Announce"
+                android:textColor="@color/white"
+                android:textSize="18.0dip" />
+
+            <RadioButton
+                android:id="@+id/btnMessage"
+                style="@style/navbar_button"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@color/white"
+                android:drawableTop="@drawable/home_message_hover"
+                android:gravity="center"
+                android:onClick="home_message_click"
+                android:paddingTop="10.0dip"
+                android:text="Message"
+                android:textColor="@color/red"
+                android:textSize="18.0dip" />
+
+            <RadioButton
+                android:id="@+id/btnFavorite"
+                style="@style/navbar_button"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:drawableTop="@drawable/home_favorite"
+                android:gravity="center"
+                android:onClick="home_favorite_click"
+                android:paddingTop="10.0dip"
+                android:text="Favorite"
+                android:textColor="@color/white"
+                android:textSize="18.0dip" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="80.0dip"
+            android:layout_alignParentBottom="true"
+            android:background="#00000000"
+            android:orientation="horizontal" >
+
+            <Button
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/btnMsg"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:visibility="invisible" />
+
+            <Button
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/radiogroup"
+            android:divider="@color/list_divider"
+            android:orientation="vertical"
+            android:showDividers="end" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:descendantFocusability="blocksDescendants"
+                android:orientation="horizontal"
+                android:padding="5.0dip" >
+
+                <LinearLayout
+                    android:id="@+id/msg_ll3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="0.0dip"
+                    android:padding="0.0dip" >
+
+                    <ImageView
+                        android:id="@+id/msg_img3"
+                        android:layout_width="50.0dip"
+                        android:layout_height="50.0dip" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/msg_kind_text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/msg_ll3"
+                    android:layout_alignTop="@+id/msg_title3"
+                    android:layout_marginLeft="0.0dip"
+                    android:layout_marginTop="36.0dip"
+                    android:gravity="center_horizontal"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="10.0dip"
+                    android:width="50.0dip" />
+
+                <View
+                    android:id="@+id/msg_bgview3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50.0dip"
+                    android:layout_marginLeft="6.0dip"
+                    android:layout_marginTop="0.0dip"
+                    android:layout_toRightOf="@+id/msg_ll3" />
+
+                <View
+                    android:id="@+id/msg_bgview4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dip"
+                    android:layout_alignTop="@+id/msg_bgview3"
+                    android:layout_marginLeft="6.0dip"
+                    android:layout_marginTop="24.0dip"
+                    android:layout_toRightOf="@+id/msg_ll3"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:id="@+id/msg_title3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/msg_bgview3"
+                    android:layout_alignTop="@+id/msg_bgview3"
+                    android:layout_marginLeft="16.0dip"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="15.0dip"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/msg_date3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/msg_title3"
+                    android:layout_alignBottom="@+id/msg_title3"
+                    android:layout_alignRight="@+id/msg_bgview3"
+                    android:layout_marginRight="40.0dip"
+                    android:gravity="right"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="12.0dip"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/msg_desc3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"                    
+                    android:layout_alignLeft="@+id/msg_title3"
+                    android:layout_below="@+id/msg_bgview4"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:text=""    
+                    android:singleLine="true"              
+                    android:textColor="@color/white"
+                    android:textSize="15.0dip" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/black"
+                android:padding="10.0dip" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@color/white"
+                    android:padding="10.0dip" >
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/border"
+                        android:padding="5.0dip" >
+                        <WebView
+                            android:id="@+id/msg_content"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                             android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            />
+
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,1275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	 android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollViewA" >
+<RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+  <RelativeLayout
+            android:id="@+id/tabA_r1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/border" >
+            <!-- NEW Applicaiton Design -->
+            <CheckBox
+                android:id="@+id/ef_xa092"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/new_application_design"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black" />         
+            <Button
+                android:id="@+id/btnLoadPackageInfo1a"
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/ef_xa015"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/red"
+                android:text="retrieve Package Information"
+                android:textColor="@color/white" 
+                android:visibility="gone"
+                />
+
+            <CheckBox
+                android:id="@+id/ef_xa087"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/btnLoadPackageInfo1a"
+                android:text="Upgrade"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black" />
+
+            <CheckBox
+                android:id="@+id/ef_xa088"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ef_xa015"
+                android:layout_below="@+id/ef_xa087"
+                android:checked="false"
+                android:text="Change Lid type or parts"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black" />
+
+            <CheckBox
+                android:id="@+id/ef_xa089"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ef_xa088"
+                android:layout_below="@+id/ef_xa088"
+                android:checked="false"
+                android:text="Change Pogo pin"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black" />
+
+            <CheckBox
+                android:id="@+id/ef_xa090"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ef_xa089"
+                android:layout_below="@+id/ef_xa089"
+                android:checked="false"
+                android:text="Socket parts modification,Part Name or Part Number"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/ef_xa091"
+                android:layout_width="match_parent"
+				android:layout_marginRight="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@+id/ef_xa090"
+                android:background="@drawable/border"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+          
+
+            <Button
+                android:id="@+id/btnLoadPackageInfo2a"
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/ef_xa091"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/red"
+                android:text="retrieve Package Information"
+                android:textColor="@color/white" 
+                android:visibility="gone"
+                />
+
+            <EditText
+                android:id="@+id/ef_xa015"
+               android:layout_width="match_parent"
+				android:layout_marginRight="10dp"
+				android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"                
+                android:layout_below="@+id/ef_xa092"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/border"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <CheckBox
+                android:id="@+id/ef_xa093"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/ef_xa092"
+                android:text="Repeat Order,WinWay Socket P/N"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black" />
+				<View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_below="@+id/btnLoadPackageInfo2a" />
+        </RelativeLayout>
+			<View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tabA_r2"
+            android:layout_alignLeft="@+id/tabA_r2"
+            android:layout_alignRight="@+id/tabA_r2"
+            android:layout_alignTop="@+id/tabA_r2"
+            android:background="@drawable/yellow_bg" />
+		 <RelativeLayout
+            android:id="@+id/tabA_r2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/tabA_r1"            
+             >
+
+            <TextView
+                android:id="@+id/tabA_r2_view1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+				android:layout_marginLeft="10dp"
+                android:text="Package Type (QFP,BGA,CSP...)"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/ef_xa518"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tabA_r2_view1"
+                android:layout_marginLeft="100dp"
+				android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:drawableRight="@drawable/subwindow_icon"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tabA_r2_view2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/ef_xa518"
+                android:layout_marginTop="10dp"
+                android:gravity="right"
+                android:text="*Body Size"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/ef_xa020"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tabA_r2_view2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/tabA_r2_view2"
+                android:background="@color/white"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+				android:gravity="right"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tabA_r2_view2a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/ef_xa020"
+                android:layout_below="@+id/ef_xa518"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/ef_xa020"
+                android:gravity="right"
+                android:text="X"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/ef_xa021"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tabA_r2_view2a"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/tabA_r2_view2a"
+                android:background="@color/white"
+				android:gravity="right"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tabA_r2_view3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tabA_r2_view2"
+                android:layout_marginTop="10dp"
+                android:gravity="right"
+                android:text="Matrix"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/ef_xa022"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tabA_r2_view3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/tabA_r2_view3"
+                android:background="@color/white"
+                android:ems="10"
+				android:gravity="right"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tabA_r2_view3a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/ef_xa022"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/ef_xa022"
+                android:gravity="right"
+                android:text="X"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/ef_xa023"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tabA_r2_view3a"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/tabA_r2_view3a"
+                android:background="@color/white"
+                android:ems="10"
+				android:gravity="right"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tabA_r2_view4"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tabA_r2_view3"
+                android:layout_marginTop="10dp"
+                android:gravity="right"
+                android:text="Lead Count"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/ef_xa024"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tabA_r2_view4"
+                android:layout_alignLeft="@+id/ef_xa020"
+				android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:ems="10"
+				android:gravity="right"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tabA_r2_view5"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tabA_r2_view4"
+                android:layout_marginTop="10dp"
+                android:gravity="right"
+                android:text="Lead (ball,pad) Pitch"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/ef_xa025"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+				android:layout_marginRight="10dp"
+                android:layout_alignTop="@+id/tabA_r2_view5"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_toRightOf="@+id/tabA_r2_view5"
+                android:background="@color/white"
+				android:gravity="right"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+           
+				 <TextView
+                android:id="@+id/tabA_r2_view7"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tabA_r2_view5"
+                android:layout_marginTop="10dp"
+                android:gravity="right"
+                android:text="Test location"
+                android:textColor="@color/black" />
+				  <CheckBox
+                android:id="@+id/xa839"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tabA_r2_view7"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/tabA_r2_view7"
+                android:text="Customer's lab"
+                android:textColor="@color/black" />
+				  <CheckBox
+                android:id="@+id/xa840"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/xa839"
+                android:layout_below="@+id/tabA_r2_view7"
+                android:text="Subcon"
+                android:textColor="@color/black" />
+				  <EditText
+                android:id="@+id/xa841"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ef_xa025"
+				android:layout_marginRight="10dp"
+				 android:layout_below="@+id/xa840"
+                android:background="@color/white"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+				<CheckBox
+                android:id="@+id/xa842"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/xa839"
+                android:layout_below="@+id/xa841"
+                android:text="Other"
+                android:textColor="@color/black" />
+				  <EditText
+                android:id="@+id/xa843"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ef_xa025"
+				android:layout_marginRight="10dp"
+				 android:layout_below="@+id/xa842"
+                android:background="@color/white"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+				<View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_below="@+id/xa843" />
+        </RelativeLayout>
+		<View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tabA_r3"
+            android:layout_alignLeft="@+id/tabA_r3"
+            android:layout_alignRight="@+id/tabA_r3"
+            android:layout_alignTop="@+id/tabA_r3"
+            android:background="@drawable/yellow_bg" />
+		<RelativeLayout
+            android:id="@+id/tabA_r3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/tabA_r2"            
+             >
+
+			   <TextView
+			       android:id="@+id/tabA_r3_view1"
+			       android:layout_width="100dp"
+			       android:layout_height="wrap_content"
+			       android:layout_alignParentLeft="true"
+			       android:layout_marginTop="10dp"
+			       android:gravity="right"
+			       android:text="*Device power consumption"
+			       android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa804"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tabA_r3_view1"
+				android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+				android:layout_marginRight="50dp"                
+                android:layout_toRightOf="@+id/tabA_r3_view1"
+                android:background="@color/white"
+				android:gravity="right"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+				<TextView
+                android:id="@+id/tabA_r3_view1a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_alignBaseline="@+id/xa804"
+				android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp" 
+                android:layout_marginRight="30dp"  				
+                android:text="W"				
+                android:textColor="@color/black" />
+
+				   <TextView
+				       android:id="@+id/tabA_r3_view2"
+				       android:layout_width="100dp"
+				       android:layout_height="wrap_content"
+				       android:layout_alignParentLeft="true"
+				       android:layout_below="@+id/tabA_r3_view1"
+				       android:layout_marginTop="10dp"
+				       android:gravity="right"
+				       android:text="*Die area"
+				       android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa844"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tabA_r3_view2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/tabA_r3_view2"
+                android:background="@color/white"
+                android:ems="10"
+				android:gravity="right"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tabA_r3_view2a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/xa844"
+                android:layout_below="@+id/tabA_r3_view1"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/xa844"
+                android:gravity="right"
+                android:text="X"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa845"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/xa844"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/tabA_r3_view2a"
+                android:background="@color/white"
+                android:ems="10"
+				android:gravity="right"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+				<TextView
+                android:id="@+id/tabA_r3_view2b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_alignBaseline="@+id/xa845"
+				android:layout_toRightOf="@+id/xa845"
+                android:layout_marginTop="10dp" 
+                android:layout_marginLeft="5dp"  				
+                android:text="mm2"				
+                android:textColor="@color/black" />
+  <TextView
+                android:id="@+id/tabA_r3_view3"
+				android:layout_below="@+id/tabA_r3_view2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"  
+                android:layout_marginTop="10dp"
+                android:gravity="right"
+                android:text="Power flux"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa846"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tabA_r3_view3"
+				android:layout_marginLeft="10dp"				              
+                android:layout_toRightOf="@+id/tabA_r3_view3"
+                android:background="@color/white"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:layout_toLeftOf="@+id/tabA_r3_view3b"
+                android:textColor="@color/black" />
+
+	<TextView
+	    android:id="@+id/tabA_r3_view3b"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBottom="@+id/tabA_r3_view3"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginLeft="5dp"
+	    android:layout_marginTop="10dp"
+	    android:text="w/mm2"
+	    android:textColor="@color/black" />
+
+				<TextView
+				    android:id="@+id/tabA_r3_view4"
+				    android:layout_width="100dp"
+				    android:layout_height="wrap_content"
+				    android:layout_alignParentLeft="true"
+				    android:layout_below="@+id/tabA_r3_view3"
+				    android:layout_marginTop="10dp"
+				    android:gravity="right"
+				    android:text="*Test temperture"
+				    android:textColor="@color/black" />
+
+				    <CheckBox
+                android:id="@+id/xa851"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tabA_r3_view4"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/tabA_r3_view4"
+                android:text="Tc"
+                android:textColor="@color/black" />
+
+            <CheckBox
+                android:id="@+id/xa852"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tabA_r3_view4"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/xa851"
+                android:text="Tj"
+                android:textColor="@color/black" />
+				 <EditText
+                android:id="@+id/xa805"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tabA_r3_view4"
+				android:layout_alignLeft="@+id/xa851"
+				android:layout_marginLeft="10dp"
+				android:layout_marginTop="10dp"
+				android:background="@color/white"
+                android:ems="10"
+				android:gravity="right"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+				 <EditText
+                android:id="@+id/xa806"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tabA_r3_view4"
+				android:layout_toRightOf="@+id/xa805"
+				android:layout_marginLeft="10dp"
+				android:layout_marginTop="10dp"
+				android:background="@color/white"
+				android:gravity="right"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+				 <EditText
+                android:id="@+id/xa807"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tabA_r3_view4"
+				android:layout_toRightOf="@+id/xa806"
+				android:layout_marginLeft="10dp"
+				android:layout_marginTop="10dp"
+				android:background="@color/white"
+				android:gravity="right"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+				<TextView
+                android:id="@+id/tabA_r3_view4b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/tabA_r3_view4"
+				android:layout_alignBaseline="@+id/xa807"
+				android:layout_toRightOf="@+id/xa807"
+                android:layout_marginTop="10dp" 
+                android:layout_marginLeft="5dp"  				
+                android:text="°C"				
+                android:textColor="@color/black" />
+				<TextView
+                android:id="@+id/tabA_r3_view5"
+				android:layout_below="@+id/xa805"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"  
+                android:layout_marginTop="10dp"
+                android:gravity="right"
+                android:text="Tolerance"
+                android:textColor="@color/black" />
+				<EditText
+                android:id="@+id/xa808"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/xa805"
+                android:layout_alignBaseline="@+id/tabA_r3_view5"
+				android:layout_marginLeft="10dp"				
+				android:layout_alignRight="@+id/xa807"                
+                android:layout_toRightOf="@+id/tabA_r3_view5"
+                android:background="@color/white"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+				<TextView
+                android:id="@+id/tabA_r3_view5a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_alignBaseline="@+id/xa808"
+				android:layout_alignLeft="@+id/tabA_r3_view4b"
+                android:layout_marginTop="10dp"                 				
+                android:text="°C"				
+                android:textColor="@color/black" />
+				<TextView
+                android:id="@+id/tabA_r3_view51"
+				android:layout_below="@+id/tabA_r3_view5"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"  
+                android:layout_marginTop="10dp"
+                android:gravity="right"
+                android:text="Thermial Resistance"
+                android:textColor="@color/black" />
+				<EditText
+                android:id="@+id/xa853"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/xa808"
+                android:layout_alignTop="@+id/tabA_r3_view51"
+				android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"				
+				android:layout_alignRight="@+id/xa846"                
+                android:layout_toRightOf="@+id/tabA_r3_view51"
+                android:background="@color/white"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+				<TextView
+                android:id="@+id/tabA_r3_view51a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_alignBaseline="@+id/xa853"
+				android:layout_alignLeft="@+id/tabA_r3_view2b"
+                android:layout_marginTop="10dp"                 				
+                android:text="°C/W"				
+                android:textColor="@color/black" />
+				<View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+			android:layout_marginTop="10dp"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:background="@color/black"
+            android:layout_below="@+id/tabA_r3_view51" />
+
+				<TextView
+				    android:id="@+id/tabA_r3_view6"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_below="@+id/tabA_r3_view51"
+				    android:layout_marginTop="30dp"
+				    android:text=" *F-Flux type"
+				    android:textColor="@color/black" />
+
+				  <CheckBox
+                android:id="@+id/xa809"
+				android:layout_below="@+id/tabA_r3_view6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:layout_marginLeft="10dp"				
+                android:text="plunger"
+                android:textColor="@color/black" />
+
+            <CheckBox
+                android:id="@+id/xa811"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/xa809"
+                android:layout_below="@+id/xa809"				
+                android:text="Manual lid(with base plate)"
+                android:textColor="@color/black" />
+				 <CheckBox
+                android:id="@+id/xa815"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/xa809"                
+				android:layout_below="@+id/xa811"					
+                android:text="Suggested by Winay"
+                android:textColor="@color/black" />
+					<TextView
+                android:id="@+id/tabA_r3_view7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/xa815"				
+                android:layout_marginTop="30dp"                 				
+                android:text="Dry box design"				
+                android:textColor="@color/black" />
+				  <CheckBox
+                android:id="@+id/xa822"
+				android:layout_below="@+id/tabA_r3_view7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:layout_marginLeft="30dp"				
+                android:text="None"
+                android:textColor="@color/black" />
+
+            <CheckBox
+                android:id="@+id/xa810"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/xa822"
+                android:layout_below="@+id/xa822"				
+                android:text="For thermal head only"
+                android:textColor="@color/black" />
+				 <CheckBox
+                android:id="@+id/xa813"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/xa822"                
+				android:layout_below="@+id/xa810"					
+                android:text="For thermal head + PCB"
+                android:textColor="@color/black" />
+					<TextView
+                android:id="@+id/tabA_r3_view8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/xa813"				
+                android:layout_marginTop="10dp"                 				
+                android:text="Hose Length (STD is 1.7m)"				
+                android:textColor="@color/black" />
+				  <EditText
+                android:id="@+id/xa824"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"              
+                android:layout_toLeftOf="@+id/tabA_r3_view13"
+                android:layout_below="@+id/tabA_r3_view8"
+                android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:layout_alignParentLeft="true"	               
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+			<TextView
+                android:id="@+id/tabA_r3_view13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/tabA_r3_view8"
+				android:layout_marginRight="10dp"	
+				android:layout_alignParentRight="true"		
+                android:layout_alignBaseline="@+id/xa824"                 				
+                android:text="m"				
+                android:textColor="@color/black" />	  
+			<TextView
+                android:id="@+id/tabA_r3_view9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/xa824"				
+                android:layout_marginTop="10dp"                 				
+                android:text="E-Flux's power plug type"				
+                android:textColor="@color/black" />
+				  <EditText
+                android:id="@+id/xa849"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tabA_r3_view9"
+                android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:drawableRight="@drawable/dropdown_icon"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+				<ImageView
+                android:id="@+id/plugimage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/xa849"				
+                android:layout_marginTop="10dp"                 				
+                 />
+					<TextView
+                android:id="@+id/tabA_r3_view10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/plugimage"				
+                android:layout_marginTop="10dp"                 				
+                android:text="Supply voltage/Frequency"				
+                android:textColor="@color/black" />
+				  <EditText
+                android:id="@+id/xa850"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tabA_r3_view10"
+                android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"               
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+				  	<TextView
+                android:id="@+id/tabA_r3_view11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/xa850"				
+                android:layout_marginTop="10dp"                 				
+                android:text="Power wire Length(Def. is 2.0m)"				
+                android:textColor="@color/black" />
+				  <EditText
+                android:id="@+id/xa860"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/tabA_r3_view14"
+                android:layout_below="@+id/tabA_r3_view11"
+                android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"               
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+<TextView
+                android:id="@+id/tabA_r3_view14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/tabA_r3_view11"
+				android:layout_marginRight="10dp"	
+				android:layout_alignParentRight="true"		
+                android:layout_alignBaseline="@+id/xa860"                 				
+                android:text="m"				
+                android:textColor="@color/black" />	
+				  	<TextView
+				  	    android:id="@+id/tabA_r3_view12"
+				  	    android:layout_width="wrap_content"
+				  	    android:layout_height="wrap_content"
+				  	    android:layout_below="@+id/xa860"
+				  	    android:layout_marginTop="10dp"
+				  	    android:text=" *Voltage transformer"
+				  	    android:textColor="@color/black" />
+
+				  	 <CheckBox
+                android:id="@+id/xa861"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/xa822"
+                android:layout_below="@+id/tabA_r3_view12"				
+                android:text="none"
+                android:textColor="@color/black" />
+				 <CheckBox
+                android:id="@+id/xa862"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/xa822"                
+				android:layout_below="@+id/xa861"					
+                android:text="110V to 220V"
+                android:textColor="@color/black" />
+				<View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_below="@+id/xa862" />
+			 </RelativeLayout>
+			  <TextView
+                android:id="@+id/tabA_r4_view1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tabA_r3"
+                android:layout_marginTop="10dp"  
+				android:layout_marginLeft="10dp"   				
+                android:text="POD,socket,PCB information"
+                android:textColor="@color/black" />
+		<RelativeLayout
+            android:id="@+id/tabA_r5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+			android:background="@drawable/border"
+            android:layout_below="@+id/tabA_r4_view1">
+
+			  <TextView
+			      android:id="@+id/tabA_r5_view1"
+			      android:layout_width="match_parent"
+			      android:layout_height="wrap_content"
+			      android:layout_marginLeft="10dp"
+			      android:layout_marginTop="10dp"
+			      android:text="  *1.Package outline drawing (P.O.D)\n    (must be provide..."
+			      android:textColor="@color/black" />
+
+				  <CheckBox
+                android:id="@+id/xa825"
+				android:layout_below="@+id/tabA_r5_view1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+              	android:layout_marginLeft="20dp"				
+                android:text="Attached"
+                android:visibility="gone"
+                android:textColor="@color/black" />
+
+				 <TextView
+				     android:id="@+id/tabA_r5_view2"
+				     android:layout_width="match_parent"
+				     android:layout_height="wrap_content"
+				     android:layout_below="@+id/xa825"
+				     android:layout_marginLeft="10dp"
+				     android:layout_marginTop="10dp"
+				     android:text="  *2.Socket"
+				     android:textColor="@color/black" />
+
+				  <CheckBox
+                android:id="@+id/xa826"
+				android:layout_below="@+id/tabA_r5_view2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+              	android:layout_marginLeft="20dp"				
+                android:text="a.WinWay socket,please provide the part no.or spec no."
+                android:textColor="@color/black" />
+				 <EditText
+                android:id="@+id/xa827"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/xa826" 			
+				android:layout_marginRight="10dp"
+				android:layout_marginLeft="10dp"
+				android:layout_marginTop="10dp"    
+				android:background="@drawable/border"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+				  <CheckBox
+                android:id="@+id/xa828"
+				android:layout_below="@+id/xa827"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+              	android:layout_marginLeft="20dp"
+				android:layout_marginTop="10dp"				
+                android:text="b.Non-WinWay socket,please provide the socket spec."
+                android:textColor="@color/black" />
+
+				  <TextView
+				      android:id="@+id/tabA_r5_view3"
+				      android:layout_width="match_parent"
+				      android:layout_height="wrap_content"
+				      android:layout_below="@+id/xa828"
+				      android:layout_marginLeft="10dp"
+				      android:layout_marginTop="10dp"
+				      android:text="  *3.PCB picture and footprint"
+				      android:textColor="@color/black" />
+
+				  <CheckBox
+                android:id="@+id/xa829"
+				android:layout_below="@+id/tabA_r5_view3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+              	android:layout_marginLeft="20dp"				
+                android:text="Attached"
+                android:visibility="gone"
+                android:textColor="@color/black" />
+				   <TextView
+                android:id="@+id/tabA_r5_view7"
+				android:layout_below="@+id/tabA_r5_view3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"              
+                android:layout_marginTop="10dp"  
+				android:layout_marginLeft="10dp"   
+				android:layout_marginRight="10dp"				
+                android:text="PCB drawing"
+                android:textColor="@color/black" />
+				   <EditText
+                android:id="@+id/xa856"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tabA_r5_view7" 			
+				android:layout_marginRight="20dp"
+				android:layout_alignParentRight="true"				
+				android:layout_marginTop="10dp" 
+				android:layout_toRightOf="@+id/tabA_r5_view7a"   
+				android:background="@drawable/border"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+				   <TextView
+                android:id="@+id/tabA_r5_view7a"
+				android:layout_below="@+id/tabA_r5_view7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"              
+                android:layout_marginTop="10dp"  
+				android:layout_marginLeft="10dp"   
+				android:layout_marginRight="10dp"				
+                android:text="        Screw size"             
+                android:textColor="@color/black" />
+				   <TextView
+                android:id="@+id/tabA_r5_view8"
+			    android:layout_width="wrap_content"
+                android:layout_height="wrap_content"              
+                android:layout_alignTop="@+id/xa857"
+				android:layout_alignRight="@+id/tabA_r5_view7a"		
+				android:layout_alignLeft="@+id/tabA_r5_view7a"
+                android:text="Pitch"            
+                android:gravity="right"
+                android:layout_below="@+id/tabA_r5_view7a" 
+                android:textColor="@color/black" />
+				      <EditText
+                android:id="@+id/xa857"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/xa856"
+                android:layout_alignLeft="@+id/xa856"  			
+				android:layout_marginRight="20dp"
+				android:layout_alignParentRight="true"				
+				android:layout_marginTop="10dp" 
+				android:layout_toRightOf="@+id/tabA_r5_view8"   
+				android:background="@drawable/border"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+				        <TextView
+                android:id="@+id/tabA_r5_view9"
+		        android:layout_width="wrap_content"
+                android:layout_height="wrap_content"              
+                android:layout_alignTop="@+id/xa858"  
+                android:layout_alignRight="@+id/tabA_r5_view7a"		
+				android:layout_alignLeft="@+id/tabA_r5_view7a"									
+                android:text="Guide Pin size"
+                android:layout_below="@+id/tabA_r5_view8" 
+                android:textColor="@color/black" />
+				       <EditText
+                android:id="@+id/xa858"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/xa857" 
+                android:layout_alignLeft="@+id/xa856"			
+				android:layout_marginRight="20dp"
+				android:layout_alignParentRight="true"				
+				android:layout_marginTop="10dp" 
+				android:layout_toRightOf="@+id/tabA_r5_view9"   
+				android:background="@drawable/border"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+				    <TextView
+                android:id="@+id/tabA_r5_view10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"              
+                android:layout_alignTop="@+id/xa859"                
+			    android:layout_alignRight="@+id/tabA_r5_view9"		
+				android:layout_alignLeft="@+id/tabA_r5_view9"				
+                android:text="Pitch"
+                android:gravity="right"
+                android:layout_below="@+id/tabA_r5_view9" 
+                android:textColor="@color/black" />    
+				        <EditText
+                android:id="@+id/xa859"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/xa858" 
+                android:layout_alignLeft="@+id/xa858"			
+				android:layout_marginRight="20dp"
+				android:layout_alignParentRight="true"				
+				android:layout_marginTop="10dp" 
+				android:layout_toRightOf="@+id/tabA_r5_view9"
+				android:background="@drawable/border"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+				<TextView
+				    android:id="@+id/tabA_r5_view4"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_below="@+id/xa859"
+				    android:layout_marginLeft="10dp"
+				    android:layout_marginTop="10dp"
+				    android:text="   4.Dummy sample (2~3pcs)"
+				    android:textColor="@color/black" />
+
+				  <CheckBox
+                android:id="@+id/xa830Y"
+				android:layout_below="@+id/tabA_r5_view4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+              	android:layout_marginLeft="20dp"				
+                android:text="Available"
+                android:textColor="@color/black" />
+				 <CheckBox
+                android:id="@+id/xa830N"
+				android:layout_below="@+id/tabA_r5_view4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+              	android:layout_toRightOf="@+id/xa830Y"				
+                android:text="Not Available"
+                android:textColor="@color/black" />
+
+					<TextView
+					    android:id="@+id/tabA_r5_view5"
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:layout_below="@+id/xa830Y"
+					    android:layout_marginLeft="10dp"
+					    android:layout_marginTop="10dp"
+					    android:text="(It's necessary to provide sample for QFP/QFN/SOP socket design)\n\n   5.Spec.required by yyyy/mm/dd."
+					    android:textColor="@color/black" />
+
+				  <CheckBox
+                android:id="@+id/xa831"
+				android:layout_below="@+id/tabA_r5_view5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+              	android:layout_marginLeft="20dp"				
+                android:text=""
+                android:textColor="@color/black" />
+				 <EditText
+                android:id="@+id/xa832"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tabA_r5_view5" 	
+                android:layout_toRightOf="@+id/xa831"					
+				android:layout_marginRight="10dp"
+				android:layout_marginLeft="10dp"
+				android:layout_marginTop="5dp"    
+				android:background="@drawable/border"
+				android:drawableRight="@drawable/dropdown_icon"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+				  
+				<View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_below="@+id/xa832" />
+			 </RelativeLayout>
+		<View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_below="@+id/tabA_r5" />
+</RelativeLayout>
+</ScrollView>

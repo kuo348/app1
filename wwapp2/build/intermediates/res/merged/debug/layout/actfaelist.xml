@@ -1,0 +1,154 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    tools:context="${packageName}.${activityClass}">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" 
+        android:showDividers="end"  
+        android:divider="@color/list_divider">
+              <RelativeLayout
+                  android:id="@+id/fae_r1" 
+                  android:layout_width="match_parent"
+                  android:layout_height="44dp"
+                  android:layout_alignParentTop="true"
+                  android:background="@drawable/actionbar_bg" >
+<TextView
+            android:id="@+id/detail_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="FAE Service Report"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white" />      
+     <Button
+      android:id="@+id/btnAddFae"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      android:layout_marginRight="10dp"
+      android:layout_centerVertical="true"
+      android:layout_alignParentTop="true"     
+      android:drawableRight="@drawable/ic_action_new"
+      android:background="@color/transparent"  
+      android:textColor="@color/white"
+       android:text="" />
+  <Button
+      android:id="@+id/btnReturnFAE"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginLeft="10dp"
+      android:drawableLeft="@drawable/group_arrow_left"
+      android:background="@color/transparent"  
+      android:textColor="@color/white"
+       android:text="Back" />
+</RelativeLayout>
+  <RelativeLayout android:id="@+id/fae_r2" 
+            android:background="@drawable/actionbar_bg" 
+            android:layout_width="fill_parent" 
+            android:layout_height="50.0dip" 
+            android:layout_alignParentTop="true">
+            <EditText android:textAppearance="?android:textAppearanceMedium" 
+                android:id="@+id/search_text" 
+                android:background="@color/white"                 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content" 
+                android:layout_marginLeft="10.0dip" 
+                android:layout_marginRight="10.0dip" 
+                android:text="" 
+                android:hint="search" 
+                android:singleLine="true" 
+                android:drawableLeft="@drawable/ic_action_search" 
+                android:layout_toLeftOf="@+id/cmd_r1" 
+                android:layout_centerHorizontal="true" 
+                android:layout_centerVertical="true" 
+                android:inputType="text" 
+                android:imeOptions="actionDone" />
+
+             <RelativeLayout
+                 android:id="@+id/cmd_r1"
+                 android:layout_width="60dp"
+                 android:layout_height="fill_parent"
+                 android:layout_alignParentRight="true" >
+
+            <Button android:textColor="@color/white" 
+                android:id="@+id/btn_fae_adv_search" 
+                android:background="@drawable/apqp_search_advance" 
+                android:layout_width="33.0dip" 
+                android:layout_height="25.0dip" 
+                android:layout_marginRight="10.0dip" 
+                android:scaleType="fitXY" 
+                android:text=""                 
+                android:layout_centerInParent="true" 
+                 />
+             <Button android:textAppearance="?android:textAppearanceMedium" 
+                android:textColor="@color/white" 
+                android:id="@+id/btn_fae_cancel" 
+                android:background="@color/transparent" 
+                android:visibility="gone" 
+                android:layout_width="60dp" 
+                android:layout_height="wrap_content" 
+                android:text="Cancel" 
+                android:layout_alignParentRight="true" />
+             </RelativeLayout> 
+        </RelativeLayout>
+ <RelativeLayout
+              android:visibility="gone"
+               android:id="@+id/fae_r3" 
+              android:layout_below="@+id/fae_r2" 
+              android:background="@drawable/actionbar_bg" 
+              android:layout_width="fill_parent" 
+              android:layout_height="40.0dip"
+              android:layout_alignParentTop="true">
+             <RadioGroup
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"        
+        android:id="@+id/radiogroup1"     
+        android:background="@drawable/apqp_radiogroup_divider"   
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"      
+             android:orientation="horizontal" >
+        <RadioButton
+            android:id="@+id/tabSheet"
+            style="@style/navbar_button"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"         
+            android:gravity="center"           
+            android:text="Sheet #"
+            android:textColor="@color/red"
+            android:checked="true"
+            android:divider="@drawable/apqp_radiogroup_divider"
+            android:background="@drawable/apqp_radiogroup_select"
+            android:textSize="14dp" />
+        <RadioButton
+            android:id="@+id/tabFae"
+            style="@style/navbar_button"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"         
+            android:text="Responsible FAE"
+            android:divider="@drawable/apqp_radiogroup_divider"
+            android:background="@drawable/apqp_radiogroup_select"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+              </RadioGroup>
+            
+        </RelativeLayout>
+<com.winway.wwapp2.PullDownView
+    android:id="@+id/faelistview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="0dp" >
+</com.winway.wwapp2.PullDownView>
+</LinearLayout>
+</RelativeLayout>

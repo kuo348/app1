@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollViewD"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tabd_r1"
+            android:layout_alignLeft="@+id/tabd_r1"
+            android:layout_alignRight="@+id/tabd_r1"
+            android:layout_alignTop="@+id/tabd_r1"
+            android:background="@drawable/yellow_bg" />
+
+        <RelativeLayout
+            android:id="@+id/tabd_r1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/tabd_r1_view1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Estimated order q&apos;ty" />
+
+            <EditText
+                android:id="@+id/xa59d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tabd_r1_view1"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/tabd_r1_view1"
+                android:background="@drawable/border" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/tabd_r1_view2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tabd_r1_view1"
+                android:layout_alignRight="@+id/tabd_r1_view1"
+                android:layout_below="@+id/tabd_r1_view1"
+                android:layout_marginTop="20dp"
+                android:gravity="right"
+                android:text="Requested SOD" />
+
+            <EditText
+                android:id="@+id/xa59e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tabd_r1_view2"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/tabd_r1_view2"
+                android:background="@drawable/border" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/tabd_r1_view3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tabd_r1_view2"
+                android:layout_alignRight="@+id/tabd_r1_view2"
+                android:layout_below="@+id/tabd_r1_view2"
+                android:layout_marginTop="20dp"
+                android:gravity="right"
+                android:text="Schedule of MP" />
+
+            <EditText
+                android:id="@+id/xa59v"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tabd_r1_view3"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/tabd_r1_view3"
+                android:background="@drawable/border" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/tabd_r1_view4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tabd_r1_view3"
+                android:layout_alignRight="@+id/tabd_r1_view3"
+                android:layout_below="@+id/tabd_r1_view3"
+                android:layout_marginTop="20dp"
+                android:gravity="right"
+                android:text="Week" />
+
+            <EditText
+                android:id="@+id/xa59i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tabd_r1_view4"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/tabd_r1_view4"
+                android:background="@drawable/border" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/tabd_r1_view5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tabd_r1_view4"
+                android:layout_alignRight="@+id/tabd_r1_view4"
+                android:layout_below="@+id/tabd_r1_view4"
+                android:layout_marginTop="20dp"
+                android:gravity="right"
+                android:text="Estimated ATE q&apos;ty" />
+
+            <EditText
+                android:id="@+id/xa59w"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tabd_r1_view5"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/tabd_r1_view5"
+                android:background="@drawable/border" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/tabd_r1_view6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tabd_r1_view5"
+                android:layout_alignRight="@+id/tabd_r1_view5"
+                android:layout_below="@+id/tabd_r1_view5"
+                android:layout_marginTop="20dp"
+                android:gravity="right"
+                android:text="Estimated SLT q&apos;ty" />
+
+            <EditText
+                android:id="@+id/xa59x"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tabd_r1_view6"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/tabd_r1_view6"
+                android:background="@drawable/border" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/tabd_r1_view7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tabd_r1_view6"
+                android:layout_alignRight="@+id/tabd_r1_view6"
+                android:layout_below="@+id/tabd_r1_view6"
+                android:layout_marginTop="20dp"
+                android:gravity="right"
+                android:text="Customer target unit price" />
+
+            <EditText
+                android:id="@+id/xa59f"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/tabd_r1_view7"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/tabd_r1_view7"
+                android:background="@drawable/border" >
+            </EditText>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@+id/tabd_r1_view7" >
+            </View>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tabd_r2"
+            android:layout_alignLeft="@+id/tabd_r2"
+            android:layout_alignRight="@+id/tabd_r2"
+            android:layout_alignTop="@+id/tabd_r2"
+            android:background="@drawable/yellow_bg" />
+
+        <RelativeLayout
+            android:id="@+id/tabd_r2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tabd_r1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/tabd_r2_view1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="         Product Category" />
+
+            <EditText
+                android:id="@+id/xa00a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tabd_r2_view1"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/tabd_r2_view1"
+                android:background="@drawable/border"
+                android:clickable="true"
+                android:drawableRight="@drawable/dropdown_icon"
+                android:focusableInTouchMode="true"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/tabd_r2_view2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tabd_r2_view1"
+                android:layout_alignRight="@+id/tabd_r2_view1"
+                android:layout_below="@+id/tabd_r2_view1"
+                android:layout_marginTop="20dp"
+                android:gravity="right"
+                android:text="Testing Methodology" />
+
+            <EditText
+                android:id="@+id/xa00b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tabd_r2_view2"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/tabd_r2_view2"
+                android:background="@drawable/border"
+                android:clickable="true"
+                android:drawableRight="@drawable/dropdown_icon"                
+                android:focusableInTouchMode="true"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/tabd_r2_view3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tabd_r2_view2"
+                android:layout_alignRight="@+id/tabd_r2_view2"
+                android:layout_below="@+id/tabd_r2_view2"
+                android:layout_marginTop="20dp"
+                android:gravity="right"
+                android:text="Contact Element Type" />
+
+            <EditText
+                android:id="@+id/xa00c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tabd_r2_view3"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/tabd_r2_view3"
+                android:background="@drawable/border"
+                android:clickable="true"
+                android:drawableRight="@drawable/dropdown_icon"
+                android:focusableInTouchMode="true"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/tabd_r2_view4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tabd_r2_view3"
+                android:layout_alignRight="@+id/tabd_r2_view3"
+                android:layout_below="@+id/tabd_r2_view3"
+                android:layout_marginTop="20dp"
+                android:gravity="right"
+                android:text="Contact Element P/N" />
+
+            <EditText
+                android:id="@+id/xa00d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tabd_r2_view4"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/tabd_r2_view4"
+                android:background="@drawable/border" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/tabd_r2_view5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tabd_r2_view4"
+                android:layout_alignRight="@+id/tabd_r2_view4"
+                android:layout_below="@+id/tabd_r2_view4"
+                android:layout_marginTop="20dp"
+                android:gravity="right"
+                android:text="Contact Element Qty" />
+
+            <EditText
+                android:id="@+id/xa00e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tabd_r2_view5"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/tabd_r2_view5"
+                android:background="@drawable/border" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/tabd_r2_view6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tabd_r2_view5"
+                android:layout_alignRight="@+id/tabd_r2_view5"
+                android:layout_below="@+id/tabd_r2_view5"
+                android:layout_marginTop="20dp"
+                android:gravity="right"
+                android:text="Amount USD" />
+
+            <EditText
+                android:id="@+id/xa00f"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tabd_r2_view6"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/tabd_r2_view6"
+                android:background="@drawable/border" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/tabd_r2_view7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tabd_r2_view6"
+                android:layout_alignRight="@+id/tabd_r2_view6"
+                android:layout_below="@+id/tabd_r2_view6"
+                android:layout_marginTop="20dp"
+                android:gravity="right"
+                android:text="Amount NTD" />
+
+            <EditText
+                android:id="@+id/xa00g"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tabd_r2_view7"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/tabd_r2_view7"
+                android:background="@drawable/border" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/tabd_r2_view8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tabd_r2_view6"
+                android:layout_alignRight="@+id/tabd_r2_view7"
+                android:layout_below="@+id/tabd_r2_view7"
+                android:layout_marginTop="20dp"
+                android:gravity="right"
+                android:text="opportunity(%)" />
+
+            <EditText
+                android:id="@+id/xa00h"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tabd_r2_view8"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/tabd_r2_view8"
+                android:background="@drawable/border" >
+            </EditText>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@+id/tabd_r2_view8" >
+            </View>
+        </RelativeLayout>
+          <RelativeLayout
+            android:id="@+id/tabd_r3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tabd_r2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/lightgray"
+            android:layout_marginTop="10dp" >
+              <TextView
+                android:id="@+id/tabd_r3_view1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Parent APQP" />
+
+            <EditText
+                android:id="@+id/xa59z"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tabd_r3_view1"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/tabd_r3_view1"               
+                android:inputType="text"
+                android:background="@color/white"
+                android:singleLine="true" >
+            </EditText>
+             <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/tabd_r3_view1" >
+            </View>
+            </RelativeLayout>
+         <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@+id/tabd_r3" >
+            </View>
+    </RelativeLayout>
+
+</ScrollView>

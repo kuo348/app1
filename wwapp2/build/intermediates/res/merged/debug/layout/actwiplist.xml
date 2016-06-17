@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white" >
+    <LinearLayout
+        android:layout_above="@+id/radiogroup"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@color/list_divider"
+        android:orientation="vertical"
+        android:showDividers="end" >
+
+        <RelativeLayout
+            android:id="@+id/wip_r1"
+            android:layout_width="fill_parent"
+            android:layout_height="44.0dip"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/actionbar_bg" >
+
+            <TextView
+                android:id="@+id/wip_title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="WIP"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnReturnOrderInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10.0dip"
+                android:background="@color/transparent"
+                android:drawableLeft="@drawable/group_arrow_left"
+                android:text="Order Info"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/wip_r2"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:background="@drawable/actionbar_bg" >
+
+            <EditText
+                android:id="@+id/search_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_toLeftOf="@+id/cmd_r1"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/ic_action_search"
+                android:hint="search"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RelativeLayout
+                android:id="@+id/cmd_r1"
+                android:layout_width="60dp"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true" >
+
+                <Button
+                    android:id="@+id/btn_wip_search"
+                    android:layout_width="33.0dip"
+                    android:layout_height="25.0dip"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="10.0dip"
+                    android:background="@drawable/apqp_search_advance"
+                    android:scaleType="fitXY"
+                    android:text=""
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/btn_cancel"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/transparent"
+                    android:text="Cancel"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/white"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </RelativeLayout> 
+        <com.inqbarna.tablefixheaders.TableFixHeaders
+    android:id="@+id/table"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent" />
+    </LinearLayout>
+      
+ <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="fill_parent"
+        android:layout_height="60.0dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/actionbar_bg"
+        android:orientation="horizontal" >
+        <RadioButton
+            android:id="@+id/btnOnGoing"
+            style="@style/navbar_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/wip_on_going_tab_icon"
+            android:gravity="center_vertical"          
+            android:paddingTop="0.0dip"
+            android:textColor="@color/white"/>
+          <RadioButton
+            android:id="@+id/btnPreShipping"
+            style="@style/navbar_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/wip_preshipping_tab_icon"
+            android:gravity="center"
+            android:paddingTop="0.0dip"
+            android:textColor="@color/white"
+             />
+           <RadioButton
+            android:id="@+id/btnShipped"
+            style="@style/navbar_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/wip_shipped_tab_icon"
+            android:gravity="center"          
+            android:paddingTop="0.0dip"           
+            android:textColor="@color/white"
+            />      
+        <RadioButton
+            android:id="@+id/btnVPC"
+            style="@style/navbar_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/wip_vpc_tab_icon"
+            android:gravity="center_vertical"           
+            android:paddingTop="0.0dip"         
+            android:textColor="@color/white"
+            />
+    </RadioGroup>     
+</RelativeLayout>
+

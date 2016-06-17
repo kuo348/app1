@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/list_selector"
+    android:padding="5dip"
+    android:descendantFocusability="blocksDescendants"
+    >
+
+    <LinearLayout
+        android:id="@+id/ln_04"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        >
+
+        <!-- tb1 begin -->
+        <ImageView
+            android:id="@+id/cust_detail_top_icon"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/customer_detail_top_1"
+            />
+
+        <!-- detail_tb1 -->
+        <TableLayout
+            android:id="@+id/detail_tb4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cust_detail_top_icon"
+            android:background="@drawable/customer_detail_body_1"
+            android:divider="@drawable/customer_detail_line_1"
+            android:stretchColumns="2"
+            android:showDividers="middle"
+            >
+
+            <!-- QT_TYPE -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:id="@+id/lb_M12_QT_TYPE"
+                    android:text="QT_TYPE"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    android:background="@color/transparent"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_M12_QT_TYPE"
+                    android:text="QT"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+
+                    />
+
+            </TableRow>
+
+            <!-- QT_NO -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:id="@+id/lb_M12_QT_NO"
+                    android:text="QT_NO"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    android:background="@color/transparent"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_M12_QT_NO"
+                    android:text="1234567890"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+
+                    />
+
+            </TableRow>
+
+            <!-- QT_SEQ -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_M12_QT_SEQ"
+                    android:text="Item#"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    android:background="@color/transparent"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_M12_QT_SEQ"
+                    android:text="0001"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+
+                    />
+
+            </TableRow>
+
+            <!-- DETAIL_CLASS -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_M12_DETAIL_CLASS"
+                    android:text="DETAIL_CLASS"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    android:background="@color/transparent"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_M12_DETAIL_CLASS"
+                    android:text="S+P"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+
+                    />
+
+            </TableRow>
+
+            <!-- DETAIL_PARTNO -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_M12_DETAIL_PARTNO"
+                    android:text="DETAIL_PARTNO"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    android:background="@color/transparent"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_M12_DETAIL_PARTNO"
+                    android:text="CAPB1234567"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+
+                    />
+
+            </TableRow>
+
+            <!-- DETAIL_NAME -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_M12_DETAIL_NAME"
+                    android:text="DETAIL_NAME"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    android:background="@color/transparent"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_M12_DETAIL_NAME"
+                    android:text="Socket $1000, Pin 25 x 100"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+
+                    />
+
+            </TableRow>
+
+            <!-- DETAIL_QTY -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_M12_DETAIL_QTY"
+                    android:text="DETAIL_QTY"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    android:background="@color/transparent"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_M12_DETAIL_QTY"
+                    android:text="2"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+
+                    />
+
+            </TableRow>
+
+            <!-- DETAIL_UT_PRICE -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_M12_DETAIL_UT_PRICE"
+                    android:text="DETAIL_UT_PRICE"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    android:background="@color/transparent"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_M12_DETAIL_UT_PRICE"
+                    android:text="10000"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+
+                    />
+
+            </TableRow>
+
+            <!-- DETAIL_PRICE -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_M12_DETAIL_PRICE"
+                    android:text="DETAIL_PRICE"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    android:background="@color/transparent"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_M12_DETAIL_PRICE"
+                    android:text="20000"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+
+                    />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/cust_detail_bottom_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="25dp"
+            android:src="@drawable/customer_detail_bottom_1" />
+        <!-- tb1 End -->
+
+    </LinearLayout>
+
+
+</RelativeLayout>

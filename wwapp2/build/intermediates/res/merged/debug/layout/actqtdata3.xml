@@ -1,0 +1,647 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    tools:context="${packageName}.${activityClass}" >
+
+    <!-- Titlebar -->
+    <LinearLayout
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:showDividers="end" >
+
+        <!-- Titlebar begin -->
+
+        <!-- 1. title_layout_ref -->
+        <include
+        android:id="@+id/title_layout_ref"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        layout="@layout/qt_title_layout3" />
+
+        <!-- 2. qt_editbar -->
+        <RelativeLayout
+            android:id="@+id/qt_editbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/actionbar_bg" >
+
+            <TextView
+                android:id="@+id/subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Customer"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_qt_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_border"
+                android:text="Edit"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white" />
+            <Button
+                android:id="@+id/btn_qt_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_border"
+                android:layout_toRightOf="@+id/btn_qt_edit"
+                android:text="Delete"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white" 
+                />
+            <!--android:layout_alignParentLeft="true"-->
+            
+            <Button
+                android:id="@+id/btn_qt_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_border"
+                android:text="Save"
+                android:visibility="gone"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white" />
+            <Button
+                android:id="@+id/btn_qt_confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_border"
+                android:text="Confirm"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white"
+                android:visibility="gone" />
+            <Button
+                android:id="@+id/btn_qt_change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_border"
+                android:text="Change"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white"
+            android:visibility="gone"
+            />
+
+            <Button
+                android:id="@+id/btn_qt_cancel"
+                android:text="Cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_border"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white"
+                android:visibility="gone" />
+            <Button
+                android:id="@+id/btn_qt_add4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@color/transparent"
+                android:drawableRight="@drawable/ic_action_new"
+                android:visibility="gone"
+                />
+
+            <Button
+                android:id="@+id/btn_qt_add5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@color/transparent"
+                android:drawableRight="@drawable/ic_action_new"
+                android:visibility="gone"
+                />
+
+        </RelativeLayout>
+
+        <!-- 3.1. qttab --> <!--<RelativeLayout-->
+        <RelativeLayout
+            android:id="@+id/qttab"
+            android:layout_width="fill_parent"
+            android:layout_height="42dp"
+            android:background="#CEDEC1"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:visibility="visible" >
+            <!--android:background="@drawable/actionbar_bg"-->
+
+            <!-- 3.1.tabbar1 -->
+            <LinearLayout
+                android:id="@+id/tabbar1"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                android:background="#CEDEC1"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                >
+                <RelativeLayout android:id="@+id/r3"
+                    android:layout_weight="1.0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center"
+                    android:background="#CEDEC1"
+                    >
+                    <!--android:background="@color/white"-->
+                    <!--android:background="@drawable/button_border"-->
+
+                    <Button
+                        android:id="@+id/b3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerInParent="true"
+                        android:background="@color/transparent"
+                        android:gravity="center"
+                        android:text="Detail"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black"
+                        />
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:background="@color/transparent"-->
+                    <!--android:layout_width="wrap_content"-->
+
+                </RelativeLayout>
+
+                <RelativeLayout android:id="@+id/r4"
+                    android:layout_weight="1.0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    >
+                    <!--android:background="@color/white"-->
+
+                    <Button
+                        android:id="@+id/b4"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:background="@color/transparent"
+                        android:text="Detail Price"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black" />
+
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/r5"
+                    android:layout_weight="1.0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    >
+                    <!--android:background="@color/white"-->
+
+                    <Button
+                        android:id="@+id/b5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:background="@color/transparent"
+                        android:text="Qty Price"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black" />
+                </RelativeLayout>
+                <!--android:background="@color/transparent"-->
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <!-- 3.2. qttab2 --> <!--<RelativeLayout-->
+        <RelativeLayout
+            android:id="@+id/qttab2"
+            android:layout_width="fill_parent"
+            android:layout_height="84dp"
+            android:background="#CEDEC1"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:visibility="visible" >
+            <!--android:background="@drawable/actionbar_bg"-->
+            <!--android:background="#D3D3D3"-->
+
+            <!-- 3.1.tabbar1 -->
+            <TableLayout
+                android:id="@+id/tabbar2"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/white"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                >
+                <LinearLayout
+                    android:id="@+id/tabbar2_a"
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#F2F2F2"
+                    >
+                    <!--20151230 remark android:background="@color/transparent"-->
+
+                    <TableLayout
+                        android:id="@+id/tabbar2_a1"
+                        android:orientation="horizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="10"
+                        android:background="@color/transparent"
+                        >
+                    </TableLayout>
+
+
+                    <TableLayout
+                        android:id="@+id/tabbar2_a2"
+                        android:orientation="horizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="90"
+                        android:background="@color/transparent"
+                        >
+                        <!-- 1 Class-->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            >
+
+                            <TextView
+                                android:id="@+id/lb_DETAIL_CLASS"
+                                android:text="Class"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+
+                            <TextView
+                                android:id="@+id/lb_DETAIL_PARTNO"
+                                android:text="Part No"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+
+                            <TextView
+                                android:id="@+id/lb_DETAIL_QTY"
+                                android:text="Qty"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+                            <TextView
+                                android:id="@+id/lb_DETAIL_UT_PRICE"
+                                android:text="Unit Price"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+                            <!--android:textSize="18sp"-->
+                            <!--android:layout_height="wrap_content"-->
+
+                        </TableRow>
+
+                        <!-- 2 Detail Name-->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            >
+
+                            <TextView
+                                android:id="@+id/lb_DETAIL_NAME"
+                                android:text="Detail Name"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="3"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+
+                            <TextView
+                                android:id="@+id/lb_DETAIL_PRICE"
+                                android:text="Detail Price"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+
+                            <!--android:textSize="18sp"-->
+                            <!--android:layout_height="wrap_content"-->
+
+                        </TableRow>
+
+                    </TableLayout>
+
+
+                </LinearLayout>
+
+                <!--android:background="@color/transparent"-->
+
+            </TableLayout>
+
+
+        </RelativeLayout>
+
+        <!-- 3.3. qttab3 --> <!--<RelativeLayout-->
+        <RelativeLayout
+            android:id="@+id/qttab3"
+            android:layout_width="fill_parent"
+            android:layout_height="42dp"
+            android:background="#CEDEC1"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:visibility="visible" >
+            <!--android:background="@drawable/actionbar_bg"-->
+            <!--android:background="#D3D3D3"-->
+
+            <!-- 3.1.tabbar3 -->
+            <TableLayout
+                android:id="@+id/tabbar3"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/white"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                >
+                <LinearLayout
+                    android:id="@+id/tabbar3_a"
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#F2F2F2"
+                    >
+                    <!--20151230 android:background="@color/transparent"-->
+
+                    <TableLayout
+                        android:id="@+id/tabbar3_a1"
+                        android:orientation="horizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="10"
+                        android:background="@color/transparent"
+                        >
+                    </TableLayout>
+
+
+                    <TableLayout
+                        android:id="@+id/tabbar3_a2"
+                        android:orientation="horizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="90"
+                        android:background="@color/transparent"
+                        >
+                        <!-- 1 Class-->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            >
+
+                            <TextView
+                                android:id="@+id/lb_QTY1"
+                                android:text="Qty1"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="9"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+
+                            <TextView
+                                android:id="@+id/lb_QTY1_x"
+                                android:text="~"
+                                android:layout_width="0dp"
+                                android:layout_height="84dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="4"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+
+                            <TextView
+                                android:id="@+id/lb_QTY2"
+                                android:text="Qty2"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="9"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+
+                            <TextView
+                                android:id="@+id/lb_UNIT"
+                                android:text="Unit"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="10"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+
+                            <TextView
+                                android:id="@+id/lb_LIST_PRICE"
+                                android:text="List Price"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="18"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+                            <TextView
+                                android:id="@+id/lb_SALE_PERCENT"
+                                android:text="Sale%"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="14"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+                            <TextView
+                                android:id="@+id/lb_UNIT_PRICE"
+                                android:text="Unit Price"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="18"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+                            <TextView
+                                android:id="@+id/lb_TOTAL"
+                                android:text="Total"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="18"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+                            <!--android:textSize="18sp"-->
+                            <!--android:layout_height="wrap_content"-->
+
+                        </TableRow>
+
+
+                    </TableLayout>
+
+
+                </LinearLayout>
+
+                <!--android:background="@color/transparent"-->
+
+            </TableLayout>
+
+
+        </RelativeLayout>
+
+
+        <!-- sheetbar end -->
+    </LinearLayout>
+
+    <!-- tab3 -->
+    <LinearLayout
+        android:id="@+id/tab3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titlebar"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <include
+            android:id="@+id/qt_scrollView3_ref"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/qt_scrollview3" />
+
+    </LinearLayout>
+
+    <!-- tab4 -->
+    <LinearLayout
+        android:id="@+id/tab4"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tab3"
+        android:orientation="vertical"
+        >
+
+        <include
+            android:id="@+id/qt_scrollView4_ref"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            layout="@layout/qt_scrollview4" />
+
+    </LinearLayout>
+
+    <!-- tab5 -->
+    <LinearLayout
+        android:id="@+id/tab5"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tab4"
+        android:orientation="vertical"
+        >
+
+        <include
+            android:id="@+id/qt_scrollView5_ref"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            layout="@layout/qt_scrollview5" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

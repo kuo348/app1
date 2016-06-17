@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black" >
+
+    <RelativeLayout
+        android:id="@+id/addapqp_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/actionbar_bg" >
+
+        <TextView
+            android:id="@+id/addapqp_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Adv Search"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnReturnWIPList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/addapqp_title_text"
+            android:layout_alignBottom="@+id/addapqp_title_text"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10.0dip"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/group_arrow_left"
+            android:text="WIP"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/addapqp_bar"
+        android:layout_marginTop="16.0dip"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+
+        <TextView
+            android:id="@+id/schedule_date"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:gravity="right"
+            android:text="Schedule Date:"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/schdatestart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/schedule_date"
+            android:background="@color/white"
+            android:clickable="true"
+            android:drawableRight="@drawable/dropdown_icon"
+            android:editable="false"
+            android:focusableInTouchMode="true"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/black" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/schdateend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/schdatestart"
+            android:layout_alignRight="@+id/schdatestart"
+            android:layout_below="@+id/schdatestart"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:clickable="true"
+            android:drawableRight="@drawable/dropdown_icon"
+            android:editable="false"
+            android:focusableInTouchMode="true"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/black" >
+        </EditText>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r2"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/r1" >
+
+        <TextView
+            android:id="@+id/vw_custname"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10.0dip"
+            android:layout_weight="1.0"
+            android:gravity="right"
+            android:text="Cust Name:"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/custname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_toRightOf="@+id/vw_custname"
+            android:layout_weight="1.0"
+            android:background="@color/white"
+            android:ems="12"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r3"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/r2" >
+
+        <TextView
+            android:id="@+id/vw_custpo"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10.0dip"
+            android:gravity="right"
+            android:text="Cust PO:"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/custpo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_toRightOf="@+id/vw_custpo"
+             android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:background="@color/white"
+            android:ems="12"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+       <RelativeLayout
+        android:id="@+id/r3a"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/r3" >
+
+        <TextView
+            android:id="@+id/vw_contactuser"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10.0dip"
+            android:gravity="right"
+            android:text="Contact User:"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/contactuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_toRightOf="@+id/vw_contactuser"
+             android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:background="@color/white"
+            android:ems="12"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+     <RelativeLayout
+        android:id="@+id/r3b"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/r3a" >
+
+        <TextView
+            android:id="@+id/vw_salesrep"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10.0dip"
+            android:gravity="right"
+            android:text="SalesRep:"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/salesrep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_toRightOf="@+id/vw_salesrep"
+             android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:background="@color/white"
+             android:drawableRight="@drawable/dropdown_icon"
+            android:ems="12"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/r4"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/r3b" >
+
+        <TextView
+            android:id="@+id/vw_deviceno"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10.0dip"
+            android:gravity="right"
+            android:text="Device No:"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/deviceno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10.0dip"
+            android:layout_toRightOf="@+id/vw_deviceno"
+            android:background="@color/white"
+            android:ems="12"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r5"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/r4" >
+
+        <TextView
+            android:id="@+id/vw_contactelement"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10.0dip"
+            android:text="Contact Element:"
+              android:gravity="right"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/contactelement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10.0dip"
+             android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10.0dip"
+            android:layout_toRightOf="@+id/vw_contactelement"
+            android:background="@color/white"
+            android:ems="12"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r6"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/r5" >
+
+        <TextView
+            android:id="@+id/vw_productclass"
+             android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10.0dip"
+            android:text="Product Class:"
+            android:gravity="right"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/productclass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10.0dip"
+            android:layout_toRightOf="@+id/vw_productclass"
+            android:background="@color/white"
+            android:ems="12"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r7"
+        android:layout_width="fill_parent"
+        android:layout_height="60.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/r6" >
+
+        <TextView
+            android:id="@+id/vw_productno"
+             android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10.0dip"
+            android:text="Product No:"
+              android:gravity="right"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/productno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10.0dip"
+            android:layout_toRightOf="@+id/vw_productno"
+            android:background="@color/white"
+            android:ems="12"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnAdvSearch"
+        android:layout_width="150dp"
+        android:layout_height="32.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14.0dip"
+        android:background="@color/red"
+        android:onClick="onSearchApqpClick"
+        android:text="Search"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,1754 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/qt_scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/ln_01"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+        >
+
+        <!-- tb1 begin -->
+        <ImageView
+            android:id="@+id/cust_detail_top_icon"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/customer_detail_top_1"
+            />
+
+        <!-- cust_tb1 -->
+        <TableLayout
+            android:id="@+id/cust_tb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cust_detail_top_icon"
+            android:background="@drawable/customer_detail_body_1"
+            android:divider="@drawable/customer_detail_line_1"
+            android:stretchColumns="2"
+            android:showDividers="middle"
+            >
+
+            <!-- QT_DATE -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_QT_DATE"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:text="QT Date"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    android:background="@color/transparent"
+                    />
+                <!--android:background="#F5F5F5"-->
+                <!--android:background="@drawable/customer_detail_item_2"-->
+                <!--android:textColor="@color/crimson"-->
+
+                <EditText
+                    android:id="@+id/ed_M1_COUNT"
+                    android:text="20151203"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+                    android:visibility="gone"
+
+                    />
+
+                <EditText
+                    android:id="@+id/ed_QT_DATE"
+                    android:text="20151203"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+
+                    android:clickable="true"
+                    android:drawableRight="@drawable/dropdown_icon"
+                    android:editable="false"
+                    android:focusableInTouchMode="true"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    />
+
+                <!--android:background="@drawable/customer_detail_item_2"-->
+                <!--android:layout_height="wrap_content"-->
+            </TableRow>
+
+            <!-- QT Status -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_STATUS"
+                    android:text="QT Status"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_STATUS"
+                    android:text="PO RECEIVED"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+
+                    android:drawableRight="@drawable/subwindow_icon"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:editable="false"
+                    />
+            </TableRow>
+
+            <!-- QT Status_X -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:id="@+id/lb_STATUS_X"
+                    android:text="QT Status"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_STATUS_X"
+                    android:text="PO RECEIVED"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+                    />
+            </TableRow>
+
+            <!-- Status Note -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_STATUS_NOTE"
+                    android:text="Status Note"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_STATUS_NOTE"
+                    android:text="Status Note"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+                    />
+            </TableRow>
+
+            <!-- CREATOR -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_CREATOR"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:text="Creator"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_CREATOR"
+                    android:text="095005"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#626262"
+                    android:layout_column="2"
+
+                    android:editable="false"
+                    />
+                <!--android:background="@color/lightgray"-->
+                <!--android:textColor="@color/black"-->
+
+            </TableRow>
+
+            <!-- Confirm Date -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_CONFIRM_DATE"
+                    android:text="Confirm Date"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_CONFIRM_DATE"
+                    android:text="20151203"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#626262"
+                    android:layout_column="2"
+
+                    android:editable="false"
+                    />
+
+            </TableRow>
+
+            <!-- Confirm By -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_CONFIRM_USER_ID"
+                    android:text="Confirm By"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_CONFIRM_USER_ID"
+                    android:text="095005"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#626262"
+                    android:layout_column="2"
+
+                    android:editable="false"
+                    />
+            </TableRow>
+
+            <!-- Main QT No -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_QT_NO_MAIN"
+                    android:text="Main QT No"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_QT_NO_MAIN"
+                    android:text="QT-151124001"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#626262"
+                    android:layout_column="2"
+
+                    android:editable="false"
+                    />
+            </TableRow>
+
+            <!-- Sales -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_QT_SALES"
+                    android:text="Sales"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_QT_SALES"
+                    android:text="095005"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="2"
+
+                    android:editable="false"
+                    android:textColor="#626262"
+                    />
+            </TableRow>
+
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/cust_detail_bottom_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="25dp"
+            android:src="@drawable/customer_detail_bottom_1" />
+        <!-- tb1 End -->
+
+
+        <!-- tb2 begin -->
+        <ImageView
+            android:id="@+id/cust_detail_top_icon2"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/customer_detail_top_1"
+            />
+
+        <!-- cust_tb2 -->
+        <TableLayout
+            android:id="@+id/cust_tb2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cust_detail_top_icon"
+            android:background="@drawable/customer_detail_body_1"
+            android:divider="@drawable/customer_detail_line_1"
+            android:showDividers="middle"
+            android:stretchColumns="2"
+            >
+
+            <!-- Cust No -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_CUST_NO"
+                    android:text="Cust No"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_CUST_NO"
+                    android:text="0037"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+
+                    android:drawableRight="@drawable/subwindow_icon"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:editable="false"
+                    />
+            </TableRow>
+
+            <!-- Cust Name -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_CUST_NO_X"
+                    android:text="Name"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_CUST_NO_X"
+                    android:text="TSMC-HC"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="2"
+
+                    android:editable="false"
+                    android:textColor="#626262"
+                    />
+            </TableRow>
+
+            <!-- Currency -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_CURRENCY"
+                    android:text="Currency"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_CURRENCY"
+                    android:text="NTD"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="2"
+
+                    android:drawableRight="@drawable/subwindow_icon"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    />
+            </TableRow>
+
+            <!-- Currency_X _gone-->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:id="@+id/lb_CURRENCY_X"
+                    android:text="Currency"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_CURRENCY_X"
+                    android:text="NTD"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="2"
+
+                    android:drawableRight="@drawable/subwindow_icon"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    />
+            </TableRow>
+
+            <!-- Region -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_CUST_NO_Y"
+                    android:text="Region"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_CUST_NO_Y"
+                    android:text="Taiwan"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="2"
+
+                    android:editable="false"
+                    android:textColor="#626262"
+                    />
+            </TableRow>
+
+            <!-- Contact -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_CUST_CONTACT"
+                    android:text="Contact"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_CUST_CONTACT"
+                    android:text="李信宏 Hsin-Hung"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+
+                    android:drawableRight="@drawable/subwindow_icon"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    />
+            </TableRow>
+
+            <!-- Copy -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_COPY"
+                    android:text="Copy"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_COPY"
+                    android:text="Copy"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+                    />
+            </TableRow>
+
+            <!-- TEL -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_TEL_NO"
+                    android:text="TEL"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_TEL_NO"
+                    android:text="03-5741221"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+                    />
+            </TableRow>
+
+            <!-- Address -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_SHIPPING_TO"
+                    android:text="Address"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_SHIPPING_TO"
+                    android:text="新竹工業園區"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+                    />
+
+            </TableRow>
+
+            <!-- DELIVERY -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_DELIVERY"
+                    android:text="Delivery"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_DELIVERY"
+                    android:text="Delivery"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+                    />
+            </TableRow>
+
+            <!-- Remark -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_REMARK"
+                    android:text="Remark"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_REMARK"
+                    android:text="Per 2015 Quote rule"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+                    />
+            </TableRow>
+
+            <!-- Change Reason -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_CHANGE_REASON"
+                    android:text="Change Reason"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_CHANGE_REASON"
+                    android:text="修改地址"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+                    />
+            </TableRow>
+
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/cust_detail_bottom_icon2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="25dp"
+            android:src="@drawable/customer_detail_bottom_1" />
+        <!-- tb2 End -->
+
+
+        <!-- tb3 begin -->
+        <ImageView
+            android:id="@+id/cust_detail_top_icon3"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/customer_detail_top_1"
+            />
+
+        <!-- cust_tb3 -->
+        <TableLayout
+            android:id="@+id/cust_tb3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cust_detail_top_icon"
+            android:background="@drawable/customer_detail_body_1"
+            android:divider="@drawable/customer_detail_line_1"
+            android:showDividers="middle"
+            android:stretchColumns="2"
+            >
+
+            <!-- Bank No -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_BANK_NO"
+                    android:text="Bank No"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_BANK_NO"
+                    android:text="026"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+
+                    android:drawableRight="@drawable/subwindow_icon"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:editable="false"
+                    />
+            </TableRow>
+
+            <!-- Bank No_X -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_BANK_NO_X"
+                    android:text="Bank Name"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_BANK_NO_X"
+                    android:text="中信民族(RMB外滙)"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="2"
+
+                    android:editable="false"
+                    android:textColor="#626262"
+                    />
+            </TableRow>
+
+            <!-- Account No -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_ACCOUNT_NO"
+                    android:text="Account No"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_ACCOUNT_NO"
+                    android:text="171-131-007144"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="2"
+
+                    android:editable="false"
+                    android:textColor="#626262"
+                    />
+            </TableRow>
+
+            <!-- Payment Type -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_PAYMENT_TYPE"
+                    android:text="Payment Type"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_PAYMENT_TYPE"
+                    android:text="T/T"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+
+                    android:drawableRight="@drawable/subwindow_icon"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:editable="false"
+                    />
+            </TableRow>
+
+            <!-- Payment Type_X _gone-->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:id="@+id/lb_PAYMENT_TYPE_X"
+                    android:text="Payment Type"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_PAYMENT_TYPE_X"
+                    android:text="T/T"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+                    />
+            </TableRow>
+
+            <!-- Payment Term -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_PAYMENT_COND"
+                    android:text="Payment Term"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_PAYMENT_COND"
+                    android:text="upon  shipment"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+
+                    android:drawableRight="@drawable/subwindow_icon"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:editable="false"
+                    />
+            </TableRow>
+
+            <!-- Payment Term_X _gone -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:id="@+id/lb_PAYMENT_COND_X"
+                    android:text="Payment Term"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_PAYMENT_COND_X"
+                    android:text="upon  shipment"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+                    />
+            </TableRow>
+
+            <!-- Payment Time -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_PAYMENT_TIME"
+                    android:text="Payment Time"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_PAYMENT_TIME"
+                    android:text="DDP"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+
+                    android:drawableRight="@drawable/subwindow_icon"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:editable="false"
+                    />
+            </TableRow>
+
+            <!-- Payment Time_X _gone -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:id="@+id/lb_PAYMENT_TIME_X"
+                    android:text="Payment Time"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_PAYMENT_TIME_X"
+                    android:text="DDP"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+                    />
+            </TableRow>
+
+            <!-- Price Term(TERMS_OF_TRADE) -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_TERMS_OF_TRADE"
+                    android:text="Price Term"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_TERMS_OF_TRADE"
+                    android:text="FOB"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+
+                    android:drawableRight="@drawable/subwindow_icon"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:editable="false"
+                    />
+            </TableRow>
+
+            <!-- Price Term_X(TERMS_OF_TRADE_X) _gone-->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:id="@+id/lb_TERMS_OF_TRADE_X"
+                    android:text="Price Term"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_TERMS_OF_TRADE_X"
+                    android:text="FOB"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+                    />
+            </TableRow>
+
+            <!--private EditText SHIP_CONTACT   ;//ed_SHIP_CONTACT-->
+
+            <!-- Tax Type -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_TAX_TYPE"
+                    android:text="Tax Type"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_TAX_TYPE"
+                    android:text="Computerized un"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+
+                    android:drawableRight="@drawable/subwindow_icon"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:editable="false"
+                    />
+            </TableRow>
+
+            <!-- Tax Type_X _gone-->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:id="@+id/lb_TAX_TYPE_X"
+                    android:text="Tax Type"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_TAX_TYPE_X"
+                    android:text="Computerized un"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+                    />
+            </TableRow>
+
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/cust_detail_bottom_icon3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="25dp"
+            android:src="@drawable/customer_detail_bottom_1" />
+        <!-- tb3 End -->
+
+        <!-- tb4 begin -->
+        <ImageView
+            android:id="@+id/cust_detail_top_icon4"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/customer_detail_top_1"
+            />
+
+        <!-- cust_tb4 -->
+        <TableLayout
+            android:id="@+id/cust_tb4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cust_detail_top_icon"
+            android:background="@drawable/customer_detail_body_1"
+            android:divider="@drawable/customer_detail_line_1"
+            android:showDividers="middle"
+            android:stretchColumns="2"
+            >
+
+            <!-- Shipping Via_X _gone-->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:id="@+id/lb_SHIPPING_VIA_X"
+                    android:text="Shipping Via"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_SHIPPING_VIA_X"
+                    android:text="BY TRUCK"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+                    />
+            </TableRow>
+
+            <!-- Shipping Via -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_SHIPPING_VIA"
+                    android:text="Shipping Via"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_SHIPPING_VIA"
+                    android:text="BY TRUCK"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+
+                    android:drawableRight="@drawable/subwindow_icon"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:editable="false"
+                    />
+            </TableRow>
+
+            <!-- DELIVERY_DAYS -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_DELIVERY_DAYS"
+                    android:text="Delivery days"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_DELIVERY_DAYS"
+                    android:text="DELIVERY_DAYS"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+                    />
+            </TableRow>
+
+            <!-- SHIP_CONTACT -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lb_SHIP_CONTACT"
+                    android:text="Ship Contact"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="#F5F5F5"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_SHIP_CONTACT"
+                    android:text="SHIP_CONTACT"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:layout_column="2"
+                    />
+            </TableRow>
+
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/cust_detail_bottom_icon4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="25dp"
+            android:src="@drawable/customer_detail_bottom_1" />
+        <!-- tb4 End -->
+
+
+    </LinearLayout>
+
+
+
+    <!--android:layout_below="@+id/cust_tb1"-->
+        <!--
+        <ImageView
+            android:id="@+id/cust_detail_bottom_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/customer_detail_bottom_1"
+            />
+        -->
+        <!--android:layout_below="@+id/cust_tb1"-->
+        <!-- android:layout_below="@+id/cust_tb1" -->
+
+
+</ScrollView>

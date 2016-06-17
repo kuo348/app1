@@ -1,0 +1,381 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:gravity="fill"
+    tools:context="${packageName}.${activityClass}" >
+
+  <LinearLayout
+        android:id="@+id/titlebar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:showDividers="end" >
+
+        <!-- Titlebar begin -->
+
+        <RelativeLayout
+            android:id="@+id/title_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/actionbar_bg" >
+
+            <TextView
+                android:id="@+id/title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center_vertical"
+                android:text="12345678"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/img_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/menu" />
+
+            <Button
+                android:id="@+id/btnReturnFaeList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:background="@color/transparent"
+                android:drawableLeft="@drawable/group_arrow_left"
+                android:gravity="left|center_vertical"
+                android:text="Back"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white" />
+            <Button
+                android:id="@+id/btnReturnFaeResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:background="@color/transparent"
+                android:drawableLeft="@drawable/group_arrow_left"
+                android:gravity="left|center_vertical"               
+                android:text="Search Result"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:visibility="gone" />
+
+               <Button
+                   android:id="@+id/btnCancel"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentBottom="true"
+                   android:layout_centerVertical="true"
+                   android:background="@color/transparent"
+                   android:gravity="left|center_vertical"
+                   android:text="Cancel"
+                   android:layout_marginLeft="10dp"
+                   android:textColor="@color/white"
+                   android:visibility="gone" />
+
+        </RelativeLayout>
+        <!-- Ttitlebar end -->
+         <RelativeLayout
+            android:id="@+id/fae_editbar"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"       
+            android:background="@drawable/actionbar_bg" >
+
+            <TextView
+                android:id="@+id/fae_info2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Basic Info"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_edit_fae"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_border"
+                android:onClick="onCustEdit"
+                android:text="Edit"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_save_fae"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_border"
+                android:onClick="onFAESave"
+                android:text="Save"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_insert_fae"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_border"               
+                android:text="Insert"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white"
+                android:visibility="gone" />
+        </RelativeLayout>
+        <!-- Tabbar begin -->
+
+        <RelativeLayout
+            android:id="@+id/faetab"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/actionbar_bg"
+            android:visibility="visible">
+            <RelativeLayout
+                android:id="@+id/r1"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp" >
+
+                <TextView
+                    android:id="@+id/fae_basic_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="2dp"
+                    android:text="1. "
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/b1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/fae_basic_info"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Basic Info"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/fae_prod_issue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_toLeftOf="@+id/b2"
+                    android:text="2. "
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/b2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Prod Issue"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/fae_action_result_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/b3"
+                    android:text="3. "
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/b3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Action Result"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/r2"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:layout_below="@+id/r1" >
+
+                <TextView
+                    android:id="@+id/fae_attach_file_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="2dp"
+                    android:text="4. "
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/b4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/fae_attach_file_info"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Attach File"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/fae_signature_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_toLeftOf="@+id/b5"
+                    android:text="5. "
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/b5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Signature"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/fae_reserve_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/b6"
+                    android:text=" "
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/b6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/transparent"                  
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <!-- Tabbar end -->
+        <!-- sheetbar begin -->
+
+       
+        <!-- sheetbar end -->
+    </LinearLayout>
+     <LinearLayout
+       android:id="@+id/lb1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/titlebar"
+        android:orientation="vertical"
+        android:visibility="visible" >
+      <include
+            android:id="@+id/fae_scrollView1_def"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/fae_scrollview1" />
+       
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lb2"
+        android:layout_below="@+id/lb1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"        
+        android:orientation="vertical"
+        android:visibility="gone" >
+      <include
+            android:id="@+id/fae_scrollView2_def"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/fae_scrollview2" />
+       
+    </LinearLayout>
+  <LinearLayout
+        android:id="@+id/lb3"
+        android:layout_below="@+id/lb2"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"      
+        android:orientation="vertical"
+        android:visibility="gone" >
+      <include
+            android:id="@+id/fae_scrollView3_def"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/fae_scrollview3" />
+       
+    </LinearLayout>
+      <LinearLayout
+        android:id="@+id/lb4"
+        android:layout_below="@+id/lb3"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"      
+        android:orientation="vertical"
+        android:visibility="gone" >
+      <include
+            android:id="@+id/fae_scrollView4_def"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/fae_scrollview4" />
+       
+    </LinearLayout>
+      <LinearLayout
+        android:id="@+id/lb5"
+        android:layout_below="@+id/lb4"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"      
+        android:orientation="vertical"
+        android:visibility="gone" >
+      <include
+            android:id="@+id/fae_scrollView5_def"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/fae_scrollview5" />
+       
+    </LinearLayout>
+  
+</RelativeLayout>

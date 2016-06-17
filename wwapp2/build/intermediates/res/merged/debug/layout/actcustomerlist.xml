@@ -1,0 +1,153 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    tools:context="${packageName}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@color/list_divider"
+        android:orientation="vertical"
+        android:showDividers="end" >
+
+        <RelativeLayout
+            android:id="@+id/customer_r1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/actionbar_bg" >
+
+            <TextView
+                android:id="@+id/cust_title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Customers"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnReturnSale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@color/transparent"
+                android:drawableLeft="@drawable/group_arrow_left"
+                android:gravity="left|center_vertical"
+                android:onClick="returnSale"
+                android:text=""
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnOption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10.0dip"
+                android:background="@color/transparent"
+                android:drawableRight="@drawable/setting_icon"
+                android:text=""                           
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/cust_r2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/actionbar_bg" >
+
+            <EditText
+                android:id="@+id/editSearch"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/cust_cmd_r1"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/search_bar_icon_normal"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:hint="編號、簡稱、公司名、聯絡人"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textColor="#000" />
+
+            <RelativeLayout
+                android:id="@+id/cust_cmd_r1"
+                android:layout_width="60dp"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true" >
+
+                <Button
+                    android:id="@+id/btn_cust_adv_search"
+                    android:layout_width="33.0dip"
+                    android:layout_height="25.0dip"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="10.0dip"
+                    android:background="@drawable/apqp_search_advance"
+                    android:scaleType="fitXY"
+                    android:text=""
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <com.winway.wwapp2.PullDownView
+            android:id="@+id/customerlistview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="0dp" >
+        </com.winway.wwapp2.PullDownView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/level_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp" 
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:id="@+id/my_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_a"
+            android:text="     " />
+
+        <TextView
+            android:id="@+id/my_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/my_a"
+            android:background="@drawable/my_b"
+            android:text="  " />
+
+        <TextView
+            android:id="@+id/my_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/my_b"
+            android:background="@drawable/my_c"
+            android:text="   " />
+
+        <TextView
+            android:id="@+id/my_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/my_c"
+            android:background="@drawable/my_all"
+            android:text="  " />
+    </RelativeLayout>
+
+</RelativeLayout>

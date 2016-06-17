@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fae_scrollView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+         <!-- beign of fae_r3 -->
+<RelativeLayout
+                android:id="@+id/fae_r3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp" >
+         <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/yellow_bg"
+        android:layout_alignTop="@+id/fae_r3_1"
+        android:layout_alignBottom="@+id/fae_r3_1"
+        android:layout_alignLeft="@+id/fae_r3_1"
+        android:layout_alignRight="@+id/fae_r3_1"
+        />
+                <RelativeLayout
+                    android:id="@+id/fae_r3_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                     >
+
+                    <TextView
+                        android:id="@+id/vwDescription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Description of FA and Service" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/fae028"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_below="@+id/vwDescription"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:focusableInTouchMode="true"
+                        android:imeOptions="actionDone"
+                        android:inputType="text"
+                        android:text=""
+                        android:singleLine="false"
+                        android:gravity="left|top"
+                        android:textColor="@color/black" />
+                    <View android:layout_below="@+id/fae028"
+        				android:layout_width="match_parent"
+        				android:layout_height="10dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/fae_r3_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/fae_r3_1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"                
+                    android:background="@drawable/border" >
+                  <TextView
+                        android:id="@+id/vwResult"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Result" />
+
+                    <RadioGroup
+                        android:id="@+id/fae029"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/vwResult"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="clip_vertical|top"
+                        android:orientation="vertical" >
+                        <RadioButton
+                            android:id="@+id/fae029a"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="Issue Solved" />
+				          <RadioButton
+                        android:id="@+id/fae029b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_alignTop="@+id/radioGroup1"
+                        android:text="Need Further Check"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+				          
+                        <RadioButton
+                            android:id="@+id/fae029c"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="Pass to RMA" />
+                    </RadioGroup>
+ <View android:layout_width="match_parent"
+                             android:layout_height="10dp"
+                             android:layout_below="@+id/fae029"/>
+                   
+                </RelativeLayout>
+                 <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/yellow_bg"
+        android:layout_alignTop="@+id/fae_r3_3"
+        android:layout_alignBottom="@+id/fae_r3_3"
+        android:layout_alignLeft="@+id/fae_r3_3"
+        android:layout_alignRight="@+id/fae_r3_3"
+        />
+                 <RelativeLayout
+                    android:id="@+id/fae_r3_3"
+                     android:layout_below="@+id/fae_r3_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    >
+                     <TextView
+                        android:id="@+id/vwTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Time Spending" />
+                       <TextView
+                        android:id="@+id/vwOnSite1"
+                        android:layout_below="@+id/vwTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+					    android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:text="On Site (includes travelling time )" />
+
+                       <EditText
+                           android:id="@+id/fae031"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_below="@+id/vwOnSite1"
+                           android:layout_marginLeft="10dp"
+                           android:layout_marginRight="50dp"
+                           android:layout_marginTop="5dp"
+                           android:background="@color/white"
+                           android:clickable="true"
+                           android:focusableInTouchMode="true"
+                           android:imeOptions="actionDone"
+                           android:inputType="text"
+                           android:text=""
+                           android:textColor="@color/black" />
+
+                       <TextView
+                           android:id="@+id/vwhr1"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_alignBottom="@+id/fae031"		  
+                           android:layout_marginRight="10dp"
+                           android:layout_alignParentRight="true"
+                          android:text="hrs" />
+  <TextView
+                        android:id="@+id/vwInHouse"
+                        android:layout_below="@+id/fae031"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+					    android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:text="In-house (includes inspection,analysis,modification,assembling,etc)" />
+
+                       <EditText
+                           android:id="@+id/fae032"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_below="@+id/vwInHouse"
+                           android:layout_marginLeft="10dp"
+                           android:layout_marginRight="50dp"
+                           android:layout_marginTop="5dp"
+                           android:background="@color/white"
+                           android:clickable="true"
+                           android:focusableInTouchMode="true"
+                           android:imeOptions="actionDone"
+                           android:inputType="text"
+                           android:text=""
+                           android:textColor="@color/black" />
+
+                       <TextView
+                           android:id="@+id/vwhr2"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_alignBottom="@+id/fae032"		  
+                           android:layout_marginRight="10dp"
+                           android:layout_alignParentRight="true"
+                          android:text="hrs" />
+                       <View android:layout_width="match_parent"
+                             android:layout_height="10dp"
+                             android:layout_below="@+id/fae032"/>
+                    </RelativeLayout>
+ <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:layout_alignTop="@+id/fae_r3_4"
+        android:layout_alignBottom="@+id/fae_r3_4"
+        android:layout_alignLeft="@+id/fae_r3_4"
+        android:layout_alignRight="@+id/fae_r3_4"
+        />
+                      <RelativeLayout
+                          android:id="@+id/fae_r3_4"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_below="@+id/fae_r3_3"
+                          android:layout_marginLeft="5dp"
+                          android:layout_marginRight="5dp"
+                          android:layout_marginTop="5dp"
+                           >
+
+                  <TextView
+                        android:id="@+id/vwResult2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Result Cause" />
+
+                    <RadioGroup
+                        android:id="@+id/fae033"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/vwResult2"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="clip_vertical|top"
+                        android:orientation="vertical" >
+                        <RadioButton
+                            android:id="@+id/fae033a"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="Customer" />
+                           <RadioButton
+                        android:id="@+id/fae033b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:text="WinWay"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                        <RadioButton
+                            android:id="@+id/fae033c"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Other /Description"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />		         
+                    </RadioGroup>
+
+                    <EditText
+                        android:id="@+id/fae034"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/fae033"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/lightgray"
+                        android:clickable="true"
+                        android:focusableInTouchMode="true"
+                        android:imeOptions="actionDone"
+                        android:inputType="text"
+                        android:text=""
+                        android:enabled="false"                      
+                        android:textColor="@color/black" />  
+                       <View android:layout_below="@+id/fae034" 
+                             android:layout_width="match_parent" 
+                             android:layout_height="10dp"
+                       />               
+                </RelativeLayout>
+                 <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/yellow_bg"
+        android:layout_alignTop="@+id/fae_r3_5"
+        android:layout_alignBottom="@+id/fae_r3_5"
+        android:layout_alignLeft="@+id/fae_r3_5"
+        android:layout_alignRight="@+id/fae_r3_5"
+        />
+                <RelativeLayout
+                    android:id="@+id/fae_r3_5"
+                     android:layout_below="@+id/fae_r3_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                     >
+                     <TextView
+                        android:id="@+id/vwActionPlan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Action Plan" />                  
+                       <EditText
+                           android:id="@+id/fae035"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_toRightOf="@+id/vwActionPlan"
+                           android:layout_marginLeft="10dp"
+                           android:layout_marginRight="50dp"
+                           android:layout_alignBaseline="@+id/vwActionPlan"
+                           android:drawableRight="@drawable/dropdown_icon"
+                           android:background="@drawable/border"
+                           android:clickable="true"
+                           android:focusableInTouchMode="true"
+                           android:imeOptions="actionDone"
+                           android:inputType="text"
+                           android:text=""
+                           android:textColor="@color/black" />
+                        <EditText
+                           android:id="@+id/fae036"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_below="@+id/fae035"
+                           android:layout_marginTop="15dp"
+                           android:layout_marginRight="50dp"
+                           android:layout_alignLeft="@+id/fae035"
+                           android:enabled="false"
+                           android:clickable="true"
+                           android:focusableInTouchMode="true"
+                           android:imeOptions="actionDone"
+                           android:inputType="text"
+                           android:background="@color/lightgray"
+                           android:text=""
+                           android:textColor="@color/black" />  
+                           <View android:layout_below="@+id/fae036" 
+                             android:layout_width="match_parent" 
+                             android:layout_height="10dp"
+                       />                  
+                    </RelativeLayout>
+                    <RelativeLayout
+                          android:id="@+id/fae_r3_6"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_below="@+id/fae_r3_5"
+                          android:layout_marginLeft="5dp"
+                          android:layout_marginRight="5dp"
+                          android:layout_marginTop="5dp"                         
+                          android:background="@drawable/border" >
+
+                  <TextView
+                        android:id="@+id/vwChargeForFree"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Charge For Free" />
+
+                    <RadioGroup
+                        android:id="@+id/fae037"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/vwChargeForFree"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="clip_vertical|top"
+                        android:orientation="horizontal" >
+                        <RadioButton
+                            android:id="@+id/fae037a"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="Charge" />
+                           <RadioButton
+                        android:id="@+id/fae037b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:text="Free"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                        <RadioButton
+                            android:id="@+id/fae037c"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Other"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />		         
+                    </RadioGroup>
+
+                    <EditText
+                        android:id="@+id/fae038"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/fae037"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/lightgray"
+                        android:clickable="true"
+                        android:focusableInTouchMode="true"
+                        android:imeOptions="actionDone"
+                        android:inputType="text"
+                        android:text=""
+                        android:enabled="false"                      
+                        android:textColor="@color/black" />  
+                           <TextView
+                        android:id="@+id/vwResultConfirm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"                        
+                        android:layout_below="@+id/fae038"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Result Confirm" />
+                         <RadioGroup
+                        android:id="@+id/fae039"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/vwResultConfirm"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="clip_vertical|top"
+                        android:orientation="horizontal" >
+                        <RadioButton
+                            android:id="@+id/fae039a"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="Close" />
+                           <RadioButton
+                        android:id="@+id/fae039b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:text="Need Further Check"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+               	         
+                    </RadioGroup>
+                    <View android:layout_below="@+id/fae039" 
+                             android:layout_width="match_parent" 
+                             android:layout_height="10dp"
+                       />
+                </RelativeLayout>
+                  <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/yellow_bg"
+        android:layout_alignTop="@+id/fae_r3_7"
+        android:layout_alignBottom="@+id/fae_r3_7"
+        android:layout_alignLeft="@+id/fae_r3_7"
+        android:layout_alignRight="@+id/fae_r3_7"
+        />
+                <RelativeLayout
+                    android:id="@+id/fae_r3_7"
+                     android:layout_below="@+id/fae_r3_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                   >
+                     <TextView
+                        android:id="@+id/vwRemark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Remark" />                  
+                       <EditText
+                           android:id="@+id/fae040"
+                           android:layout_width="match_parent"
+                           android:layout_height="100dp"
+                           android:layout_below="@+id/vwRemark"
+                           android:layout_marginLeft="10dp"
+                           android:layout_marginRight="10dp"
+                          android:minLines="3" 
+                          android:gravity="left|top"
+                           android:background="@drawable/border"
+                           android:clickable="true"
+                           android:focusableInTouchMode="true"
+                           android:imeOptions="actionDone"
+                           android:inputType="text"
+                           android:text=""
+                           android:textColor="@color/black" />
+                           <View android:layout_below="@+id/fae040" 
+                             android:layout_width="match_parent" 
+                             android:layout_height="10dp"
+                       />           
+                    </RelativeLayout>
+                     <View  android:layout_below="@+id/fae_r3_7"
+        				android:layout_width="wrap_content"
+        				android:layout_height="10dp"/>
+            </RelativeLayout>
+</RelativeLayout>
+</ScrollView>

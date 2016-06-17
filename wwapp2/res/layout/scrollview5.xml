@@ -1,0 +1,1721 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/tab5_r1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/border"
+            android:visibility="visible" >
+
+            <CheckBox
+                android:id="@+id/xa235"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Build up new Source" />
+
+            <CheckBox
+                android:id="@+id/xa236"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/xa235"
+                android:layout_marginLeft="10dp"
+                android:text="Cost reduction" />
+
+            <CheckBox
+                android:id="@+id/xa237"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/xa236"
+                android:layout_marginLeft="10dp"
+                android:text="Low yield (Major failure" />
+
+            <CheckBox
+                android:id="@+id/xa238"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/xa237"
+                android:layout_marginLeft="20dp"
+                android:text="OS" />
+
+            <CheckBox
+                android:id="@+id/xa239"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/xa237"
+                android:layout_toRightOf="@+id/xa238"
+                android:text="High Speed test" />
+
+            <CheckBox
+                android:id="@+id/xa240"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/xa238"
+                android:layout_below="@+id/xa238"
+                android:text="Others" />
+
+            <EditText
+                android:id="@+id/xa241"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/xa240"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/border"
+                android:text="" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/tab5_r1_view1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/xa241"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Current test yield" />
+
+            <TextView
+                android:id="@+id/tab5_r1_view2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tab5_r1_view1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="1 yield" />
+
+            <EditText
+                android:id="@+id/xa242"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+				android:layout_marginRight="10dp"
+                android:layout_alignBaseline="@+id/tab5_r1_view2"
+                android:layout_toRightOf="@+id/tab5_r1_view1"
+                android:background="@drawable/border"
+                android:text="" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/tab5_r1_view2_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tab5_r1_view2"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/xa242"
+                android:text="%" />
+
+            <TextView
+                android:id="@+id/tab5_r1_view3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tab5_r1_view2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Final yield" />
+
+            <EditText
+                android:id="@+id/xa243"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+				android:layout_alignRight="@+id/xa242"
+                android:layout_alignBaseline="@+id/tab5_r1_view3"
+                android:layout_toRightOf="@+id/tab5_r1_view1"
+                android:background="@drawable/border"
+                android:text="" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/tab5_r1_view3_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tab5_r1_view3"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/xa243"
+                android:text="%" />
+
+            <TextView
+                android:id="@+id/tab5_r1_view4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tab5_r1_view3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Target yield" />
+
+            <TextView
+                android:id="@+id/tab5_r1_view5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tab5_r1_view4"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="1 yield" />
+
+            <EditText
+                android:id="@+id/xa244"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+				android:layout_alignRight="@+id/xa242"
+                android:layout_alignBaseline="@+id/tab5_r1_view5"
+                android:layout_toRightOf="@+id/tab5_r1_view1"
+                android:background="@drawable/border"
+                android:text="" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/tab5_r1_view5_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tab5_r1_view5"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/xa244"
+                android:text="%" />
+
+            <TextView
+                android:id="@+id/tab5_r1_view6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tab5_r1_view5"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Final yield" />
+
+            <EditText
+                android:id="@+id/xa245"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+				android:layout_alignRight="@+id/xa242"
+                android:layout_alignBaseline="@+id/tab5_r1_view6"
+                android:layout_toRightOf="@+id/tab5_r1_view1"
+                android:background="@drawable/border"
+                android:text="" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/tab5_r1_view6_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tab5_r1_view6"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/xa245"
+                android:text="%" />
+
+            <CheckBox
+                android:id="@+id/xa246"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tab5_r1_view6"
+                android:text="Short lifetime(" />
+
+            <TextView
+                android:id="@+id/tab5_r1_view7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/xa246"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="current lifetime" />
+
+            <EditText
+                android:id="@+id/xa247"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+				android:layout_alignRight="@+id/xa242"
+                android:layout_alignBaseline="@+id/tab5_r1_view7"
+                android:layout_alignLeft="@+id/xa242"
+                android:layout_toRightOf="@+id/tab5_r1_view7"
+                android:background="@drawable/border"
+                android:text="" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/tab5_r1_view7_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tab5_r1_view7"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/xa247"
+                android:text="K" />
+
+            <TextView
+                android:id="@+id/tab5_r1_view8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tab5_r1_view7"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="target lifetime" />
+
+            <EditText
+                android:id="@+id/xa248"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+				android:layout_alignRight="@+id/xa242"
+                android:layout_alignBaseline="@+id/tab5_r1_view8"
+                android:layout_alignLeft="@+id/xa245"
+                android:layout_toRightOf="@+id/tab5_r1_view8"
+                android:background="@drawable/border"
+                android:text="" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/tab5_r1_view8_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tab5_r1_view8"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/xa248"
+                android:text="K)" />
+
+            <CheckBox
+                android:id="@+id/xa249"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tab5_r1_view8"
+                android:text="High clean frequency" />
+
+            <TextView
+                android:id="@+id/tab5_r1_view9"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/xa249"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Current clean interval" />
+				   <EditText
+                android:id="@+id/xa250"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tab5_r1_view9"                
+                android:layout_toRightOf="@+id/tab5_r1_view9"
+                android:background="@drawable/border"
+                android:text="" >
+            </EditText>
+            <TextView
+                android:id="@+id/tab5_r1_view9_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/xa250"
+				android:layout_alignBottom="@+id/tab5_r1_view9"    
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="insertions" />
+            <TextView
+                android:id="@+id/tab5_r1_view10"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tab5_r1_view9"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Target clean interval" />
+				 <EditText
+                android:id="@+id/xa251"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tab5_r1_view10"                
+                android:layout_toRightOf="@+id/tab5_r1_view10"
+                android:background="@drawable/border"
+                android:text="" > </EditText>
+				  <TextView
+                android:id="@+id/tab5_r1_view10_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/xa251"
+				android:layout_alignBottom="@+id/tab5_r1_view10"    
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="insertions" />
+			  <TextView
+                android:id="@+id/tab5_r1_view11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tab5_r1_view10"    
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Current clean method :" />
+				  <CheckBox
+                android:id="@+id/xa252"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_marginLeft="40dp"
+                android:layout_below="@+id/tab5_r1_view11"
+                android:text="Nylon brush" />
+				  <CheckBox
+                android:id="@+id/xa253"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_toRightOf="@+id/xa252"
+                android:layout_below="@+id/tab5_r1_view11"
+                android:text="Metal brush" />
+				  <CheckBox
+                android:id="@+id/xa254"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_alignLeft="@+id/xa252"
+                android:layout_below="@+id/xa252"
+                android:text="Laser clean" />
+				  <CheckBox
+                android:id="@+id/xa255"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_toRightOf="@+id/xa254"
+				android:layout_alignLeft="@+id/xa253"
+                android:layout_below="@+id/xa253"
+                android:text="Air gun" />
+				  <CheckBox
+                android:id="@+id/xa256"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_alignLeft="@+id/xa254"
+                android:layout_below="@+id/xa254"
+                android:text="Chemical liquid :" />
+				 <EditText
+                android:id="@+id/xa257"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"        
+                android:layout_below="@+id/xa256"
+				android:layout_marginRight="20dp"
+				android:layout_marginLeft="20dp"
+				android:layout_alignLeft="@+id/xa252"
+                android:background="@drawable/border"
+                android:text="" > </EditText>
+				  <CheckBox
+                android:id="@+id/xa258" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_alignLeft="@+id/xa254"
+                android:layout_below="@+id/xa257"
+                android:text="Others :" />
+				 <EditText
+                android:id="@+id/xa259"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"        
+                android:layout_below="@+id/xa258"
+				android:layout_marginRight="20dp"
+				android:layout_marginLeft="20dp"
+				android:layout_alignLeft="@+id/xa252"
+                android:background="@drawable/border"
+                android:text="" > </EditText>
+				  <CheckBox
+                android:id="@+id/xa260" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_alignLeft="@+id/xa249"
+                android:layout_below="@+id/xa259"
+                android:text="Others :" />
+				 <EditText
+                android:id="@+id/xa261"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"        
+                android:layout_below="@+id/xa260"
+				android:layout_marginRight="20dp"
+				android:layout_marginLeft="20dp"				
+                android:background="@drawable/border"
+                android:text="" > </EditText>
+				<View android:layout_width="match_parent"
+                android:layout_height="10dp"   
+				android:layout_below="@+id/xa261"
+				/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tab5_r2"
+            android:layout_alignLeft="@+id/tab5_r2"
+            android:layout_alignRight="@+id/tab5_r2"
+            android:layout_alignTop="@+id/tab5_r2"
+            android:background="@drawable/yellow_bg" />
+
+        <RelativeLayout
+            android:id="@+id/tab5_r2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tab5_r1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:visibility="visible" >
+			 <TextView
+                android:id="@+id/tab5_r2_view1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Socket Application Information / Requirement :" />
+				<CheckBox
+                android:id="@+id/xa201"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/tab5_r2_view1"
+                android:text="Final test :" />
+				  <CheckBox
+                android:id="@+id/xa202"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"	
+ 				 android:layout_marginLeft="10dp"
+                android:layout_below="@+id/xa201"
+                android:text="Automated test only" />
+				  <CheckBox
+                android:id="@+id/xa203"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_alignLeft="@+id/xa202"
+                android:layout_below="@+id/xa202"
+                android:text="Both Manual and Auto" />
+				<CheckBox
+                android:id="@+id/xa204"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/xa203"
+                android:text="Bench (SLT) Test :" />
+			<CheckBox
+                android:id="@+id/xa205"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"	
+ 		    	android:layout_alignLeft="@+id/xa202"
+                android:layout_below="@+id/xa204"
+                android:text="Manual Only" />
+				  <CheckBox
+                android:id="@+id/xa206"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_alignLeft="@+id/xa202"
+                android:layout_below="@+id/xa205"
+                android:text="Automated test only" />
+				  <CheckBox
+                android:id="@+id/xa207"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_alignLeft="@+id/xa202"
+                android:layout_below="@+id/xa206"
+                android:text="Both Manual and Auto" />
+					<CheckBox
+                android:id="@+id/xa208"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/xa207"
+                android:text="Burn-In Test :" />
+				 <TextView
+            android:id="@+id/tab5_r2_view2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/xa208"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="(Insertion" />
+			<EditText
+                android:id="@+id/xa209"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"        
+                android:layout_below="@+id/xa208"
+				android:layout_alignTop="@+id/tab5_r2_view2"
+				android:layout_toRightOf="@+id/tab5_r2_view2"
+				 android:layout_marginTop="0dp"
+				 android:layout_marginLeft="10dp"
+				android:layout_marginRight="50dp"
+				android:background="@color/white"							               
+                android:text="" > </EditText>
+					 <TextView
+            android:id="@+id/tab5_r2_view3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tab5_r2_view2"
+			android:layout_toRightOf="@+id/tab5_r2_view2"
+			android:layout_alignParentRight="true"
+            android:layout_marginLeft="0dp"		
+			android:gravity="right"
+            android:text="times)" />
+				<CheckBox
+                android:id="@+id/xa210"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/xa209"
+                android:text="Failuser Analysis or others :" />			
+			<EditText
+                android:id="@+id/xa29N"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"                		
+                android:layout_below="@+id/xa210"				
+				android:layout_marginTop="0dp"
+				 android:layout_marginLeft="10dp"
+				  android:layout_marginRight="10dp"
+				android:background="@color/white"							               
+                android:text="" > </EditText>
+				 <TextView
+            android:id="@+id/tab5_r2_view4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/xa29N"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="(Insertion" />
+			<EditText
+                android:id="@+id/xa215"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"        
+                android:layout_below="@+id/xa29N"
+				android:layout_alignTop="@+id/tab5_r2_view4"
+				android:layout_toRightOf="@+id/tab5_r2_view4"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="50dp"
+				android:background="@color/white"							               
+                android:text="" > </EditText>
+					 <TextView
+            android:id="@+id/tab5_r2_view5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tab5_r2_view4"
+			android:layout_toRightOf="@+id/tab5_r2_view4"
+			android:layout_alignParentRight="true"
+            android:layout_marginLeft="0dp"		
+			android:gravity="right"
+            android:text="times)" />	
+			<View android:layout_width="match_parent"
+                android:layout_height="10dp"   
+				android:layout_below="@+id/tab5_r2_view4"
+				/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tab5_r3_view1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tab5_r2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Handler/Tester Information" />
+
+        <RelativeLayout
+            android:id="@+id/tab5_r4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tab5_r3_view1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/border"
+            android:visibility="visible" >
+			 <TextView
+            android:id="@+id/tab5_r4_view1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"         
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Handler manufacturer" />
+            <CheckBox
+                android:id="@+id/xa216"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/tab5_r4_view1"
+                android:text="Epson" />			
+			<CheckBox
+                android:id="@+id/xa217"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/tab5_r4_view1"
+				android:layout_toRightOf="@+id/xa216"
+                android:text="Delta design" />	
+			<CheckBox
+                android:id="@+id/xa218"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/xa216"				
+                android:text="Multitest" />	
+			<CheckBox
+                android:id="@+id/xa219"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/xa218"				
+                android:text="Others :" />	
+				<EditText
+                android:id="@+id/xa220"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"        
+                android:layout_below="@+id/xa219"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:background="@drawable/border"		
+                android:drawableRight="@drawable/dropdown_icon"		
+                android:text="" > </EditText>
+			<TextView
+            android:id="@+id/tab5_r4_view2"
+			android:layout_below="@+id/xa220"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"         
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Handler model" />
+				<EditText
+                android:id="@+id/xa221"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"        
+                android:layout_below="@+id/tab5_r4_view2"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:background="@drawable/border"		
+                android:drawableRight="@drawable/dropdown_icon"		
+                android:text="" > </EditText>
+		 <TextView
+            android:id="@+id/tab5_r4_view3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  
+			android:layout_below="@+id/xa221"			
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Target manufacturer :" />
+            <CheckBox
+                android:id="@+id/xa222"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/tab5_r4_view3"
+                android:text="Verigy" />	
+				 <CheckBox
+                android:id="@+id/xa223"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/tab5_r4_view3"
+				android:layout_toRightOf="@+id/xa222"
+				android:layout_alignBottom="@+id/xa222"
+                android:text="Teradyne" />	
+			 <CheckBox
+                android:id="@+id/xa224"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/xa222"
+                android:text="Credence" />	
+				 <CheckBox
+                android:id="@+id/xa225"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/xa223"
+				android:layout_toRightOf="@+id/xa224"
+				android:layout_alignBottom="@+id/xa224"
+                android:text="Advantest" />	
+				<CheckBox
+                android:id="@+id/xa226"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/xa224"
+                android:text="Others" />	
+				<EditText
+                android:id="@+id/xa227"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"        
+                android:layout_below="@+id/xa226"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:background="@drawable/border"		
+                android:drawableRight="@drawable/dropdown_icon"		
+                android:text="" > </EditText>
+			<TextView
+            android:id="@+id/tab5_r4_view4"
+			android:layout_below="@+id/xa227"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"         
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Tester model" />
+				<EditText
+                android:id="@+id/xa228"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"        
+                android:layout_below="@+id/tab5_r4_view4"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:background="@drawable/border"		
+                android:drawableRight="@drawable/dropdown_icon"		
+                android:text="" > </EditText>
+				  <CheckBox
+                android:id="@+id/xa229"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/xa228"
+                android:text="Single Site" />	
+				 <CheckBox
+                android:id="@+id/xa230"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/xa228"
+				android:layout_toRightOf="@+id/xa229"
+				android:layout_alignBottom="@+id/xa229"
+                android:text="Dual Site" />	
+			 <CheckBox
+                android:id="@+id/xa231"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/xa229"
+                android:text="Quad Site" />	
+				 <CheckBox
+                android:id="@+id/xa232"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/xa229"
+				android:layout_toRightOf="@+id/xa231"
+				android:layout_alignBottom="@+id/xa231"
+                android:text="Ocated Site" />	
+				<CheckBox
+                android:id="@+id/xa233"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/xa231"
+                android:text="Others" />	
+				<EditText
+                android:id="@+id/xa234"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"        
+                android:layout_below="@+id/xa233"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="10dp"
+				android:background="@color/lightgray"	
+                android:text="" > </EditText>
+				<TextView
+            android:id="@+id/tab5_r4_view5"
+			android:layout_below="@+id/xa234"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"         
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Hanler test arm contact force range" />
+			<TextView
+            android:id="@+id/tab5_r4_view6"
+			android:layout_below="@+id/tab5_r4_view5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"         
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="min." />
+			<EditText
+                android:id="@+id/xa29K"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"        
+                android:layout_below="@+id/tab5_r4_view5"
+				android:layout_toRightOf="@+id/tab5_r4_view6"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+			    android:layout_marginTop="5dp"
+				android:background="@drawable/border"	
+                android:text="" > </EditText>
+				<TextView
+            android:id="@+id/tab5_r4_view6_a"
+			android:layout_below="@+id/tab5_r4_view5"
+			android:layout_toRightOf="@+id/xa29K"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"         
+            android:layout_marginLeft="10dp"
+            android:layout_alignBottom="@+id/tab5_r4_view6"
+			android:layout_alignTop="@+id/tab5_r4_view6"
+            android:text="(kgf)" />
+			<TextView
+            android:id="@+id/tab5_r4_view7"
+			android:layout_below="@+id/tab5_r4_view6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"         
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="max" />
+			<EditText
+                android:id="@+id/xa29L"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"        
+                android:layout_below="@+id/tab5_r4_view6"
+				android:layout_toRightOf="@+id/tab5_r4_view7"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_marginTop="10dp"
+				android:background="@drawable/border"	
+                android:text="" > </EditText>
+				<TextView
+            android:id="@+id/tab5_r4_view7_a"
+			 android:layout_below="@+id/tab5_r4_view6"
+			android:layout_toRightOf="@+id/xa29L"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"         
+            android:layout_marginLeft="10dp"
+            android:layout_alignTop="@+id/tab5_r4_view7"
+            android:text="(kgf)" />
+				<View android:layout_width="match_parent"
+                android:layout_height="10dp"   
+				android:layout_below="@+id/tab5_r4_view7"
+				/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tab5_r5"
+            android:layout_alignLeft="@+id/tab5_r5"
+            android:layout_alignRight="@+id/tab5_r5"
+            android:layout_alignTop="@+id/tab5_r5"
+            android:background="@drawable/yellow_bg" />
+
+        <RelativeLayout
+            android:id="@+id/tab5_r5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tab5_r4"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:visibility="visible" >
+				 <TextView
+            android:id="@+id/tab5_r5_view1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"         
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="General Design Principle" />
+			<CheckBox
+			    android:gravity="top|left"
+                android:id="@+id/xa262"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/tab5_r5_view1"
+                android:text="Winway socket need to be compatible with all exsting H/W.Need tohave the existing spec:socket and lid,PCB footprint,Handler work press/Contact chuck,docking plate/ socket base and POD." />
+					<CheckBox
+			    android:gravity="top|left"
+                android:id="@+id/xa263"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/xa262"
+                android:text="Follow WinWay design,the existing H/W can be modified except PCB" />
+				<CheckBox		
+                android:id="@+id/xa264"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/xa263"
+                android:text="Manual Lid design:" />
+					<CheckBox		
+                android:id="@+id/xa265"
+				android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/xa264"
+                android:text="Same operation method as the existing Lid" />
+					<CheckBox		
+                android:id="@+id/xa266"
+				android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/xa265"
+                android:text="Follow WinWay Lid design" />
+					<CheckBox		
+                android:id="@+id/xa267"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/xa266"
+                android:text="Others" />
+					<EditText
+                android:id="@+id/xa268"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"        
+                android:layout_below="@+id/xa267"				
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"		
+				android:background="@color/white"	
+                android:text="" > </EditText>
+				<View android:layout_width="match_parent"
+                android:layout_height="10dp"   
+				android:layout_below="@+id/xa268"
+				/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tab5_r6"
+            android:layout_alignLeft="@+id/tab5_r6"
+            android:layout_alignRight="@+id/tab5_r6"
+            android:layout_alignTop="@+id/tab5_r6"
+            android:background="@drawable/yellow_bg" />
+
+        <RelativeLayout
+            android:id="@+id/tab5_r6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tab5_r5"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:visibility="visible" >
+				 <TextView
+            android:id="@+id/tab5_r6_view1"
+            android:layout_width="100dp"
+			android:gravity="right"
+            android:layout_height="wrap_content"         
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Package Type" />
+				 <TextView
+            android:id="@+id/tab5_r6_view2"
+             android:layout_width="100dp"
+			android:gravity="right"
+            android:layout_height="wrap_content"         
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+			android:layout_below="@+id/tab5_r6_view1"
+            android:text="PoP/LGA test type" />
+			 <TextView
+            android:id="@+id/tab5_r6_view3"
+             android:layout_width="100dp"
+			android:gravity="right"
+            android:layout_height="wrap_content"         
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+			android:layout_below="@+id/tab5_r6_view2"
+            android:text="Body Size" />
+			 <TextView
+            android:id="@+id/tab5_r6_view4"
+             android:layout_width="100dp"
+			android:gravity="right"
+            android:layout_height="wrap_content"         
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+			android:layout_below="@+id/tab5_r6_view3"
+            android:text="Matrix" />
+
+			 <TextView
+			     android:id="@+id/tab5_r6_view6"
+			     android:layout_width="100dp"
+			     android:layout_height="wrap_content"
+			     android:layout_below="@+id/tab5_r6_view4"
+			     android:layout_marginLeft="10dp"
+			     android:layout_marginTop="10dp"
+			     android:gravity="right"
+			     android:text="Lead Count" />
+
+			 <TextView
+            android:id="@+id/tab5_r6_view7"
+             android:layout_width="100dp"
+			android:gravity="right"
+            android:layout_height="wrap_content"         
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+			android:layout_below="@+id/tab5_r6_view6"
+            android:text="Lead (ball,pad) Pitch" />
+			 <TextView
+            android:id="@+id/tab5_r6_view8"
+             android:layout_width="100dp"
+			android:gravity="right"
+            android:layout_height="wrap_content"         
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+			android:layout_below="@+id/tab5_r6_view7"
+            android:text="Lead Length (for QFP package)" />
+			<EditText
+                android:id="@+id/xa518a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"        
+                android:layout_toRightOf="@+id/tab5_r6_view1"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_marginTop="5dp"
+				android:background="@color/white"		
+                android:drawableRight="@drawable/dropdown_icon"		
+                android:text="" > </EditText>
+				<EditText
+                android:id="@+id/xa2A7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"        
+                android:layout_toRightOf="@+id/tab5_r6_view2"
+				android:layout_below="@+id/xa518a"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_marginTop="10dp"
+				android:background="@color/white"		
+                android:drawableRight="@drawable/dropdown_icon"		
+                android:text="" > </EditText>
+				<EditText
+                android:id="@+id/xa020a"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"        
+                android:layout_toRightOf="@+id/tab5_r6_view3"
+				android:layout_below="@+id/xa2A7"
+				android:layout_marginLeft="10dp"
+				android:layout_marginTop="10dp"
+				android:background="@color/white"		
+                android:text="" > </EditText>
+				<TextView
+            android:id="@+id/tab5_r6_view3a"
+             android:layout_width="wrap_content"
+			android:layout_height="wrap_content"         
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+			android:layout_toRightOf="@+id/xa020a"
+			android:layout_below="@+id/tab5_r6_view2"
+            android:text="X" />
+				<EditText
+                android:id="@+id/xa021a"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"        
+                android:layout_toRightOf="@+id/tab5_r6_view3a"
+				android:layout_below="@+id/xa2A7"
+				android:layout_marginLeft="10dp"
+				android:layout_marginTop="10dp"
+				android:background="@color/white"		
+                android:text="" > </EditText>
+					<EditText
+                android:id="@+id/xa022a"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"        
+                android:layout_toRightOf="@+id/tab5_r6_view4"
+				android:layout_below="@+id/xa020a"
+				android:layout_marginLeft="10dp"
+				android:layout_marginTop="10dp"
+				android:background="@color/white"		
+                android:text="" > </EditText>
+				<TextView
+            android:id="@+id/tab5_r6_view4a"
+             android:layout_width="wrap_content"
+			android:layout_height="wrap_content"         
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+			android:layout_toRightOf="@+id/xa022a"
+			android:layout_below="@+id/tab5_r6_view3"
+            android:text="X" />
+				<EditText
+                android:id="@+id/xa023a"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"        
+                android:layout_toRightOf="@+id/tab5_r6_view4a"
+				android:layout_below="@+id/xa020a"
+				android:layout_marginLeft="10dp"
+				android:layout_marginTop="10dp"
+				android:background="@color/white"		
+                android:text="" > </EditText>
+				<EditText
+                android:id="@+id/xa024a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"        
+                android:layout_toRightOf="@+id/tab5_r6_view6"
+				android:layout_below="@+id/xa023a"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_marginTop="10dp"
+				android:background="@color/white"	
+                android:text="" > </EditText>
+				<EditText
+                android:id="@+id/xa025a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"        
+                android:layout_toRightOf="@+id/tab5_r6_view7"
+				android:layout_below="@+id/xa024a"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_marginTop="10dp"
+				android:background="@color/white"	
+                android:text="" > </EditText>
+				<EditText
+                android:id="@+id/xa019a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"        
+                android:layout_toRightOf="@+id/tab5_r6_view8"
+				android:layout_below="@+id/xa025a"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_marginTop="15dp"
+				android:background="@color/white"	
+                android:text="" > </EditText>
+			 <TextView
+            android:id="@+id/tab5_r6_view9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"         
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+			android:layout_below="@+id/tab5_r6_view8"
+            android:text="Device Testing Speed" />
+				<EditText
+                android:id="@+id/xa276"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"        
+        		android:layout_below="@+id/tab5_r6_view9"
+				android:layout_marginLeft="10dp"
+				android:layout_marginTop="10dp"
+				android:background="@color/white"		
+                android:text="" > </EditText>
+				<TextView
+            android:id="@+id/tab5_r6_view9a"
+             android:layout_width="wrap_content"
+			android:layout_height="wrap_content"         
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+			android:layout_toRightOf="@+id/xa276"
+			android:layout_below="@+id/tab5_r6_view9"
+            android:text=" Hz  or   " />
+				<EditText
+                android:id="@+id/xa29P"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"        
+                android:layout_toRightOf="@+id/tab5_r6_view9a"
+				android:layout_below="@+id/tab5_r6_view9"
+				android:layout_marginLeft="10dp"
+				android:layout_marginTop="10dp"
+				android:background="@color/white"		
+                android:text="" > </EditText>
+					<TextView
+            android:id="@+id/tab5_r6_view9b"
+             android:layout_width="wrap_content"
+			android:layout_height="wrap_content"         
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+			android:layout_toRightOf="@+id/xa29P"
+			android:layout_below="@+id/tab5_r6_view9"
+            android:text=" GHz" />
+			 <TextView
+            android:id="@+id/tab5_r6_view10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"         
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+			android:layout_below="@+id/tab5_r6_view9a"
+            android:text="Application" />
+			<EditText
+                android:id="@+id/xa280"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"        
+				android:layout_below="@+id/tab5_r6_view10"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_marginTop="10dp"
+				android:background="@color/white"		
+                android:drawableRight="@drawable/dropdown_icon"		
+                android:text="" > </EditText>
+				 <TextView
+            android:id="@+id/tab5_r6_view11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"         
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+			android:layout_below="@+id/xa280"
+            android:text="Singal Categrory" />
+				<CheckBox		
+                android:id="@+id/xa2A8"
+				android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/tab5_r6_view11"
+                android:text="Digital" />
+					 <TextView
+            android:id="@+id/tab5_r6_view12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"         
+            android:layout_marginLeft="30dp"   
+			android:layout_marginTop="5dp"			
+			android:layout_below="@+id/xa2A8"
+            android:text="Application Standard" />
+			<EditText
+                android:id="@+id/xa29Q"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"        
+				android:layout_below="@+id/tab5_r6_view12"
+				android:layout_marginLeft="30dp"
+				android:layout_marginRight="10dp"	
+				android:layout_marginTop="5dp"				
+				android:background="@color/white"		
+                android:drawableRight="@drawable/dropdown_icon"		
+                android:text="" > </EditText>
+				 <TextView
+            android:id="@+id/tab5_r6_view13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"         
+            android:layout_marginLeft="30dp"  
+			android:layout_marginTop="5dp"			
+			android:layout_below="@+id/xa29Q"
+            android:text="Classification" />
+			<EditText
+                android:id="@+id/xa29R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"        
+				android:layout_below="@+id/tab5_r6_view13"
+				android:layout_marginLeft="30dp"
+				android:layout_marginTop="5dp"
+				android:layout_marginRight="10dp"				
+				android:background="@color/white"		
+                android:drawableRight="@drawable/dropdown_icon"		
+                android:text="" > </EditText>
+				<CheckBox		
+                android:id="@+id/xa2A9"
+				android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/xa29R"
+                android:text="Analog / RF" />
+					 <TextView
+            android:id="@+id/tab5_r6_view14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"         
+            android:layout_marginLeft="30dp"   
+			android:layout_marginTop="5dp"			
+			android:layout_below="@+id/xa2A9"
+            android:text="Application Standard" />
+			<EditText
+                android:id="@+id/xa29S"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"        
+				android:layout_below="@+id/tab5_r6_view14"
+				android:layout_marginLeft="30dp"
+				android:layout_marginRight="10dp"	
+				android:layout_marginTop="5dp"				
+				android:background="@color/white"		
+                android:drawableRight="@drawable/dropdown_icon"		
+                android:text="" > </EditText>
+				 <TextView
+            android:id="@+id/tab5_r6_view15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"         
+            android:layout_marginLeft="30dp"  
+			android:layout_marginTop="5dp"			
+			android:layout_below="@+id/xa29S"
+            android:text="Classification" />
+			<EditText
+                android:id="@+id/xa29T"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"        
+				android:layout_below="@+id/tab5_r6_view15"
+				android:layout_marginLeft="30dp"
+				android:layout_marginTop="5dp"
+				android:layout_marginRight="10dp"				
+				android:background="@color/white"		
+                android:drawableRight="@drawable/dropdown_icon"		
+                android:text="" > </EditText>
+					 <TextView
+            android:id="@+id/tab5_r6_view16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"         
+            android:layout_marginLeft="10dp"  
+			android:layout_marginTop="5dp"			
+			android:layout_below="@+id/xa29T"
+            android:text="Test temperture" />
+				<EditText
+                android:id="@+id/xa277"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"        
+				android:layout_below="@+id/tab5_r6_view16"
+				android:layout_marginLeft="30dp"
+				android:layout_marginTop="5dp"								
+				android:background="@color/white"		              
+                android:text="" > </EditText>
+				 <TextView
+            android:id="@+id/tab5_r6_view16a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"         
+            android:layout_marginLeft="10dp"  
+			android:layout_marginTop="5dp"	
+			android:layout_toRightOf="@+id/xa277"	
+			android:layout_below="@+id/tab5_r6_view16"
+            android:text="°C(Cold)" />
+					<EditText
+                android:id="@+id/xa278"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"        
+				android:layout_below="@+id/xa277"
+				android:layout_marginLeft="30dp"
+				android:layout_marginTop="5dp"							
+				android:background="@color/white"		             	
+                android:text="" > </EditText>
+				 <TextView
+            android:id="@+id/tab5_r6_view16b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_toRightOf="@+id/xa278"			
+            android:layout_marginLeft="10dp"  
+			android:layout_marginTop="5dp"			
+			android:layout_below="@+id/xa277"
+            android:text="°C(HOT)" />
+			<CheckBox		
+                android:id="@+id/xa279"
+				android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/xa278"
+                android:text="Ambient" />
+					 <TextView
+            android:id="@+id/tab5_r6_view17"
+            android:layout_width="100dp"
+			android:gravity="right"
+            android:layout_height="wrap_content"     	
+            android:layout_marginLeft="20dp"  
+			android:layout_marginTop="10dp"			
+			android:layout_below="@+id/xa279"
+            android:text="Device Heat Dissipation" />
+				<EditText
+                android:id="@+id/xa282"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"  
+				android:layout_toRightOf="@+id/tab5_r6_view17"					
+				android:layout_below="@+id/xa279"
+				android:layout_marginLeft="5dp"
+				android:layout_marginTop="20dp"							
+				android:background="@color/white"		             	
+                android:text="" > </EditText>
+				 <TextView
+            android:id="@+id/tab5_r6_view17a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+			android:layout_alignBaseline="@+id/xa282"
+            android:layout_toRightOf="@+id/xa282"					
+			android:layout_below="@+id/xa279"			
+            android:layout_marginLeft="10dp"  
+			android:layout_marginTop="5dp"	
+           android:text="W" />
+				 <TextView
+            android:id="@+id/tab5_r6_view18"
+            android:layout_width="100dp"
+			android:gravity="right"
+            android:layout_height="wrap_content"          	
+            android:layout_marginLeft="20dp"  
+			android:layout_marginTop="10dp"			
+			android:layout_below="@+id/tab5_r6_view17"
+            android:text="Max electrical Current/per pin" />
+				<EditText
+                android:id="@+id/xa29M"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+				android:layout_toRightOf="@+id/tab5_r6_view18"				
+				android:layout_below="@+id/tab5_r6_view17"
+				android:layout_marginLeft="5dp"
+				android:layout_marginTop="15dp"							
+				android:background="@color/white"		             	
+                android:text="" > </EditText>
+					 <TextView
+            android:id="@+id/tab5_r6_view18a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+			android:layout_alignBaseline="@+id/xa29M"
+            android:layout_toRightOf="@+id/xa29M"					
+			android:layout_below="@+id/tab5_r6_view17"			
+            android:layout_marginLeft="5dp"  
+			android:layout_marginTop="5dp"	
+           android:text="mA" />
+		    <TextView
+            android:id="@+id/tab5_r6_view19"
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content"          	
+            android:layout_marginLeft="10dp"  
+			android:layout_marginTop="10dp"			
+			android:layout_below="@+id/tab5_r6_view18"
+            android:text="Device Pad(Ball)material" />
+			<EditText
+                android:id="@+id/xa29U"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"        
+				android:layout_below="@+id/tab5_r6_view19"
+				android:layout_marginLeft="10dp"
+				android:layout_marginTop="5dp"
+				android:layout_marginRight="10dp"				
+				android:background="@color/white"		
+                android:drawableRight="@drawable/dropdown_icon"		
+                android:text="" > </EditText>
+			 <View android:layout_width="match_parent"
+                android:layout_height="10dp"   
+				android:layout_below="@+id/xa29U"
+				/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tab5_r7_view1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tab5_r6"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Note:Please attach (Required WinWay)" />
+
+        <RelativeLayout
+            android:id="@+id/tab5_r8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tab5_r7_view1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/border"
+            android:visibility="visible" >
+			    <TextView
+            android:id="@+id/tab5_r8_view1"
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content"          	
+            android:layout_marginLeft="10dp"  
+			android:layout_marginTop="10dp"		
+            android:text="1." />
+				<CheckBox		
+                android:id="@+id/xa29V"
+				android:layout_marginLeft="10dp"
+				android:layout_toRightOf="@+id/tab5_r8_view1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:text="Need to compatible with existing kit Attached" />
+					<CheckBox		
+                android:id="@+id/xa29W"
+                android:layout_marginLeft="10dp"
+				android:layout_alignLeft="@+id/xa29V"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/xa29V"
+                android:text="docking plate/ workpress/ contact chunk drawing" />
+					<CheckBox		
+                android:id="@+id/xa29X"
+   				android:layout_alignLeft="@+id/xa29W"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/xa29W"
+                android:text="socket and lid spec drawing" />
+				   <TextView
+            android:id="@+id/tab5_r8_view2"
+			android:layout_below="@+id/xa29X"			
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content"          	
+            android:layout_marginLeft="10dp"  
+			android:layout_marginTop="10dp"		
+            android:text="2.Package outline drawing (P.O.D)" />
+				<CheckBox		
+                android:id="@+id/xa289"
+				android:layout_alignLeft="@+id/xa29V"
+				android:layout_below="@+id/tab5_r8_view2"				
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:text="Attached" />
+				   <TextView
+            android:id="@+id/tab5_r8_view3"
+			android:layout_below="@+id/xa289"	
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content"          	
+            android:layout_marginLeft="10dp"  
+			android:layout_marginTop="10dp"		
+            android:text="3.PCB footprint" />
+					<CheckBox		
+                android:id="@+id/xa29Y"
+				android:layout_below="@+id/tab5_r8_view3"	
+				android:layout_alignLeft="@+id/xa29V"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"				
+                android:text="a. PCB design available,attached specification or socket drawing " />
+				  <TextView
+            android:id="@+id/tab5_r8_view4"
+			android:layout_below="@+id/xa29Y"	
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content"          	
+            android:layout_marginLeft="50dp"  
+			android:layout_marginTop="10dp"		
+            android:text="Attached" />
+				<CheckBox		
+                android:id="@+id/xa29Z"
+				android:layout_below="@+id/tab5_r8_view4"	
+				android:layout_marginLeft="80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+			   android:text="PCB top layer drw or " />
+				<CheckBox		
+                android:id="@+id/xa2A0"
+				android:layout_below="@+id/xa29Z"	
+				android:layout_alignLeft="@+id/xa29Z"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"			
+                android:text="Actual PCB sample or " />
+				<CheckBox		
+                android:id="@+id/xa2A1"
+				android:layout_below="@+id/xa2A0"	
+				android:layout_alignLeft="@+id/xa29Z"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"				
+                android:text="PCB photo " />
+			<CheckBox		
+                android:id="@+id/xa2A2"
+				android:layout_below="@+id/xa2A1"	
+				android:layout_alignLeft="@+id/xa29V"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"				
+                android:text="b. PCB design not available,Winway provide the spec " />
+
+				  <TextView
+				      android:id="@+id/tab5_r8_view5"
+				      android:layout_width="100dp"
+				      android:layout_height="wrap_content"
+				      android:layout_below="@+id/xa2A2"
+				      android:layout_marginLeft="10dp"
+				      android:layout_marginTop="10dp"
+				      android:text="4. PCB pad info           a.Material" />
+					  <CheckBox		
+                android:id="@+id/xa292"
+				android:layout_below="@+id/tab5_r8_view5"	
+				android:layout_alignLeft="@+id/xa2A2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"				
+                android:text="Au Plated " />
+				 <CheckBox		
+                android:id="@+id/xa293"
+				android:layout_below="@+id/tab5_r8_view5"	
+				android:layout_toRightOf="@+id/xa292"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"				
+                android:text="Sn Plated " />
+				  <CheckBox		
+                android:id="@+id/xa294"
+				android:layout_below="@+id/xa292"	
+				android:layout_alignLeft="@+id/xa2A2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"				
+                android:text="with solder residue" />
+                <CheckBox		
+                android:id="@+id/xa295"
+				android:layout_below="@+id/xa294"	
+				android:layout_alignLeft="@+id/xa2A2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"				
+                android:text="Others" />
+					<EditText
+                android:id="@+id/xa296"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"        
+				android:layout_below="@+id/xa295"
+				android:layout_marginLeft="10dp"
+				android:layout_marginTop="5dp"
+				android:layout_marginRight="10dp"				
+				android:background="@drawable/border"	               	
+                android:text="" > </EditText>
+				 <TextView
+				      android:id="@+id/tab5_r8_view6"
+				      android:layout_width="100dp"
+				      android:layout_height="wrap_content"
+				      android:layout_below="@+id/xa296"
+				      android:layout_marginLeft="10dp"
+				      android:layout_marginTop="10dp"
+				      android:text="b.Condition" />
+					    <CheckBox		
+                android:id="@+id/xa2A3"
+				android:layout_below="@+id/tab5_r8_view6"	
+				android:layout_alignLeft="@+id/xa295"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"				
+                android:text="protruding over solder mask" />
+                <CheckBox		
+                android:id="@+id/xa2A4"
+				android:layout_below="@+id/xa2A3"	
+				android:layout_alignLeft="@+id/xa295"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"				
+                android:text="concaving below solder mask" />
+				 <TextView
+				      android:id="@+id/tab5_r8_view7"
+				      android:layout_width="wrap_content"
+				      android:layout_height="wrap_content"
+				      android:layout_below="@+id/xa2A4"
+				       android:layout_alignLeft="@+id/xa2A4"
+				      android:layout_marginTop="10dp"
+				      android:text="(opening dimeter" />
+					  	<EditText
+                android:id="@+id/xa2A5"
+                android:layout_width="100dp"
+				android:layout_toRightOf="@+id/tab5_r8_view7"
+				android:layout_alignBaseline="@+id/tab5_r8_view7"
+                android:layout_height="wrap_content"        
+				android:layout_below="@+id/xa2A4"
+				android:layout_marginLeft="10dp"
+				android:layout_marginTop="5dp"
+				android:layout_marginRight="10dp"				
+				android:background="@drawable/border"	               	
+                android:text="" > </EditText>
+					   <TextView
+				      android:id="@+id/tab5_r8_view8"
+					  android:layout_alignLeft="@+id/xa2A4"
+				      android:layout_width="wrap_content"
+				      android:layout_height="wrap_content"
+				      android:layout_below="@+id/tab5_r8_view7"				    
+				      android:layout_marginTop="10dp"
+				      android:text="and pad height                                          mm)" />
+					   	<EditText
+                android:id="@+id/xa2A6"
+                android:layout_width="100dp"
+				android:layout_alignLeft="@+id/xa2A5"
+				android:layout_alignBaseline="@+id/tab5_r8_view8"
+                android:layout_height="wrap_content"        
+				android:layout_below="@+id/xa2A5"				
+				android:layout_marginTop="5dp"							
+				android:background="@drawable/border"	               	
+                android:text="" > </EditText>
+				   <TextView
+				      android:id="@+id/tab5_r8_view9"
+					  android:layout_marginLeft="10dp"	
+					  android:layout_width="wrap_content"
+				      android:layout_height="wrap_content"
+				      android:layout_below="@+id/xa2A6"				    
+				      android:layout_marginTop="10dp"
+				      android:text="5.Mechical dummy sample(2~3 pcs):" />
+					   <CheckBox		
+                android:id="@+id/xa29DY"
+				android:layout_below="@+id/tab5_r8_view9"	
+				android:layout_alignLeft="@+id/xa295"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"				
+                android:text="Available" />
+				   <CheckBox		
+                android:id="@+id/xa29DN"
+				android:layout_below="@+id/tab5_r8_view9"	
+				android:layout_toRightOf="@+id/xa29DY"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"				
+                android:text="Not available" />
+				   <TextView
+				      android:id="@+id/tab5_r8_view10"
+					  android:layout_marginLeft="10dp"	
+					  android:layout_width="wrap_content"
+				      android:layout_height="wrap_content"
+				      android:layout_below="@+id/xa29DY"				    
+				      android:layout_marginTop="10dp"
+				      android:text="(Required for design ensure contact and alignment situations especially QFP/QFN/SOP package types)" />
+					     <TextView
+				      android:id="@+id/tab5_r8_view11"
+					  android:layout_marginLeft="10dp"	
+					  android:layout_width="wrap_content"
+				      android:layout_height="wrap_content"
+				      android:layout_below="@+id/tab5_r8_view10"				    
+				      android:layout_marginTop="10dp"
+				      android:text="Documentation needed" />
+					  	<EditText
+                android:id="@+id/xa59Sa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"        
+				android:layout_below="@+id/tab5_r8_view11"
+				android:layout_marginLeft="10dp"
+				android:layout_marginTop="5dp"
+				android:layout_marginRight="10dp"				
+				android:background="@drawable/border"			
+                android:drawableRight="@drawable/dropdown_icon"		
+                android:text="" > </EditText>
+					<EditText
+                android:id="@+id/xa59Ta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"        
+				android:layout_below="@+id/xa59Sa"
+				android:layout_marginLeft="10dp"
+				android:layout_marginTop="5dp"
+				android:layout_marginRight="10dp"				
+				android:background="@drawable/border"		
+                android:drawableRight="@drawable/dropdown_icon"		
+                android:text="" > </EditText>
+			 <View android:layout_width="match_parent"
+                android:layout_height="10dp"   	
+				android:layout_below="@+id/xa59Ta"				
+				/>
+        </RelativeLayout>
+         <View
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:layout_below="@+id/tab5_r8" />
+    </RelativeLayout>
+
+</ScrollView>

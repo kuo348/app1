@@ -1,0 +1,2251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/qt_scrollView4"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <!-- L1 -->
+    <LinearLayout
+        android:id="@+id/M12_qttab"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        >
+
+        <TableLayout
+            android:id="@+id/R00_M12_tbl"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#CEDEC1"
+            >
+            <!-- 第 1 筆 -->
+            <TableRow
+                android:id="@+id/R01_M12_tr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:layout_marginBottom="1dp"
+                >
+
+                <!-- 按鈕區 -->
+                <LinearLayout
+                    android:id="@+id/R01_M12_L_lnl"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="84dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+
+                    >
+
+                    <Button
+                        android:id="@+id/R01_M12_btnEdit"
+                        android:text="b1"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black" />
+
+                    <Button
+                        android:id="@+id/R01_M12_btnDelete"
+                        android:text="b2"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/delete"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black"
+                        />
+                    <Button
+                        android:id="@+id/R01_M12_btnSave"
+                        android:text="b3"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/save"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black"
+                        android:visibility="gone"
+                        />
+                      
+
+                    <Button
+                        android:id="@+id/R01_M12_btnCancel"
+                        android:text="b4"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/cancel"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black"
+                        android:visibility="gone"
+                        />
+
+                </LinearLayout>
+
+                <!-- 3.2. qttab2 --> <!--<RelativeLayout-->
+                <RelativeLayout
+                    android:id="@+id/R01_M12_R_rel"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="84dp"
+                    android:layout_weight="9"
+                    android:layout_toRightOf="@+id/R01_M12_L_lnl"
+                    >
+                    <!--android:background="#CEDEC1"-->
+                    <!--android:background="@drawable/actionbar_bg"-->
+                    <!--android:background="#D3D3D3"-->
+
+                    <!-- 3.1.tabbar1 -->
+                    <TableLayout
+                        android:id="@+id/R01_M12_R_rel_tbl"
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@color/white"
+                        >
+                        <!--android:layout_marginTop="2dp"-->
+                        <!--android:layout_marginBottom="2dp"-->
+                        <!--android:layout_marginLeft="2dp"-->
+                        <!--android:layout_marginRight="2dp"-->
+
+                        <!-- M12 上 -->
+                        <!-- QT_TYPE -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            android:visibility="gone"
+                            >
+
+                            <TextView
+                                android:id="@+id/R01_lb_M12_QT_TYPE"
+                                android:text="QT_TYPE"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:gravity="right|center_vertical"
+                                android:layout_marginLeft="6dp"
+                                android:layout_marginRight="6dp"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R01_ed_M12_QT_TYPE"
+                                android:text="QT"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="2"
+                                android:layout_marginRight="6dp"
+                                android:layout_marginLeft="6dp"
+                                android:gravity="left|center_vertical"
+                                android:background="@color/transparent"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:layout_column="2"
+
+                                />
+
+                        </TableRow>
+
+                        <!-- QT_NO -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            android:visibility="gone"
+                            >
+
+                            <TextView
+                                android:id="@+id/R01_lb_M12_QT_NO"
+                                android:text="QT_NO"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:gravity="right|center_vertical"
+                                android:layout_marginLeft="6dp"
+                                android:layout_marginRight="6dp"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R01_ed_M12_QT_NO"
+                                android:text="1234567890"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="2"
+                                android:layout_marginRight="6dp"
+                                android:layout_marginLeft="6dp"
+                                android:gravity="left|center_vertical"
+                                android:background="@color/transparent"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:layout_column="2"
+
+                                />
+
+                        </TableRow>
+
+                        <!-- QT_SEQ -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            android:visibility="gone"
+                            >
+                            <!--android:visibility="gone"-->
+
+                            <TextView
+                                android:id="@+id/R01_lb_M12_QT_SEQ"
+                                android:text="Item#"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:gravity="right|center_vertical"
+                                android:layout_marginLeft="6dp"
+                                android:layout_marginRight="6dp"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R01_ed_M12_QT_SEQ"
+                                android:text="0001"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="2"
+                                android:layout_marginRight="6dp"
+                                android:layout_marginLeft="6dp"
+                                android:gravity="left|center_vertical"
+                                android:background="@color/transparent"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:layout_column="2"
+
+                                />
+
+                        </TableRow>
+
+                        <!-- 1.1.Class / 1.2.Part No / 1.3.Qty / 1.4.Unit Price -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            >
+                            <!-- 流水號 -->
+                            <EditText
+                                android:id="@+id/R01_ed_M12_SEQ"
+                                android:text="1"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                android:visibility="gone"
+                                />
+
+                            <EditText
+                                android:id="@+id/R01_ed_M12_DETAIL_CLASS"
+                                android:text="Class"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@drawable/edit_border"
+                                />
+                            <!--android:background="@color/transparent"-->
+
+                            <EditText
+                                android:id="@+id/R01_ed_M12_DETAIL_PARTNO"
+                                android:text="Part No"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@drawable/button_border"
+                                />
+
+                            <EditText
+                                android:id="@+id/R01_ed_M12_DETAIL_QTY"
+                                android:text="Qty"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@drawable/button_border"
+                                />
+
+                            <EditText
+                                android:id="@+id/R01_ed_M12_DETAIL_UT_PRICE"
+                                android:text="Unit Price"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@drawable/button_border"
+                                />
+                            <!--android:textSize="18sp"-->
+                            <!--android:layout_height="wrap_content"-->
+
+                        </TableRow>
+
+                        <!-- M12 下 -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            >
+
+                            <EditText
+                                android:id="@+id/R01_ed_M12_DETAIL_NAME"
+                                android:text="Detail Name"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="3"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@drawable/button_border"
+                                />
+
+                            <EditText
+                                android:id="@+id/R01_ed_M12_DETAIL_PRICE"
+                                android:text="Detail Price"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@drawable/button_border"
+                                />
+
+                        </TableRow>
+
+                    </TableLayout>
+
+
+                </RelativeLayout>
+
+            </TableRow>
+
+            <!-- 第 2 筆 -->
+            <TableRow
+                android:id="@+id/R02_M12_tr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:layout_marginBottom="1dp"
+                >
+
+                <!-- 按鈕區 -->
+                <LinearLayout
+                    android:id="@+id/R02_M12_L_lnl"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="84dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+
+                    >
+
+                    <Button
+                        android:id="@+id/R02_M12_btnEdit"
+                        android:text="b1"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black" />
+
+                    <Button
+                        android:id="@+id/R02_M12_btnDelete"
+                        android:text="b2"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/delete"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black"
+                        />
+                    <Button
+                        android:id="@+id/R02_M12_btnSave"
+                        android:text="b3"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/save"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black"
+                        android:visibility="gone"
+                        />
+
+                    <Button
+                        android:id="@+id/R02_M12_btnCancel"
+                        android:text="b4"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/cancel"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black"
+                        android:visibility="gone"
+                        />
+
+                </LinearLayout>
+
+                <!-- 3.2. qttab2 --> <!--<RelativeLayout-->
+                <RelativeLayout
+                    android:id="@+id/R02_M12_R_rel"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="84dp"
+                    android:layout_weight="9"
+                    android:layout_toRightOf="@+id/R02_M12_L_lnl"
+                    >
+                    <!--android:background="#CEDEC1"-->
+                    <!--android:background="@drawable/actionbar_bg"-->
+                    <!--android:background="#D3D3D3"-->
+
+                    <!-- 3.1.tabbar1 -->
+                    <TableLayout
+                        android:id="@+id/R02_M12_R_rel_tbl"
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@color/white"
+                        >
+                        <!--android:layout_marginTop="2dp"-->
+                        <!--android:layout_marginBottom="2dp"-->
+                        <!--android:layout_marginLeft="2dp"-->
+                        <!--android:layout_marginRight="2dp"-->
+
+                        <!-- M12 上 -->
+                        <!-- QT_TYPE -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            android:visibility="gone"
+                            >
+
+                            <TextView
+                                android:id="@+id/R02_lb_M12_QT_TYPE"
+                                android:text="QT_TYPE"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:gravity="right|center_vertical"
+                                android:layout_marginLeft="6dp"
+                                android:layout_marginRight="6dp"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R02_ed_M12_QT_TYPE"
+                                android:text="QT"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="2"
+                                android:layout_marginRight="6dp"
+                                android:layout_marginLeft="6dp"
+                                android:gravity="left|center_vertical"
+                                android:background="@color/transparent"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:layout_column="2"
+
+                                />
+
+                        </TableRow>
+
+                        <!-- QT_NO -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            android:visibility="gone"
+                            >
+
+                            <TextView
+                                android:id="@+id/R02_lb_M12_QT_NO"
+                                android:text="QT_NO"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:gravity="right|center_vertical"
+                                android:layout_marginLeft="6dp"
+                                android:layout_marginRight="6dp"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R02_ed_M12_QT_NO"
+                                android:text="1234567890"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="2"
+                                android:layout_marginRight="6dp"
+                                android:layout_marginLeft="6dp"
+                                android:gravity="left|center_vertical"
+                                android:background="@color/transparent"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:layout_column="2"
+
+                                />
+
+                        </TableRow>
+
+                        <!-- QT_SEQ -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            android:visibility="gone"
+                            >
+
+                            <TextView
+                                android:id="@+id/R02_lb_M12_QT_SEQ"
+                                android:text="Item#"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:gravity="right|center_vertical"
+                                android:layout_marginLeft="6dp"
+                                android:layout_marginRight="6dp"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R02_ed_M12_QT_SEQ"
+                                android:text="0001"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="2"
+                                android:layout_marginRight="6dp"
+                                android:layout_marginLeft="6dp"
+                                android:gravity="left|center_vertical"
+                                android:background="@color/transparent"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:layout_column="2"
+
+                                />
+
+                        </TableRow>
+
+                        <!-- 1.1.Class / 1.2.Part No / 1.3.Qty / 1.4.Unit Price -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            >
+                            <!-- 流水號 -->
+                            <EditText
+                                android:id="@+id/R02_ed_M12_SEQ"
+                                android:text="2"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                android:visibility="gone"
+                                />
+
+                            <EditText
+                                android:id="@+id/R02_ed_M12_DETAIL_CLASS"
+                                android:text="Class"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R02_ed_M12_DETAIL_PARTNO"
+                                android:text="Part No"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R02_ed_M12_DETAIL_QTY"
+                                android:text="Qty"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R02_ed_M12_DETAIL_UT_PRICE"
+                                android:text="Unit Price"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+                            <!--android:textSize="18sp"-->
+                            <!--android:layout_height="wrap_content"-->
+
+                        </TableRow>
+
+                        <!-- M12 下 -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            >
+
+                            <EditText
+                                android:id="@+id/R02_ed_M12_DETAIL_NAME"
+                                android:text="Detail Name"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="3"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R02_ed_M12_DETAIL_PRICE"
+                                android:text="Detail Price"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+
+                        </TableRow>
+
+                    </TableLayout>
+
+
+                </RelativeLayout>
+
+            </TableRow>
+
+            <!-- 第 3 筆 -->
+            <TableRow
+                android:id="@+id/R03_M12_tr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:layout_marginBottom="1dp"
+                >
+
+                <!-- 按鈕區 -->
+                <LinearLayout
+                    android:id="@+id/R03_M12_L_lnl"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="84dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+
+                    >
+
+                    <Button
+                        android:id="@+id/R03_M12_btnEdit"
+                        android:text="b1"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black" />
+
+                    <Button
+                        android:id="@+id/R03_M12_btnDelete"
+                        android:text="b2"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/delete"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black"
+                        />
+                    <Button
+                        android:id="@+id/R03_M12_btnSave"
+                        android:text="b3"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/save"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black"
+                        android:visibility="gone"
+                        />
+
+                    <Button
+                        android:id="@+id/R03_M12_btnCancel"
+                        android:text="b4"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/cancel"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black"
+                        android:visibility="gone"
+                        />
+
+                </LinearLayout>
+
+                <!-- 3.2. qttab2 --> <!--<RelativeLayout-->
+                <RelativeLayout
+                    android:id="@+id/R03_M12_R_rel"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="84dp"
+                    android:layout_weight="9"
+                    android:layout_toRightOf="@+id/R03_M12_L_lnl"
+                    >
+                    <!--android:background="#CEDEC1"-->
+                    <!--android:background="@drawable/actionbar_bg"-->
+                    <!--android:background="#D3D3D3"-->
+
+                    <!-- 3.1.tabbar1 -->
+                    <TableLayout
+                        android:id="@+id/R03_M12_R_rel_tbl"
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@color/white"
+                        >
+                        <!--android:layout_marginTop="2dp"-->
+                        <!--android:layout_marginBottom="2dp"-->
+                        <!--android:layout_marginLeft="2dp"-->
+                        <!--android:layout_marginRight="2dp"-->
+
+                        <!-- M12 上 -->
+                        <!-- QT_TYPE -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            android:visibility="gone"
+                            >
+
+                            <TextView
+                                android:id="@+id/R03_lb_M12_QT_TYPE"
+                                android:text="QT_TYPE"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:gravity="right|center_vertical"
+                                android:layout_marginLeft="6dp"
+                                android:layout_marginRight="6dp"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R03_ed_M12_QT_TYPE"
+                                android:text="QT"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="2"
+                                android:layout_marginRight="6dp"
+                                android:layout_marginLeft="6dp"
+                                android:gravity="left|center_vertical"
+                                android:background="@color/transparent"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:layout_column="2"
+
+                                />
+
+                        </TableRow>
+
+                        <!-- QT_NO -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            android:visibility="gone"
+                            >
+
+                            <TextView
+                                android:id="@+id/R03_lb_M12_QT_NO"
+                                android:text="QT_NO"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:gravity="right|center_vertical"
+                                android:layout_marginLeft="6dp"
+                                android:layout_marginRight="6dp"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R03_ed_M12_QT_NO"
+                                android:text="1234567890"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="2"
+                                android:layout_marginRight="6dp"
+                                android:layout_marginLeft="6dp"
+                                android:gravity="left|center_vertical"
+                                android:background="@color/transparent"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:layout_column="2"
+
+                                />
+
+                        </TableRow>
+
+                        <!-- QT_SEQ -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            android:visibility="gone"
+                            >
+
+                            <TextView
+                                android:id="@+id/R03_lb_M12_QT_SEQ"
+                                android:text="Item#"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:gravity="right|center_vertical"
+                                android:layout_marginLeft="6dp"
+                                android:layout_marginRight="6dp"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R03_ed_M12_QT_SEQ"
+                                android:text="0001"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="2"
+                                android:layout_marginRight="6dp"
+                                android:layout_marginLeft="6dp"
+                                android:gravity="left|center_vertical"
+                                android:background="@color/transparent"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:layout_column="2"
+
+                                />
+
+                        </TableRow>
+
+                        <!-- 1.1.Class / 1.2.Part No / 1.3.Qty / 1.4.Unit Price -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            >
+                            <!-- 流水號 -->
+                            <EditText
+                                android:id="@+id/R03_ed_M12_SEQ"
+                                android:text="3"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                android:visibility="gone"
+                                />
+
+                            <EditText
+                                android:id="@+id/R03_ed_M12_DETAIL_CLASS"
+                                android:text="Class"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R03_ed_M12_DETAIL_PARTNO"
+                                android:text="Part No"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R03_ed_M12_DETAIL_QTY"
+                                android:text="Qty"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R03_ed_M12_DETAIL_UT_PRICE"
+                                android:text="Unit Price"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+                            <!--android:textSize="18sp"-->
+                            <!--android:layout_height="wrap_content"-->
+
+                        </TableRow>
+
+                        <!-- M12 下 -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            >
+
+                            <EditText
+                                android:id="@+id/R03_ed_M12_DETAIL_NAME"
+                                android:text="Detail Name"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="3"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R03_ed_M12_DETAIL_PRICE"
+                                android:text="Detail Price"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+
+                        </TableRow>
+
+                    </TableLayout>
+
+
+                </RelativeLayout>
+
+            </TableRow>
+
+            <!-- 第 4 筆 -->
+            <TableRow
+                android:id="@+id/R04_M12_tr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:layout_marginBottom="1dp"
+                >
+
+                <!-- 按鈕區 -->
+                <LinearLayout
+                    android:id="@+id/R04_M12_L_lnl"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="84dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+
+                    >
+
+                    <Button
+                        android:id="@+id/R04_M12_btnEdit"
+                        android:text="b1"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black" />
+
+                    <Button
+                        android:id="@+id/R04_M12_btnDelete"
+                        android:text="b2"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/delete"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black"
+                        />
+                    <Button
+                        android:id="@+id/R04_M12_btnSave"
+                        android:text="b3"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/save"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black"
+                        android:visibility="gone"
+                        />
+
+                    <Button
+                        android:id="@+id/R04_M12_btnCancel"
+                        android:text="b4"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/cancel"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black"
+                        android:visibility="gone"
+                        />
+
+                </LinearLayout>
+
+                <!-- 3.2. qttab2 --> <!--<RelativeLayout-->
+                <RelativeLayout
+                    android:id="@+id/R04_M12_R_rel"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="84dp"
+                    android:layout_weight="9"
+                    android:layout_toRightOf="@+id/R04_M12_L_lnl"
+                    >
+                    <!--android:background="#CEDEC1"-->
+                    <!--android:background="@drawable/actionbar_bg"-->
+                    <!--android:background="#D3D3D3"-->
+
+                    <!-- 3.1.tabbar1 -->
+                    <TableLayout
+                        android:id="@+id/R04_M12_R_rel_tbl"
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@color/white"
+                        >
+                        <!--android:layout_marginTop="2dp"-->
+                        <!--android:layout_marginBottom="2dp"-->
+                        <!--android:layout_marginLeft="2dp"-->
+                        <!--android:layout_marginRight="2dp"-->
+
+                        <!-- M12 上 -->
+                        <!-- QT_TYPE -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            android:visibility="gone"
+                            >
+
+                            <TextView
+                                android:id="@+id/R04_lb_M12_QT_TYPE"
+                                android:text="QT_TYPE"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:gravity="right|center_vertical"
+                                android:layout_marginLeft="6dp"
+                                android:layout_marginRight="6dp"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R04_ed_M12_QT_TYPE"
+                                android:text="QT"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="2"
+                                android:layout_marginRight="6dp"
+                                android:layout_marginLeft="6dp"
+                                android:gravity="left|center_vertical"
+                                android:background="@color/transparent"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:layout_column="2"
+
+                                />
+
+                        </TableRow>
+
+                        <!-- QT_NO -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            android:visibility="gone"
+                            >
+
+                            <TextView
+                                android:id="@+id/R04_lb_M12_QT_NO"
+                                android:text="QT_NO"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:gravity="right|center_vertical"
+                                android:layout_marginLeft="6dp"
+                                android:layout_marginRight="6dp"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R04_ed_M12_QT_NO"
+                                android:text="1234567890"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="2"
+                                android:layout_marginRight="6dp"
+                                android:layout_marginLeft="6dp"
+                                android:gravity="left|center_vertical"
+                                android:background="@color/transparent"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:layout_column="2"
+
+                                />
+
+                        </TableRow>
+
+                        <!-- QT_SEQ -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            android:visibility="gone"
+                            >
+
+                            <TextView
+                                android:id="@+id/R04_lb_M12_QT_SEQ"
+                                android:text="Item#"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:gravity="right|center_vertical"
+                                android:layout_marginLeft="6dp"
+                                android:layout_marginRight="6dp"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R04_ed_M12_QT_SEQ"
+                                android:text="0001"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="2"
+                                android:layout_marginRight="6dp"
+                                android:layout_marginLeft="6dp"
+                                android:gravity="left|center_vertical"
+                                android:background="@color/transparent"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:layout_column="2"
+
+                                />
+
+                        </TableRow>
+
+                        <!-- 1.1.Class / 1.2.Part No / 1.3.Qty / 1.4.Unit Price -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            >
+                            <!-- 流水號 -->
+                            <EditText
+                                android:id="@+id/R04_ed_M12_SEQ"
+                                android:text="4"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                android:visibility="gone"
+                                />
+
+                            <EditText
+                                android:id="@+id/R04_ed_M12_DETAIL_CLASS"
+                                android:text="Class"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R04_ed_M12_DETAIL_PARTNO"
+                                android:text="Part No"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R04_ed_M12_DETAIL_QTY"
+                                android:text="Qty"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R04_ed_M12_DETAIL_UT_PRICE"
+                                android:text="Unit Price"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+                            <!--android:textSize="18sp"-->
+                            <!--android:layout_height="wrap_content"-->
+
+                        </TableRow>
+
+                        <!-- M12 下 -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            >
+
+                            <EditText
+                                android:id="@+id/R04_ed_M12_DETAIL_NAME"
+                                android:text="Detail Name"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="3"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R04_ed_M12_DETAIL_PRICE"
+                                android:text="Detail Price"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+
+                        </TableRow>
+
+                    </TableLayout>
+
+
+                </RelativeLayout>
+
+            </TableRow>
+
+            <!-- 第 5 筆 -->
+            <TableRow
+                android:id="@+id/R05_M12_tr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:layout_marginBottom="1dp"
+                >
+
+                <!-- 按鈕區 -->
+                <LinearLayout
+                    android:id="@+id/R05_M12_L_lnl"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="84dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+
+                    >
+
+                    <Button
+                        android:id="@+id/R05_M12_btnEdit"
+                        android:text="b1"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black" />
+
+                    <Button
+                        android:id="@+id/R05_M12_btnDelete"
+                        android:text="b2"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/delete"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black"
+                        />
+                    <Button
+                        android:id="@+id/R05_M12_btnSave"
+                        android:text="b3"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/save"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black"
+                        android:visibility="gone"
+                        />
+
+                    <Button
+                        android:id="@+id/R05_M12_btnCancel"
+                        android:text="b4"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/cancel"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black"
+                        android:visibility="gone"
+                        />
+
+                </LinearLayout>
+
+                <!-- 3.2. qttab2 --> <!--<RelativeLayout-->
+                <RelativeLayout
+                    android:id="@+id/R05_M12_R_rel"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="84dp"
+                    android:layout_weight="9"
+                    android:layout_toRightOf="@+id/R05_M12_L_lnl"
+                    >
+                    <!--android:background="#CEDEC1"-->
+                    <!--android:background="@drawable/actionbar_bg"-->
+                    <!--android:background="#D3D3D3"-->
+
+                    <!-- 3.1.tabbar1 -->
+                    <TableLayout
+                        android:id="@+id/R05_M12_R_rel_tbl"
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@color/white"
+                        >
+                        <!--android:layout_marginTop="2dp"-->
+                        <!--android:layout_marginBottom="2dp"-->
+                        <!--android:layout_marginLeft="2dp"-->
+                        <!--android:layout_marginRight="2dp"-->
+
+                        <!-- M12 上 -->
+                        <!-- QT_TYPE -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            android:visibility="gone"
+                            >
+
+                            <TextView
+                                android:id="@+id/R05_lb_M12_QT_TYPE"
+                                android:text="QT_TYPE"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:gravity="right|center_vertical"
+                                android:layout_marginLeft="6dp"
+                                android:layout_marginRight="6dp"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R05_ed_M12_QT_TYPE"
+                                android:text="QT"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="2"
+                                android:layout_marginRight="6dp"
+                                android:layout_marginLeft="6dp"
+                                android:gravity="left|center_vertical"
+                                android:background="@color/transparent"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:layout_column="2"
+
+                                />
+
+                        </TableRow>
+
+                        <!-- QT_NO -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            android:visibility="gone"
+                            >
+
+                            <TextView
+                                android:id="@+id/R05_lb_M12_QT_NO"
+                                android:text="QT_NO"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:gravity="right|center_vertical"
+                                android:layout_marginLeft="6dp"
+                                android:layout_marginRight="6dp"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R05_ed_M12_QT_NO"
+                                android:text="1234567890"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="2"
+                                android:layout_marginRight="6dp"
+                                android:layout_marginLeft="6dp"
+                                android:gravity="left|center_vertical"
+                                android:background="@color/transparent"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:layout_column="2"
+
+                                />
+
+                        </TableRow>
+
+                        <!-- QT_SEQ -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            android:visibility="gone"
+                            >
+
+                            <TextView
+                                android:id="@+id/R05_lb_M12_QT_SEQ"
+                                android:text="Item#"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:gravity="right|center_vertical"
+                                android:layout_marginLeft="6dp"
+                                android:layout_marginRight="6dp"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R05_ed_M12_QT_SEQ"
+                                android:text="0001"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="2"
+                                android:layout_marginRight="6dp"
+                                android:layout_marginLeft="6dp"
+                                android:gravity="left|center_vertical"
+                                android:background="@color/transparent"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:layout_column="2"
+
+                                />
+
+                        </TableRow>
+
+                        <!-- 1.1.Class / 1.2.Part No / 1.3.Qty / 1.4.Unit Price -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            >
+                            <!-- 流水號 -->
+                            <EditText
+                                android:id="@+id/R05_ed_M12_SEQ"
+                                android:text="5"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                android:visibility="gone"
+                                />
+
+                            <EditText
+                                android:id="@+id/R05_ed_M12_DETAIL_CLASS"
+                                android:text="Class"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R05_ed_M12_DETAIL_PARTNO"
+                                android:text="Part No"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R05_ed_M12_DETAIL_QTY"
+                                android:text="Qty"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R05_ed_M12_DETAIL_UT_PRICE"
+                                android:text="Unit Price"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+                            <!--android:textSize="18sp"-->
+                            <!--android:layout_height="wrap_content"-->
+
+                        </TableRow>
+
+                        <!-- M12 下 -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            >
+
+                            <EditText
+                                android:id="@+id/R05_ed_M12_DETAIL_NAME"
+                                android:text="Detail Name"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="3"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R05_ed_M12_DETAIL_PRICE"
+                                android:text="Detail Price"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+
+                        </TableRow>
+
+                    </TableLayout>
+
+
+                </RelativeLayout>
+
+            </TableRow>
+
+            <!-- 第 6 筆 -->
+            <TableRow
+                android:id="@+id/R06_M12_tr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:layout_marginBottom="1dp"
+                >
+
+                <!-- 按鈕區 -->
+                <LinearLayout
+                    android:id="@+id/R06_M12_L_lnl"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="84dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+
+                    >
+
+                    <Button
+                        android:id="@+id/R06_M12_btnEdit"
+                        android:text="b1"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black" />
+
+                    <Button
+                        android:id="@+id/R06_M12_btnDelete"
+                        android:text="b2"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/delete"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black"
+                        />
+                    <Button
+                        android:id="@+id/R06_M12_btnSave"
+                        android:text="b3"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/save"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black"
+                        android:visibility="gone"
+                        />
+
+                    <Button
+                        android:id="@+id/R06_M12_btnCancel"
+                        android:text="b4"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/cancel"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black"
+                        android:visibility="gone"
+                        />
+
+                </LinearLayout>
+
+                <!-- 3.2. qttab2 --> <!--<RelativeLayout-->
+                <RelativeLayout
+                    android:id="@+id/R06_M12_R_rel"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="84dp"
+                    android:layout_weight="9"
+                    android:layout_toRightOf="@+id/R06_M12_L_lnl"
+                    >
+                    <!--android:background="#CEDEC1"-->
+                    <!--android:background="@drawable/actionbar_bg"-->
+                    <!--android:background="#D3D3D3"-->
+
+                    <!-- 3.1.tabbar1 -->
+                    <TableLayout
+                        android:id="@+id/R06_M12_R_rel_tbl"
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@color/white"
+                        >
+                        <!--android:layout_marginTop="2dp"-->
+                        <!--android:layout_marginBottom="2dp"-->
+                        <!--android:layout_marginLeft="2dp"-->
+                        <!--android:layout_marginRight="2dp"-->
+
+                        <!-- M12 上 -->
+                        <!-- QT_TYPE -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            android:visibility="gone"
+                            >
+
+                            <TextView
+                                android:id="@+id/R06_lb_M12_QT_TYPE"
+                                android:text="QT_TYPE"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:gravity="right|center_vertical"
+                                android:layout_marginLeft="6dp"
+                                android:layout_marginRight="6dp"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R06_ed_M12_QT_TYPE"
+                                android:text="QT"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="2"
+                                android:layout_marginRight="6dp"
+                                android:layout_marginLeft="6dp"
+                                android:gravity="left|center_vertical"
+                                android:background="@color/transparent"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:layout_column="2"
+
+                                />
+
+                        </TableRow>
+
+                        <!-- QT_NO -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            android:visibility="gone"
+                            >
+
+                            <TextView
+                                android:id="@+id/R06_lb_M12_QT_NO"
+                                android:text="QT_NO"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:gravity="right|center_vertical"
+                                android:layout_marginLeft="6dp"
+                                android:layout_marginRight="6dp"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R06_ed_M12_QT_NO"
+                                android:text="1234567890"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="2"
+                                android:layout_marginRight="6dp"
+                                android:layout_marginLeft="6dp"
+                                android:gravity="left|center_vertical"
+                                android:background="@color/transparent"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:layout_column="2"
+
+                                />
+
+                        </TableRow>
+
+                        <!-- QT_SEQ -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            android:visibility="gone"
+                            >
+
+                            <TextView
+                                android:id="@+id/R06_lb_M12_QT_SEQ"
+                                android:text="Item#"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:gravity="right|center_vertical"
+                                android:layout_marginLeft="6dp"
+                                android:layout_marginRight="6dp"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R06_ed_M12_QT_SEQ"
+                                android:text="0001"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="2"
+                                android:layout_marginRight="6dp"
+                                android:layout_marginLeft="6dp"
+                                android:gravity="left|center_vertical"
+                                android:background="@color/transparent"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:layout_column="2"
+
+                                />
+
+                        </TableRow>
+
+                        <!-- 1.1.Class / 1.2.Part No / 1.3.Qty / 1.4.Unit Price -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            >
+                            <!-- 流水號 -->
+                            <EditText
+                                android:id="@+id/R06_ed_M12_SEQ"
+                                android:text="6"
+                                android:visibility="gone"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R06_ed_M12_DETAIL_CLASS"
+                                android:text="Class"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R06_ed_M12_DETAIL_PARTNO"
+                                android:text="Part No"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R06_ed_M12_DETAIL_QTY"
+                                android:text="Qty"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R06_ed_M12_DETAIL_UT_PRICE"
+                                android:text="Unit Price"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+                            <!--android:textSize="18sp"-->
+                            <!--android:layout_height="wrap_content"-->
+
+                        </TableRow>
+
+                        <!-- M12 下 -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            >
+
+                            <EditText
+                                android:id="@+id/R06_ed_M12_DETAIL_NAME"
+                                android:text="Detail Name"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="3"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+
+                            <EditText
+                                android:id="@+id/R06_ed_M12_DETAIL_PRICE"
+                                android:text="Detail Price"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/transparent"
+                                />
+
+                        </TableRow>
+
+                    </TableLayout>
+
+
+                </RelativeLayout>
+
+            </TableRow>
+
+
+            <!-- 第 7(footer) 筆 -->
+            <TableRow
+                android:id="@+id/R99_M12_tr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:layout_marginBottom="1dp"
+                >
+
+                <!-- 按鈕區 -->
+                <LinearLayout
+                    android:id="@+id/R99_M12_L_lnl"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+
+                    >
+
+                    <Button
+                        android:id="@+id/R99_M12_btnEdit"
+                        android:text="b1"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black"
+                        android:visibility="gone"
+                        />
+
+
+
+                    <Button
+                        android:id="@+id/R99_M12_btnDelete"
+                        android:text="b2"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/delete"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black"
+                        android:visibility="gone"
+                        />
+                    <Button
+                        android:id="@+id/R99_M12_btnSave"
+                        android:text="b3"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/save"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black"
+                        android:visibility="gone"
+                        />
+
+                    <Button
+                        android:id="@+id/R99_M12_btnCancel"
+                        android:text="b4"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/cancel"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black"
+                        android:visibility="gone"
+                        />
+
+                </LinearLayout>
+
+                <!-- 3.2. qttab2 --> <!--<RelativeLayout-->
+                <RelativeLayout
+                    android:id="@+id/R99_M12_R_rel"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_weight="9"
+                    android:layout_toRightOf="@+id/R99_M12_L_lnl"
+                    >
+                    <!--android:background="#CEDEC1"-->
+                    <!--android:background="@drawable/actionbar_bg"-->
+                    <!--android:background="#D3D3D3"-->
+
+                    <!-- 3.1.tabbar1 -->
+                    <TableLayout
+                        android:id="@+id/R99_M12_R_rel_tbl"
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@color/white"
+                        >
+                        <!--android:layout_marginTop="2dp"-->
+                        <!--android:layout_marginBottom="2dp"-->
+                        <!--android:layout_marginLeft="2dp"-->
+                        <!--android:layout_marginRight="2dp"-->
+
+                        <!-- M12 上 -->
+                        <!-- QT_TYPE -->
+
+                        <!-- QT_NO -->
+
+                        <!-- QT_SEQ -->
+
+                        <!-- 1.1.Class / 1.2.Part No / 1.3.Qty / 1.4.Unit Price -->
+
+                        <!-- M12 下 -->
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            >
+
+                            <TextView
+                                android:id="@+id/R99_lb_M12_SUM"
+                                android:text="Sub Total:  "
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="right|center_vertical"
+                                android:layout_weight="3"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/blue"
+                                android:background="@color/transparent"
+                                />
+                            <!--android:layout_marginRight="12dp"-->
+
+                            <EditText
+                                android:id="@+id/R99_ed_M12_SUM"
+                                android:text="Detail Price"
+                                android:layout_width="0dp"
+                                android:layout_height="42dp"
+                                android:gravity="left|center_vertical"
+                                android:layout_weight="1"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black"
+                                android:background="@color/yellow"
+                                />
+
+                        </TableRow>
+
+                    </TableLayout>
+
+
+                </RelativeLayout>
+
+            </TableRow>
+
+
+
+        </TableLayout>
+
+        <LinearLayout
+            android:id="@+id/M12_qttab_X"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:visibility="invisible"
+            >
+        </LinearLayout>
+    <!--
+        <EditText
+            android:id="@+id/R01_ed_M12_DETAIL_CLASS_ZZ"
+            android:text="Class Test"
+            android:layout_width="192dp"
+            android:layout_height="42dp"
+            android:gravity="left|center_vertical"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:background="@color/transparent"
+            />
+        -->
+
+    </LinearLayout>
+
+
+
+    <!--android:layout_below="@+id/cust_tb1"-->
+    <!--
+    <ImageView
+        android:id="@+id/cust_detail_bottom_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/customer_detail_bottom_1"
+        />
+    -->
+    <!--android:layout_below="@+id/cust_tb1"-->
+    <!-- android:layout_below="@+id/cust_tb1" -->
+
+
+</ScrollView>

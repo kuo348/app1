@@ -1,0 +1,381 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/customer_detail_body_1"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/project_r1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/actionbar_bg" >
+<TextView
+            android:id="@+id/project_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Project Search"
+             android:layout_centerInParent="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white" />
+  <Button
+                android:id="@+id/btn_return"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:background="@color/transparent"
+                android:drawableLeft="@drawable/group_arrow_left"
+                android:gravity="left|center_vertical"
+                android:text="Sale"
+                 android:layout_marginLeft="10dp"
+                android:textColor="@color/white" />
+</RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/project_r2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        >
+     <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+     <!-- title -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp" >
+
+        <ImageView
+            android:id="@+id/project_detail_icon"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/stock_search_icon" />
+
+        <TextView
+            android:id="@+id/lb_partno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"           
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/project_detail_icon"
+            android:textColor="@color/crimson"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="料件編號"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_partno"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/lb_partno"
+            android:background="@drawable/border"
+        	android:imeOptions="actionSearch"
+		    android:inputType="text"
+		    android:singleLine="true"
+	        android:text=""
+		    android:textColor="@color/black"
+              />
+         <ImageView
+            android:id="@+id/project_icon2"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/stock_search_send2" />
+    </RelativeLayout>
+
+    <RelativeLayout
+         android:id="@+id/apqp_panel"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginTop="10dp" >
+
+         <ImageView
+             android:background="@color/white"
+             android:id="@+id/cust_detail_top_icon"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_alignParentTop="true"
+             android:adjustViewBounds="true"
+             android:scaleType="fitXY"
+             android:src="@drawable/customer_detail_top_1" />
+
+         <TableLayout
+             android:id="@+id/cust_tb1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/cust_detail_top_icon"
+             android:background="@drawable/customer_detail_body_1"
+             android:divider="@drawable/customer_detail_line_1"
+             android:showDividers="middle"
+             android:stretchColumns="1"
+             >
+             <TableRow
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:gravity="left|center_vertical"
+                 >
+                 <TextView
+                     android:id="@+id/lb_customer"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:gravity="right|center_vertical"
+                     android:layout_marginLeft="2dp"
+                     android:text="Customer "
+                     android:background="@color/transparent"
+                     android:layout_weight="1"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:textColor="@color/crimson" />
+
+                 <TextView
+                     android:id="@+id/customer"
+                     android:layout_width="0dp"
+                     android:layout_height="42dp"
+                     android:layout_marginBottom="1dp"
+                     android:layout_weight="2"
+                     android:background="@color/transparent"
+                     android:layout_marginRight="2dp"
+                     android:gravity="left|center_vertical"
+                     android:text=""
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:textColor="@color/black" />
+
+
+             </TableRow>
+             <TableRow
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:gravity="left|center_vertical"
+                 >
+                 <TextView
+                     android:id="@+id/lb_xa001_xa002"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:gravity="right|center_vertical"
+                     android:layout_marginLeft="2dp"
+                     android:text="APQP "
+                     android:background="@color/transparent"
+                     android:layout_weight="1"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:textColor="@color/crimson" />
+
+                 <TextView
+                     android:id="@+id/xa001_xa002"
+                     android:layout_width="0dp"
+                     android:layout_height="42dp"
+                     android:layout_marginBottom="1dp"
+                     android:layout_weight="2"
+                     android:background="@color/transparent"
+                     android:layout_marginRight="2dp"
+                     android:gravity="left|center_vertical"
+                     android:text=""
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:textColor="@color/black" />
+
+
+             </TableRow>
+
+             <TableRow
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:gravity="left|center_vertical" >
+
+                 <TextView
+                     android:id="@+id/lb_xa003"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="2dp"
+                     android:layout_weight="1"
+                     android:gravity="right|center_vertical"
+                     android:text="Issue Date "
+                     android:background="@color/transparent"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:textColor="@color/crimson" />
+
+                 <TextView
+                     android:id="@+id/xa003"
+                     android:layout_width="0dp"
+                     android:layout_height="42dp"
+                     android:layout_marginBottom="1dp"
+                     android:layout_weight="2"
+                     android:layout_marginRight="2dp"
+                     android:gravity="left|center_vertical"
+                     android:text=""
+                     android:background="@color/transparent"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:textColor="@color/black" />
+             </TableRow>
+             <TableRow
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:gravity="left|center_vertical" >
+
+                 <TextView
+                     android:id="@+id/lb_xa053"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_marginBottom="1dp"
+                     android:layout_marginLeft="2dp"
+                     android:layout_weight="1"
+                     android:gravity="right|center_vertical"
+                     android:text="Sale Rep "
+                     android:background="@color/transparent"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:textColor="@color/crimson" />
+
+                 <TextView
+                     android:id="@+id/xa053"
+                     android:layout_width="0dp"
+                     android:layout_height="42dp"
+                     android:layout_marginBottom="1dp"
+                     android:layout_marginRight="2dp"
+                     android:gravity="left|center_vertical"
+                     android:layout_weight="2"
+                     android:text=""
+                     android:background="@color/transparent"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:textColor="@color/black" />
+             </TableRow>
+             <TableRow
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:gravity="left|center_vertical" >
+
+                 <TextView
+                     android:id="@+id/lb_xa058"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_marginBottom="1dp"
+                     android:layout_marginLeft="2dp"
+                     android:layout_weight="1"
+                     android:gravity="right|center_vertical"
+                     android:text="Project Name "
+                     android:background="@color/transparent"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:textColor="@color/crimson" />
+
+                 <TextView
+                     android:id="@+id/xa058"
+                     android:layout_width="0dp"
+                     android:layout_height="42dp"
+                     android:layout_marginBottom="1dp"
+                     android:layout_marginRight="2dp"
+                     android:gravity="left|center_vertical"
+                     android:layout_weight="2"
+                     android:text=""
+                     android:background="@color/transparent"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:textColor="@color/black" />
+             </TableRow>
+             <TableRow
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:gravity="left|center_vertical" >
+
+                 <TextView
+                     android:id="@+id/lb_xa593"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_marginBottom="1dp"
+                     android:layout_marginLeft="2dp"
+                     android:layout_weight="1"
+                     android:gravity="right|center_vertical"
+                     android:text="APQP Type "
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:textColor="@color/crimson" />
+                 <TextView
+                     android:id="@+id/xa593"
+                     android:layout_width="0dp"
+                     android:layout_height="42dp"
+                     android:layout_marginBottom="1dp"
+                     android:layout_marginRight="2dp"
+                     android:gravity="left|center_vertical"
+                     android:layout_weight="2"
+                     android:text=""
+                     android:background="@color/transparent"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:textColor="@color/black" />
+
+             </TableRow>
+         </TableLayout>
+
+         <ImageView
+             android:id="@+id/cust_detail_bottom_icon"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/cust_tb1"
+             android:scaleType="fitXY"
+             android:src="@drawable/customer_detail_bottom_1" />
+     </RelativeLayout>
+         <TableLayout
+             android:id="@+id/qt"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_below="@+id/tab1_r5"
+             android:layout_marginBottom="10dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginTop="10dp"
+             android:stretchColumns="*" >
+
+             <TableRow
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:background="@color/white" >
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginBottom="1dp"
+                     android:layout_marginLeft="1dp"
+                     android:layout_weight="1"
+                     android:background="@color/red"
+                     android:gravity="center"
+                     android:text="QT_TYPE"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:textColor="@color/white"
+                     android:textStyle="bold" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginBottom="1dp"
+                     android:layout_marginLeft="1dp"
+                     android:layout_weight="1"
+                     android:background="@color/red"
+                     android:gravity="center"
+                     android:text="QT_NO"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:textColor="@color/white"
+                     android:textStyle="bold" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginBottom="1dp"
+                     android:layout_marginLeft="1dp"
+                     android:layout_weight="1"
+                     android:background="@color/red"
+                     android:gravity="center"
+                     android:text="UPD_DT"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:textColor="@color/white"
+                     android:textStyle="bold" />
+             </TableRow>
+         </TableLayout>
+
+     </LinearLayout>
+     </RelativeLayout>
+    
+</LinearLayout>

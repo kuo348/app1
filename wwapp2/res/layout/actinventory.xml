@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    tools:context="${packageName}.${activityClass}" >
+ <TableLayout
+            android:id="@+id/T1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"           
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:stretchColumns="*" >
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white" >
+    <RelativeLayout
+        android:id="@+id/bomlayout"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        >
+
+        <ImageView
+            android:id="@+id/imgBom"
+            android:layout_width="fill_parent"
+            android:layout_height="72dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"            
+            android:src="@drawable/inventory_icon" />
+
+        <TextView
+            android:id="@+id/bom_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:text="BOM"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+   <RelativeLayout
+        android:id="@+id/goodslayout"
+        android:layout_width="96dp"
+        android:layout_height="96dp" 
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" 
+        android:layout_weight="1"     
+         >
+
+        <TextView
+            android:id="@+id/goods_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:text="Goods Pic"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black" />
+        <ImageView
+       android:id="@+id/imgGoods"
+       android:layout_width="fill_parent"
+       android:layout_height="72dp"
+        android:layout_alignParentLeft="true"
+       android:layout_alignParentTop="true"   
+       android:src="@drawable/goods_icon" />
+    </RelativeLayout>
+
+    </TableRow>
+     <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white" >
+    <RelativeLayout
+        android:id="@+id/stocklayout"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+          android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        >
+
+          <ImageView
+            android:id="@+id/imgStock2"
+            android:layout_width="fill_parent"
+            android:layout_height="72dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"            
+            android:src="@drawable/inventory_pin" />
+
+        <TextView
+            android:id="@+id/stock_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:text="Stock"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+   <RelativeLayout      
+        android:layout_width="96dp"
+        android:layout_height="96dp"  
+        android:layout_weight="1"     
+         >       
+    </RelativeLayout>
+
+    </TableRow>
+</TableLayout>
+</RelativeLayout>

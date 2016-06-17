@@ -1,0 +1,1570 @@
+[
+    {
+        "outputFile": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\values-it\\values-it.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 108,
+                    "endOffset": 209
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 108,
+                        "endOffset": 159
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 214,
+                    "endColumn": 99,
+                    "endOffset": 309
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 164,
+                        "endColumn": 99,
+                        "endOffset": 259
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 314,
+                    "endColumn": 108,
+                    "endOffset": 418
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 264,
+                        "endColumn": 108,
+                        "endOffset": 368
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 423,
+                    "endColumn": 83,
+                    "endOffset": 502
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 373,
+                        "endColumn": 83,
+                        "endOffset": 452
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 507,
+                    "endColumn": 108,
+                    "endOffset": 611
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 457,
+                        "endColumn": 108,
+                        "endOffset": 561
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 616,
+                    "endColumn": 124,
+                    "endOffset": 736
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 566,
+                        "endColumn": 124,
+                        "endOffset": 686
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 741,
+                    "endColumn": 105,
+                    "endOffset": 842
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 691,
+                        "endColumn": 105,
+                        "endOffset": 792
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 847,
+                    "endColumn": 107,
+                    "endOffset": 950
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 797,
+                        "endColumn": 107,
+                        "endOffset": 900
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 955,
+                    "endColumn": 97,
+                    "endOffset": 1048
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 905,
+                        "endColumn": 97,
+                        "endOffset": 998
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1053,
+                    "endColumn": 103,
+                    "endOffset": 1152
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1003,
+                        "endColumn": 103,
+                        "endOffset": 1102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1157,
+                    "endColumn": 104,
+                    "endOffset": 1257
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1107,
+                        "endColumn": 104,
+                        "endOffset": 1207
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1262,
+                    "endColumn": 106,
+                    "endOffset": 1364
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1212,
+                        "endColumn": 106,
+                        "endOffset": 1314
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1369,
+                    "endColumn": 121,
+                    "endOffset": 1486
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1319,
+                        "endColumn": 121,
+                        "endOffset": 1436
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1491,
+                    "endColumn": 174,
+                    "endOffset": 1661
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 174,
+                        "endOffset": 275
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1666,
+                    "endColumn": 152,
+                    "endOffset": 1814
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 280,
+                        "endColumn": 152,
+                        "endOffset": 428
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1819,
+                    "endColumn": 112,
+                    "endOffset": 1927
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 433,
+                        "endColumn": 112,
+                        "endOffset": 541
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1932,
+                    "endColumn": 127,
+                    "endOffset": 2055
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 546,
+                        "endColumn": 127,
+                        "endOffset": 669
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 2060,
+                    "endColumn": 155,
+                    "endOffset": 2211
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 674,
+                        "endColumn": 155,
+                        "endOffset": 825
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 2216,
+                    "endColumn": 125,
+                    "endOffset": 2337
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 830,
+                        "endColumn": 125,
+                        "endOffset": 951
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2342,
+                    "endColumn": 168,
+                    "endOffset": 2506
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 956,
+                        "endColumn": 168,
+                        "endOffset": 1120
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2511,
+                    "endColumn": 130,
+                    "endOffset": 2637
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1125,
+                        "endColumn": 130,
+                        "endOffset": 1251
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2642,
+                    "endColumn": 185,
+                    "endOffset": 2823
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1256,
+                        "endColumn": 185,
+                        "endOffset": 1437
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2828,
+                    "endColumn": 184,
+                    "endOffset": 3008
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1442,
+                        "endColumn": 184,
+                        "endOffset": 1622
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 3013,
+                    "endColumn": 127,
+                    "endOffset": 3136
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1627,
+                        "endColumn": 127,
+                        "endOffset": 1750
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 3141,
+                    "endColumn": 188,
+                    "endOffset": 3325
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1755,
+                        "endColumn": 188,
+                        "endOffset": 1939
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 3330,
+                    "endColumn": 126,
+                    "endOffset": 3452
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1944,
+                        "endColumn": 126,
+                        "endOffset": 2066
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 3457,
+                    "endColumn": 172,
+                    "endOffset": 3625
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 2071,
+                        "endColumn": 172,
+                        "endOffset": 2239
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 3630,
+                    "endColumn": 178,
+                    "endOffset": 3804
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2244,
+                        "endColumn": 178,
+                        "endOffset": 2418
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 3809,
+                    "endColumn": 120,
+                    "endOffset": 3925
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 2423,
+                        "endColumn": 120,
+                        "endOffset": 2539
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 3930,
+                    "endColumn": 191,
+                    "endOffset": 4117
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 2544,
+                        "endColumn": 191,
+                        "endOffset": 2731
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 4122,
+                    "endColumn": 185,
+                    "endOffset": 4303
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 2736,
+                        "endColumn": 185,
+                        "endOffset": 2917
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 4308,
+                    "endColumn": 133,
+                    "endOffset": 4437
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2922,
+                        "endColumn": 133,
+                        "endOffset": 3051
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 4442,
+                    "endColumn": 146,
+                    "endOffset": 4584
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 3056,
+                        "endColumn": 146,
+                        "endOffset": 3198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 4589,
+                    "endColumn": 270,
+                    "endOffset": 4855
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 3203,
+                        "endColumn": 270,
+                        "endOffset": 3469
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 4860,
+                    "endColumn": 124,
+                    "endOffset": 4980
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 3474,
+                        "endColumn": 124,
+                        "endOffset": 3594
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 4985,
+                    "endColumn": 108,
+                    "endOffset": 5089
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 3599,
+                        "endColumn": 108,
+                        "endOffset": 3703
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 5094,
+                    "endColumn": 156,
+                    "endOffset": 5246
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 3708,
+                        "endColumn": 156,
+                        "endOffset": 3860
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 5251,
+                    "endColumn": 128,
+                    "endOffset": 5375
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 3865,
+                        "endColumn": 128,
+                        "endOffset": 3989
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 5380,
+                    "endColumn": 95,
+                    "endOffset": 5471
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 3994,
+                        "endColumn": 95,
+                        "endOffset": 4085
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 5476,
+                    "endColumn": 90,
+                    "endOffset": 5562
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 4090,
+                        "endColumn": 90,
+                        "endOffset": 4176
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 5567,
+                    "endColumn": 106,
+                    "endOffset": 5669
+                },
+                "from": {
+                    "file": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 4181,
+                        "endColumn": 106,
+                        "endOffset": 4283
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\values-it\\values-it.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 108,
+                    "endOffset": 209
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 108,
+                        "endOffset": 159
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 214,
+                    "endColumn": 99,
+                    "endOffset": 309
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 164,
+                        "endColumn": 99,
+                        "endOffset": 259
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 314,
+                    "endColumn": 108,
+                    "endOffset": 418
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 264,
+                        "endColumn": 108,
+                        "endOffset": 368
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 423,
+                    "endColumn": 83,
+                    "endOffset": 502
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 373,
+                        "endColumn": 83,
+                        "endOffset": 452
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 507,
+                    "endColumn": 108,
+                    "endOffset": 611
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 457,
+                        "endColumn": 108,
+                        "endOffset": 561
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 616,
+                    "endColumn": 124,
+                    "endOffset": 736
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 566,
+                        "endColumn": 124,
+                        "endOffset": 686
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 741,
+                    "endColumn": 105,
+                    "endOffset": 842
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 691,
+                        "endColumn": 105,
+                        "endOffset": 792
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 847,
+                    "endColumn": 107,
+                    "endOffset": 950
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 797,
+                        "endColumn": 107,
+                        "endOffset": 900
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 955,
+                    "endColumn": 97,
+                    "endOffset": 1048
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 905,
+                        "endColumn": 97,
+                        "endOffset": 998
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1053,
+                    "endColumn": 103,
+                    "endOffset": 1152
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1003,
+                        "endColumn": 103,
+                        "endOffset": 1102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1157,
+                    "endColumn": 104,
+                    "endOffset": 1257
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1107,
+                        "endColumn": 104,
+                        "endOffset": 1207
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1262,
+                    "endColumn": 106,
+                    "endOffset": 1364
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1212,
+                        "endColumn": 106,
+                        "endOffset": 1314
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1369,
+                    "endColumn": 121,
+                    "endOffset": 1486
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1319,
+                        "endColumn": 121,
+                        "endOffset": 1436
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1491,
+                    "endColumn": 174,
+                    "endOffset": 1661
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 174,
+                        "endOffset": 275
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1666,
+                    "endColumn": 152,
+                    "endOffset": 1814
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 280,
+                        "endColumn": 152,
+                        "endOffset": 428
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1819,
+                    "endColumn": 112,
+                    "endOffset": 1927
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 433,
+                        "endColumn": 112,
+                        "endOffset": 541
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1932,
+                    "endColumn": 127,
+                    "endOffset": 2055
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 546,
+                        "endColumn": 127,
+                        "endOffset": 669
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 2060,
+                    "endColumn": 155,
+                    "endOffset": 2211
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 674,
+                        "endColumn": 155,
+                        "endOffset": 825
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 2216,
+                    "endColumn": 125,
+                    "endOffset": 2337
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 830,
+                        "endColumn": 125,
+                        "endOffset": 951
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2342,
+                    "endColumn": 168,
+                    "endOffset": 2506
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 956,
+                        "endColumn": 168,
+                        "endOffset": 1120
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2511,
+                    "endColumn": 130,
+                    "endOffset": 2637
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1125,
+                        "endColumn": 130,
+                        "endOffset": 1251
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2642,
+                    "endColumn": 185,
+                    "endOffset": 2823
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1256,
+                        "endColumn": 185,
+                        "endOffset": 1437
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2828,
+                    "endColumn": 184,
+                    "endOffset": 3008
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1442,
+                        "endColumn": 184,
+                        "endOffset": 1622
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 3013,
+                    "endColumn": 127,
+                    "endOffset": 3136
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1627,
+                        "endColumn": 127,
+                        "endOffset": 1750
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 3141,
+                    "endColumn": 188,
+                    "endOffset": 3325
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1755,
+                        "endColumn": 188,
+                        "endOffset": 1939
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 3330,
+                    "endColumn": 126,
+                    "endOffset": 3452
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1944,
+                        "endColumn": 126,
+                        "endOffset": 2066
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 3457,
+                    "endColumn": 172,
+                    "endOffset": 3625
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 2071,
+                        "endColumn": 172,
+                        "endOffset": 2239
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 3630,
+                    "endColumn": 178,
+                    "endOffset": 3804
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2244,
+                        "endColumn": 178,
+                        "endOffset": 2418
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 3809,
+                    "endColumn": 120,
+                    "endOffset": 3925
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 2423,
+                        "endColumn": 120,
+                        "endOffset": 2539
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 3930,
+                    "endColumn": 191,
+                    "endOffset": 4117
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 2544,
+                        "endColumn": 191,
+                        "endOffset": 2731
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 4122,
+                    "endColumn": 185,
+                    "endOffset": 4303
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 2736,
+                        "endColumn": 185,
+                        "endOffset": 2917
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 4308,
+                    "endColumn": 133,
+                    "endOffset": 4437
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2922,
+                        "endColumn": 133,
+                        "endOffset": 3051
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 4442,
+                    "endColumn": 146,
+                    "endOffset": 4584
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 3056,
+                        "endColumn": 146,
+                        "endOffset": 3198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 4589,
+                    "endColumn": 270,
+                    "endOffset": 4855
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 3203,
+                        "endColumn": 270,
+                        "endOffset": 3469
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 4860,
+                    "endColumn": 124,
+                    "endOffset": 4980
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 3474,
+                        "endColumn": 124,
+                        "endOffset": 3594
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 4985,
+                    "endColumn": 108,
+                    "endOffset": 5089
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 3599,
+                        "endColumn": 108,
+                        "endOffset": 3703
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 5094,
+                    "endColumn": 156,
+                    "endOffset": 5246
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 3708,
+                        "endColumn": 156,
+                        "endOffset": 3860
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 5251,
+                    "endColumn": 128,
+                    "endOffset": 5375
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 3865,
+                        "endColumn": 128,
+                        "endOffset": 3989
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 5380,
+                    "endColumn": 95,
+                    "endOffset": 5471
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 3994,
+                        "endColumn": 95,
+                        "endOffset": 4085
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 5476,
+                    "endColumn": 90,
+                    "endOffset": 5562
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 4090,
+                        "endColumn": 90,
+                        "endOffset": 4176
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 5567,
+                    "endColumn": 106,
+                    "endOffset": 5669
+                },
+                "from": {
+                    "file": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 4181,
+                        "endColumn": 106,
+                        "endOffset": 4283
+                    }
+                }
+            }
+        ]
+    }
+]

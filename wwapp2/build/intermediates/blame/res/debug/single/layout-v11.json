@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\layout-v11\\abc_simple_decor.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\layout-v11\\abc_simple_decor.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\layout-v11\\abc_action_bar_decor.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\layout-v11\\abc_action_bar_decor.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\layout-v11\\abc_action_bar_decor.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\layout-v11\\abc_action_bar_decor.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\layout-v11\\abc_simple_decor.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\layout-v11\\abc_simple_decor.xml"
+    }
+]

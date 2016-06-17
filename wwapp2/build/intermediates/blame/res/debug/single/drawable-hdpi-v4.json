@@ -1,0 +1,2114 @@
+[
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fae.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\fae.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sales_menu_bg2.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\sales_menu_bg2.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_holo_dark.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_holo_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sale_customer.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\sale_customer.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\apqp_status_quotation_1.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\apqp_status_quotation_1.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_ic_googleplayservices.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_unselected_pressed_holo.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_tab_unselected_pressed_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_icon_disabled_focus_light.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_icon_disabled_focus_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_holo_dark.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_holo_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\apqp_type_2.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\apqp_type_2.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stock_up_arraw.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\stock_up_arraw.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_detail_icon_1.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_detail_icon_1.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\apqp_type_2.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\apqp_type_2.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_holo_light.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_message_bg.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\home_message_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_preshipping_tab_icon.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\wip_preshipping_tab_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stock_up_arraw.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\stock_up_arraw.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_search_api_disabled_holo_light.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_clear_search_api_disabled_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_list_tel_1.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_list_tel_1.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sidemenu_inventory.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\sidemenu_inventory.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\my_c.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\my_c.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\album_edit_2.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\album_edit_2.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_detail_top_1.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_detail_top_1.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_selected_focused_holo.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_tab_selected_focused_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mm_listitem_pressed.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\mm_listitem_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stock_purchase_tab_selected.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\stock_purchase_tab_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_vpc_tab_icon.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\wip_vpc_tab_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_text_pressed_light.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_text_pressed_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_holo_dark.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_textfield_search_default_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_detail_map3.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_detail_map3.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\edit.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\edit.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_bar_bg.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\search_bar_bg.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_stacked_transparent_dark_holo.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ab_stacked_transparent_dark_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_list_icon_6.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_list_icon_6.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_message_normal.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\home_message_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sidemenu_calendar.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\sidemenu_calendar.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fae_r.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\fae_r.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_open.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\icon_open.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_unselected_pressed_holo.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_tab_unselected_pressed_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sidemenu_signout.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\sidemenu_signout.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_drawer_bg.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\ic_drawer_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_whats_hot.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\ic_whats_hot.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_on_going_tab_icon.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\wip_on_going_tab_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\camera_2.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\camera_2.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\delete.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\delete.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\project_search.jpg",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\project_search.jpg"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_ab_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_spinner_ab_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\z_arrow_down.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\z_arrow_down.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_ab_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_spinner_ab_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\message_record.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\message_record.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_go_search_api_holo_light.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_go_search_api_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\navbar_item_camera_1.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\navbar_item_camera_1.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_detail_arraw_2.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_detail_arraw_2.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\apqp_status_order2.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\apqp_status_order2.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_search.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\ic_action_search.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sales_menu_bg.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\sales_menu_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_holo_dark.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_list_divider_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sale_apqp.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\sale_apqp.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_icon_normal_dark.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_icon_normal_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sidemenu_crm.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\sidemenu_crm.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_level_c_6.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_level_c_6.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_search_api_disabled_holo_light.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_clear_search_api_disabled_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_message_bg.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\home_message_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_voice_search.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_voice_search.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\message_email.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\message_email.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_bottom_holo_dark.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_cab_background_bottom_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mm_listitem_pressed.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\mm_listitem_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\group_arrow_right.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\group_arrow_right.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_transparent_dark_holo.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ab_transparent_dark_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sidemenu_setting.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\sidemenu_setting.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_normal_holo_dark.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_normal_holo_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_bar_edit_normal.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\search_bar_edit_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_selected_holo_dark.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_textfield_search_selected_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_ic_googleplayservices.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_down_icon_4.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\search_down_icon_4.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_disabled.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_clear_disabled.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_text_normal_dark.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_text_normal_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\separator.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\separator.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\focus.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\focus.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\actionbar_bg.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\actionbar_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_holo_light.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_logo.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\home_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_preshipping_tab_icon_selected.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\wip_preshipping_tab_icon_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_stacked_transparent_dark_holo.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ab_stacked_transparent_dark_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_text_normal_light.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_text_normal_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_detail_bottom_1.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_detail_bottom_1.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_right_selected_holo_dark.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_textfield_search_right_selected_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\message_record.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\message_record.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_holo_light.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_selected_holo.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_tab_selected_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_right_default_holo_dark.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_textfield_search_right_default_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_text_pressed_dark.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_text_pressed_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customerlist_icon_3.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customerlist_icon_3.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_announce.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\home_announce.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\message_urgent.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\message_urgent.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cancel.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\cancel.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sidemenu_home.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\sidemenu_home.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stock_purchase_tab.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\stock_purchase_tab.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_up_icon_4.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\search_up_icon_4.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_icon_disabled_light.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_icon_disabled_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stock_search_send3.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\stock_search_send3.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_text_normal_dark.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_text_normal_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_holo_light.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ab_share_pack_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_selected_pressed_holo.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_tab_selected_pressed_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_right_default_holo_light.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_textfield_search_right_default_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_holo_dark.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_cab_background_top_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shutter.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\shutter.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\menu.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\menu.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_detail_icon_1.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_detail_icon_1.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_voice_search_api_holo_light.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_voice_search_api_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_list_icon_1.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_list_icon_1.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_detail_arraw_2.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_detail_arraw_2.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_go_search_api_holo_light.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_go_search_api_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_icon_disabled_light.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_icon_disabled_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_bar_icon_normal.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\search_bar_icon_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_message_notification.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\home_message_notification.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stock_down_arraw.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\stock_down_arraw.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_icon_disabled_focus_dark.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_icon_disabled_focus_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\goods_icon.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\goods_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_dropdown_panel_holo_light.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_menu_dropdown_panel_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_normal.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_clear_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\my_b.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\my_b.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_detail_line_1.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_detail_line_1.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\save.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\save.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_tag_25.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\icon_tag_25.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\apqp_status_order_1.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\apqp_status_order_1.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\powered_by_google_light.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\powered_by_google_light.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_search.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_share_holo_dark.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_menu_share_holo_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_share_holo_dark.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_menu_share_holo_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\apqp_search_advance.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\apqp_search_advance.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\message_notification.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\message_notification.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_stacked_transparent_light_holo.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ab_stacked_transparent_light_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_ab_disabled_holo_light.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_spinner_ab_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\album_edit_3.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\album_edit_3.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_text_pressed_light.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_text_pressed_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stock_purchase_tab.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\stock_purchase_tab.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_bottom_holo_dark.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_cab_background_bottom_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search_api_holo_light.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_search_api_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_photos.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\ic_photos.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_detail_body_1.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_detail_body_1.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_favorite.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\home_favorite.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_selected_holo_light.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_textfield_search_selected_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sidemenu_setting.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\sidemenu_setting.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_dropdown_panel_holo_dark.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_menu_dropdown_panel_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stock_search_send2.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\stock_search_send2.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_level_b_6.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_level_b_6.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_full_open_on_phone.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_bottom_transparent_dark_holo.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ab_bottom_transparent_dark_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\drawer_shadow.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\drawer_shadow.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\message_normal.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\message_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\apqp_type_6.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\apqp_type_6.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\my_a.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\my_a.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stock_search_send3.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\stock_search_send3.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dropdown_icon.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\dropdown_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_holo_light.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\apqp_status_wait.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\apqp_status_wait.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_detail_top_1.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_detail_top_1.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_shiped_tab_icon_selected.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\wip_shiped_tab_icon_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fae_complete.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\fae_complete.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stock_book_tab_selected.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\stock_book_tab_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_message_record.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\home_message_record.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_level_a_6.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_level_a_6.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_normal.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_clear_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stock_requisition_booking_tab_selected.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\stock_requisition_booking_tab_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fae_question.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\fae_question.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_detail_map2.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_detail_map2.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_icon_pressed_light.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_icon_pressed_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_communities.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\ic_communities.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_cab_done_holo_light.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_cab_done_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_list_icon_6.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_list_icon_6.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_search.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_shipped_tab_icon_selected.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\wip_shipped_tab_icon_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\apqp_type_1.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\apqp_type_1.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_preshipping_tab_icon.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\wip_preshipping_tab_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\winway_logo.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\winway_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\inventory_pin.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\inventory_pin.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_standard_off_client.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\winway_logo.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\winway_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\my_a.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\my_a.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_bar_bg.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\search_bar_bg.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sidemenu_sale.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\sidemenu_sale.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stock_requisition_tab.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\stock_requisition_tab.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_ab_focused_holo_light.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_spinner_ab_focused_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\apqp_status_wait.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\apqp_status_wait.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_selected_pressed_holo.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_tab_selected_pressed_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\z_arrow_up.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\z_arrow_up.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customerlist_icon_3.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customerlist_icon_3.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_holo_light.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ab_share_pack_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_detail_bottom_1.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_detail_bottom_1.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_detail_map2.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_detail_map2.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\separator.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\separator.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\apqp_search_advancex2.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\apqp_search_advancex2.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_new.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\ic_action_new.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sale_customer.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\sale_customer.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_small_off_client.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_message_email.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\home_message_email.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_holo_dark.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ab_share_pack_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_detail_item_2.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_detail_item_2.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_message_urgent.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\home_message_urgent.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_stacked_solid_dark_holo.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ab_stacked_solid_dark_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_normal_holo_dark.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_normal_holo_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_ab_pressed_holo_light.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_spinner_ab_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_text_disabled_focus_dark.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_text_disabled_focus_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\apqp_complete.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\apqp_complete.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\navbar_item_camera_1.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\navbar_item_camera_1.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_full_open_on_phone.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_right_default_holo_dark.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_textfield_search_right_default_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_tall_off_client.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\ic_plusone_tall_off_client.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\message_normal.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\message_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sidemenu_about.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\sidemenu_about.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_transparent_light_holo.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ab_transparent_light_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stock_search_send2.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\stock_search_send2.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_transparent_light_holo.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ab_transparent_light_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_message.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\home_message.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_cab_done_holo_light.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_cab_done_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stock_requisition_tab_selected.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\stock_requisition_tab_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\subwindow_icon.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\subwindow_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\setting_icon_24x24.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\setting_icon_24x24.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\index_wip.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\index_wip.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\camera_1.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\camera_1.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_stacked_solid_dark_holo.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ab_stacked_solid_dark_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_text_disabled_light.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_text_disabled_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\group_arrow_right.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\group_arrow_right.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\inventory_pin.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\inventory_pin.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_selected_holo_light.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_textfield_search_selected_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_cab_done_holo_dark.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_cab_done_holo_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cancel.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\cancel.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_text_disabled_focus_dark.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_text_disabled_focus_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\apqp_type_5.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\apqp_type_5.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_medium_off_client.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_list_email_1.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_list_email_1.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sale_qt.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\sale_qt.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_on_going_tab_icon.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\wip_on_going_tab_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_home.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\ic_home.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_down_icon_3.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\search_down_icon_3.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_icon_focus_light.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_icon_focus_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_search_api_holo_light.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_clear_search_api_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_tag_24.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\icon_tag_24.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_drawer2.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\ic_drawer2.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\my_c.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\my_c.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_tag_43.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\icon_tag_43.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_text_disabled_focus_light.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_text_disabled_focus_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\camera_3.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\camera_3.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\my_all.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\my_all.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\apqp_type_3.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\apqp_type_3.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\apqp_status_quotation_1.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\apqp_status_quotation_1.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_drawer2.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\ic_drawer2.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_pages.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\ic_pages.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\apqp_complete.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\apqp_complete.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_message_hover.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\home_message_hover.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shutter.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\shutter.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_right_selected_holo_light.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_textfield_search_right_selected_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_disabled.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_clear_disabled.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stock_search_icon.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\stock_search_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stock_requisition_tab.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\stock_requisition_tab.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sidemenu_customer.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\sidemenu_customer.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_share_holo_light.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_menu_share_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_stacked_transparent_light_holo.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ab_stacked_transparent_light_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\save.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\save.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_holo_dark.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ab_share_pack_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sidemenu_about.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\sidemenu_about.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_drawer_bg.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\ic_drawer_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_icon_disabled_focus_dark.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_icon_disabled_focus_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_bar_edit_normal.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\search_bar_edit_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sales_menu_bg.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\sales_menu_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_list_tel_1.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_list_tel_1.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mm_listitem_simple.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\mm_listitem_simple.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_right_selected_holo_light.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_textfield_search_right_selected_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\expand_layer_icon.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\expand_layer_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_tag_24.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\icon_tag_24.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\navbar_item_trashcan_1.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\navbar_item_trashcan_1.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_ab_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_spinner_ab_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_tag_22.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\icon_tag_22.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\apqp_status_order_1.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\apqp_status_order_1.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_voice_search.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_voice_search.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_album_edit.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\btn_album_edit.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sales_menu_bg2.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\sales_menu_bg2.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\message_urgent.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\message_urgent.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\album_edit_3.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\album_edit_3.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_holo_light.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_list_divider_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\album_edit_5.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\album_edit_5.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_solid_light_holo.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ab_solid_light_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\subwindow_icon.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\subwindow_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_down_icon_3.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\search_down_icon_3.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_bottom_solid_light_holo.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ab_bottom_solid_light_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_people.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\ic_people.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_message.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\home_message.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_text_disabled_focus_light.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_text_disabled_focus_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_icon_disabled_focus_light.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_icon_disabled_focus_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\inventory_icon.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\inventory_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_text_disabled_dark.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_text_disabled_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_detail_item_2.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_detail_item_2.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\index_wip.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\index_wip.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\my_b.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\my_b.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_down_icon_4.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\search_down_icon_4.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_tag_43.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\icon_tag_43.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fae_complete.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\fae_complete.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_tag_26.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\icon_tag_26.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sale_apqp.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\sale_apqp.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sidemenu_crm.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\sidemenu_crm.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\album_edit_4.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\album_edit_4.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_tag_27.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\icon_tag_27.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_icon_focus_light.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_icon_focus_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\setting_icon.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\setting_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_text_pressed_dark.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_text_pressed_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\group_arrow_left.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\group_arrow_left.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_share_holo_light.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_menu_share_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_message_urgent.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\home_message_urgent.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_icon_normal_dark.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_icon_normal_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_go.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_go.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_bottom_holo_light.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_cab_background_bottom_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\apqp_type_5.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\apqp_type_5.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_right_selected_holo_dark.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_textfield_search_right_selected_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_holo_light.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_cab_background_top_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_communities.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\ic_communities.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_right_default_holo_light.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_textfield_search_right_default_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_cab_done_holo_dark.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_cab_done_holo_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\camera_3.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\camera_3.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_holo_dark.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_textfield_search_default_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_solid_light_holo.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ab_solid_light_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sidemenu_customer.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\sidemenu_customer.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_tall_off_client.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\ic_plusone_tall_off_client.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sidemenu_calendar.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\sidemenu_calendar.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_bottom_solid_light_holo.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ab_bottom_solid_light_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_ab_focused_holo_dark.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_spinner_ab_focused_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\actionbar_bg.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\actionbar_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_go.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_go.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\apqp_type_4.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\apqp_type_4.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sidemenu_inventory.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\sidemenu_inventory.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_home.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\ic_home.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_message_hover.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\home_message_hover.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_drawer.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\ic_drawer.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_search_api_holo_light.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_clear_search_api_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_bottom_holo_light.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_cab_background_bottom_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_tag_22.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\icon_tag_22.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_icon_normal_light.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_icon_normal_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\my_all.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\my_all.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\navbar_item_trashcan_1.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\navbar_item_trashcan_1.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\album_edit_5.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\album_edit_5.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\album_edit_6.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\album_edit_6.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_voice_search_api_holo_light.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_voice_search_api_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sidemenu_help.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\sidemenu_help.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\index_order_info.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\index_order_info.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_bottom_solid_dark_holo.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ab_bottom_solid_dark_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stock_book_tab.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\stock_book_tab.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_holo_light.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_textfield_search_default_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_selected_holo.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_tab_selected_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_message_email.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\home_message_email.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_icon_pressed_dark.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_icon_pressed_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_medium_off_client.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_dropdown_panel_holo_light.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_menu_dropdown_panel_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_message_normal.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\home_message_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\group_arrow_left.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\group_arrow_left.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_ab_default_holo_light.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_spinner_ab_default_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\apqp_draft.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\apqp_draft.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_level_b_6.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_level_b_6.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_list_icon_1.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_list_icon_1.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_text_focus_light.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_text_focus_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_shiped_tab_icon_selected.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\wip_shiped_tab_icon_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_ab_pressed_holo_light.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_spinner_ab_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_holo_dark.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_message_notification.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\home_message_notification.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_people.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\ic_people.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_open.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\icon_open.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\apqp_type_7.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\apqp_type_7.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_stacked_solid_light_holo.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ab_stacked_solid_light_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_drawer.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\ic_drawer.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\navbar_item_upload_1.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\navbar_item_upload_1.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_close.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\icon_close.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dropdown_icon.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\dropdown_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stock_down_arraw.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\stock_down_arraw.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\apqp_type_1.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\apqp_type_1.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stock_purchase_tab_selected.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\stock_purchase_tab_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_announce.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\home_announce.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_ab_back_holo_light.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_ab_back_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_holo_dark.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\z_arrow_up.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\z_arrow_up.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\delete.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\delete.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_icon_focus_dark.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_icon_focus_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_up_icon_3.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\search_up_icon_3.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_announce_hover.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\home_announce_hover.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_holo_light.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_list_divider_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\camera_1.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\camera_1.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_holo_dark.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_cab_background_top_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sidemenu_signout.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\sidemenu_signout.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mm_listitem_normal.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\mm_listitem_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\message_email.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\message_email.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\powered_by_google_light.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\powered_by_google_light.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_icon_disabled_dark.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_icon_disabled_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_icon_normal_light.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_icon_normal_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_vpc_tab_icon.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\wip_vpc_tab_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\camera_2.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\camera_2.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\arraw_right.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\arraw_right.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_icon_disabled_dark.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_icon_disabled_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\apqp_search_advancex2.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\apqp_search_advancex2.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stock_requisition_booking_tab.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\stock_requisition_booking_tab.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_text_normal_light.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_text_normal_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_pages.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\ic_pages.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\album_edit_6.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\album_edit_6.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_close.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\icon_close.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_ab_back_holo_dark.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_ab_back_holo_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fae_question.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\fae_question.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_bottom_transparent_dark_holo.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ab_bottom_transparent_dark_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_on_going_tab_icon_selected.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\wip_on_going_tab_icon_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_icon_pressed_light.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_icon_pressed_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_bar_icon_normal.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\search_bar_icon_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stock_book_tab_selected.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\stock_book_tab_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fae.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\fae.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fae_r.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\fae_r.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_whats_hot.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\ic_whats_hot.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\z_arrow_down.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\z_arrow_down.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_normal_holo_light.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_normal_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_album_edit.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\btn_album_edit.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\album_edit_4.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\album_edit_4.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_ab_default_holo_dark.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_spinner_ab_default_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_icon_focus_dark.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_icon_focus_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_favorite.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\home_favorite.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_selected_focused_holo.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_tab_selected_focused_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_list_icon_3.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_list_icon_3.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_up_icon_4.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\search_up_icon_4.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_small_off_client.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_vpc_tab_icon_selected.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\wip_vpc_tab_icon_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_photos.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\ic_photos.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search_api_holo_light.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_search_api_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_new.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\ic_action_new.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_bottom_transparent_light_holo.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ab_bottom_transparent_light_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\inventory_icon.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\inventory_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\album_edit_2.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\album_edit_2.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_search.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\ic_action_search.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\goods_icon.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\goods_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_transparent_dark_holo.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ab_transparent_dark_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\arraw_right.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\arraw_right.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_detail_line_1.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_detail_line_1.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_bottom_transparent_light_holo.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ab_bottom_transparent_light_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\apqp_status_order2.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\apqp_status_order2.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_on_going_tab_icon_selected.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\wip_on_going_tab_icon_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_text_disabled_dark.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_text_disabled_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_bottom_solid_dark_holo.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ab_bottom_solid_dark_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mm_listitem_simple.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\mm_listitem_simple.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_text_focus_dark.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_text_focus_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_text_disabled_light.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_text_disabled_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_shipped_tab_icon.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\wip_shipped_tab_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_ab_default_holo_dark.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_spinner_ab_default_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\focus.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\focus.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_shipped_tab_icon.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\wip_shipped_tab_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\edit.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\edit.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_list_email_1.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_list_email_1.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_normal_holo_light.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_normal_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\setting_icon_24x24.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\setting_icon_24x24.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_holo_dark.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_list_divider_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stock_requisition_booking_tab.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\stock_requisition_booking_tab.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\menu.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\menu.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sidemenu_home.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\sidemenu_home.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\powered_by_google_dark.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\powered_by_google_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_icon_pressed_dark.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_icon_pressed_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stock_search_icon.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\stock_search_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_ab_back_holo_dark.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_ab_back_holo_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_level_a_6.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_level_a_6.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_detail_body_1.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_detail_body_1.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\powered_by_google_dark.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\powered_by_google_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_holo_light.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_cab_background_top_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_solid_dark_holo.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ab_solid_dark_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_dropdown_panel_holo_dark.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_menu_dropdown_panel_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_ab_focused_holo_light.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_spinner_ab_focused_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_ab_disabled_holo_light.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_spinner_ab_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\apqp_type_3.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\apqp_type_3.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\apqp_type_7.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\apqp_type_7.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_announce_hover.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\home_announce_hover.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_holo_light.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_textfield_search_default_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\apqp_type_6.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\apqp_type_6.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_detail_map3.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_detail_map3.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\apqp_type_4.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\apqp_type_4.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\index_order_info.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\index_order_info.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_ab_default_holo_light.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_spinner_ab_default_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\expand_layer_icon.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\expand_layer_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_text_focus_dark.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_text_focus_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_signin_btn_text_focus_light.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_signin_btn_text_focus_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_level_c_6.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_level_c_6.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stock_requisition_booking_tab_selected.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\stock_requisition_booking_tab_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_vpc_tab_icon_selected.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\wip_vpc_tab_icon_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_favorite_hover.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\home_favorite_hover.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\project_search.jpg",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\project_search.jpg"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stock_requisition_tab_selected.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\stock_requisition_tab_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_tag_25.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\icon_tag_25.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stock_book_tab.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\stock_book_tab.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_solid_dark_holo.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ab_solid_dark_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\setting_icon.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\setting_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sidemenu_help.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\sidemenu_help.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_shipped_tab_icon_selected.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\wip_shipped_tab_icon_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_selected_holo_dark.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_textfield_search_selected_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\navbar_item_upload_1.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\navbar_item_upload_1.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_favorite_hover.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\home_favorite_hover.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\drawer_shadow.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\drawer_shadow.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\apqp_search_advance.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\apqp_search_advance.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mm_listitem_normal.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\mm_listitem_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_standard_off_client.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_tag_27.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\icon_tag_27.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\apqp_draft.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\apqp_draft.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sale_qt.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\sale_qt.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\message_notification.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\message_notification.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_origin_index.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\search_origin_index.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_preshipping_tab_icon_selected.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\wip_preshipping_tab_icon_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_up_icon_3.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\search_up_icon_3.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_ab_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_spinner_ab_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sidemenu_sale.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\sidemenu_sale.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_stacked_solid_light_holo.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ab_stacked_solid_light_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_ab_back_holo_light.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_ic_ab_back_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_logo.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\home_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_origin_index.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\search_origin_index.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\customer_list_icon_3.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\customer_list_icon_3.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_tag_26.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\icon_tag_26.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_message_record.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable-hdpi\\home_message_record.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_ab_focused_holo_dark.9.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable-hdpi-v4\\abc_spinner_ab_focused_holo_dark.9.png"
+    }
+]

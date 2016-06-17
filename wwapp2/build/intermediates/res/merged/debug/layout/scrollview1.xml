@@ -1,0 +1,1209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tab1_r1"
+            android:layout_alignLeft="@+id/tab1_r1"
+            android:layout_alignRight="@+id/tab1_r1"
+            android:layout_alignTop="@+id/tab1_r1"
+            android:background="@drawable/yellow_bg" />
+
+        <RelativeLayout
+            android:id="@+id/tab1_r1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp" >
+
+            <TextView
+                android:id="@+id/vwCreator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/vwxa003"
+                android:layout_alignRight="@+id/vwxa003"
+                android:layout_below="@+id/vwxa003"
+                android:layout_marginTop="15dp"
+                android:gravity="right"
+                android:text="Creator"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/vwxa066"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/vwxa003"
+                android:layout_alignRight="@+id/vwxa003"
+                android:layout_below="@+id/vwCreator"
+                android:layout_marginTop="15dp"
+                android:gravity="right"
+                android:text="Confirm Date"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/vwxa067"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/vwxa003"
+                android:layout_alignRight="@+id/vwxa003"
+                android:layout_below="@+id/vwxa066"
+                android:layout_marginTop="15dp"
+                android:gravity="right"
+                android:text="Confirm By"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/vwxa560"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/vwxa003"
+                android:layout_alignRight="@+id/vwxa003"
+                android:layout_below="@+id/vwxa067"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="15dp"
+                android:gravity="right"
+                android:text="Purpose"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/vwxa517"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/vwxa003"
+                android:layout_alignRight="@+id/vwxa003"
+                android:layout_below="@+id/vwxa560"
+                android:layout_marginTop="15dp"
+                android:gravity="right"
+                android:text="CS"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/vwxa003"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:gravity="right"
+                android:text="Issue Date"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa003"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/vwxa003"
+                android:background="@color/white"
+                android:clickable="true"
+                android:drawableRight="@drawable/dropdown_icon"
+                android:editable="false"
+                android:focusableInTouchMode="true"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/CREATOR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/xa003"
+                android:layout_below="@+id/xa003"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/lightgray"
+                android:editable="false"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa066"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/vwxa066"
+                android:layout_alignLeft="@+id/CREATOR"
+                android:layout_below="@+id/CREATOR"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/lightgray"
+                android:editable="false"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa067"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/vwxa067"
+                android:layout_alignLeft="@+id/xa066"
+                android:layout_below="@+id/xa066"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/lightgray"
+                android:editable="false"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa517"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/vwxa517"
+                android:layout_alignLeft="@+id/xa560"
+                android:layout_below="@+id/xa560"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/white"
+                android:clickable="true"
+                android:drawableRight="@drawable/subwindow_icon"
+                android:editable="false"
+                android:focusableInTouchMode="true"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa560"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/vwxa560"
+                android:layout_alignLeft="@+id/xa067"
+                android:layout_below="@+id/xa067"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/white"
+                android:editable="false"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:layout_below="@+id/vwxa517" />
+        </RelativeLayout>
+        <!-- tab1_r12 -->
+
+        <RelativeLayout
+            android:id="@+id/tab1_r2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tab1_r1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/border" >
+
+            <CheckBox
+                android:id="@+id/cbxa59H"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cbxa595"
+                android:checked="false"
+                android:text="ENG provide the  struct by"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black" />
+
+            <CheckBox
+                android:id="@+id/cbxa59G"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:text="Generate quote within 24 hr"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black" />
+
+            <CheckBox
+                android:id="@+id/cbxa595"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/cbxa59G"
+                android:layout_alignBottom="@+id/cbxa59G"
+                android:checked="false"
+                android:text="RFQ"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa59I"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/cbxa59H"
+                android:layout_marginLeft="29dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/lightgray"
+                android:clickable="true"
+                android:drawableRight="@drawable/dropdown_icon"
+                android:enabled="false"
+                android:focusableInTouchMode="true"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_below="@+id/xa59I" />
+        </RelativeLayout>
+        <!-- tab1_r13 -->
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tab1_r3"
+            android:layout_alignLeft="@+id/tab1_r3"
+            android:layout_alignRight="@+id/tab1_r3"
+            android:layout_alignTop="@+id/tab1_r3"
+            android:background="@drawable/yellow_bg" />
+
+        <RelativeLayout
+            android:id="@+id/tab1_r3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tab1_r2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp" >
+
+            <TextView
+                android:id="@+id/vwCustNo"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:gravity="right"
+                android:text="CustNo"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa004"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/vwCustNo"
+                android:background="@color/white"
+                android:drawableRight="@drawable/subwindow_icon"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/vwPid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/vwCustNo"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/xa004"
+                android:gravity="left"
+                android:text="Pid"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa594"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/vwPid"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/vwName"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/vwCustNo"
+                android:layout_below="@+id/vwCustNo"
+                android:layout_marginTop="15dp"
+                android:gravity="right"
+                android:text="Name"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa004text"
+                android:layout_width="180dp"
+                android:layout_height="25dp"
+                android:layout_alignLeft="@+id/xa004"
+                android:layout_below="@+id/xa004"
+                android:layout_marginTop="10dp"
+                android:background="@color/lightgray"
+                android:editable="false"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/vwContactName"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/vwName"
+                android:layout_below="@+id/vwName"
+                android:layout_marginTop="15dp"
+                android:gravity="right"
+                android:text="Contact Name"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa005"
+                android:layout_width="180dp"
+                android:layout_height="25dp"
+                android:layout_alignBaseline="@+id/vwContactName"
+                android:layout_alignLeft="@+id/xa004text"
+                android:layout_below="@+id/xa004text"
+                android:background="@color/white"
+                android:drawableRight="@drawable/subwindow_icon"
+                android:editable="false"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/vwPhone"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/vwName"
+                android:layout_below="@+id/vwContactName"
+                android:layout_marginTop="15dp"
+                android:gravity="right"
+                android:text="Phone Number"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa502"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:layout_alignLeft="@+id/xa005"
+                android:layout_below="@+id/vwContactName"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa006"
+                android:layout_width="120dp"
+                android:layout_height="25dp"
+                android:layout_alignBaseline="@+id/vwPhone"
+                android:layout_alignBottom="@+id/vwPhone"
+                android:layout_alignRight="@+id/xa005"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:editable="false"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/vwExt"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/vwPhone"
+                android:layout_below="@+id/vwPhone"
+                android:layout_marginTop="15dp"
+                android:gravity="right"
+                android:text=" / Ext"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa007"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:layout_alignLeft="@+id/xa502"
+                android:layout_below="@+id/xa502"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/vwMobile"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/vwName"
+                android:layout_below="@+id/vwExt"
+                android:layout_marginTop="15dp"
+                android:gravity="right"
+                android:text="Mobile Number"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa008"
+                android:layout_width="180dp"
+                android:layout_height="25dp"
+                android:layout_alignBaseline="@+id/vwMobile"
+                android:layout_alignLeft="@+id/xa004text"
+                android:layout_below="@+id/xa007"
+                android:background="@color/white"
+                android:editable="false"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/vwFax"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/vwName"
+                android:layout_below="@+id/vwMobile"
+                android:layout_marginTop="15dp"
+                android:gravity="right"
+                android:text="Fax Number"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa503"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:layout_alignLeft="@+id/xa008"
+                android:layout_below="@+id/vwMobile"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa009"
+                android:layout_width="120dp"
+                android:layout_height="25dp"
+                android:layout_alignBottom="@+id/xa503"
+                android:layout_alignLeft="@+id/xa006"
+                android:background="@color/white"
+                android:editable="false"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/vwEmail"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/vwFax"
+                android:layout_below="@+id/vwFax"
+                android:layout_marginTop="15dp"
+                android:gravity="right"
+                android:text="Email"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa010"
+                android:layout_width="180dp"
+                android:layout_height="25dp"
+                android:layout_alignLeft="@+id/xa004text"
+                android:layout_below="@+id/xa009"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:editable="false"
+                android:imeOptions="actionDone"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/vwAddress"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/vwEmail"
+                android:layout_below="@+id/vwEmail"
+                android:layout_marginTop="15dp"
+                android:gravity="right"
+                android:text="Address"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa012"
+                android:layout_width="180dp"
+                android:layout_height="25dp"
+                android:layout_alignLeft="@+id/xa004text"
+                android:layout_below="@+id/xa010"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:drawableRight="@drawable/subwindow_icon"
+                android:editable="false"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:layout_below="@+id/xa012" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tab1_r4"
+            android:layout_alignLeft="@+id/tab1_r4"
+            android:layout_alignRight="@+id/tab1_r4"
+            android:layout_alignTop="@+id/tab1_r4"
+            android:background="@drawable/yellow_bg" />
+
+        <RelativeLayout
+            android:id="@+id/tab1_r4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tab1_r3"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp" >
+
+            <TextView
+                android:id="@+id/vwFAE"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:gravity="right"
+                android:text="FAE"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa00K"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/vwFAE"
+                android:layout_alignBottom="@+id/vwFAE"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/vwFAE"
+                android:background="@color/white"
+                android:clickable="true"
+                android:drawableRight="@drawable/dropdown_icon"
+                android:editable="false"
+                android:focusableInTouchMode="true"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa00L"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/xa00K"
+                android:layout_below="@+id/xa00K"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                android:clickable="true"
+                android:drawableRight="@drawable/dropdown_icon"
+                android:editable="false"
+                android:focusableInTouchMode="true"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/vwEndCustomer"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/xa551"
+                android:layout_alignBottom="@+id/xa551"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/xa00L"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:gravity="right"
+                android:text="End Customer"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa551"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/xa00L"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/vwEndCustomer"
+                android:background="@color/lightgray"
+                android:drawableRight="@drawable/subwindow_icon"
+                android:editable="false"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa057"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/xa551"
+                android:layout_below="@+id/xa551"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:editable="false"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/vwEndCustomer2"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/xa00U"
+                android:layout_alignBottom="@+id/xa00U"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/xa057"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:gravity="right"
+                android:text="End Customer2"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa00U"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/xa057"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/vwEndCustomer2"
+                android:background="@color/lightgray"
+                android:drawableRight="@drawable/subwindow_icon"
+                android:editable="false"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa00Utext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/xa00U"
+                android:layout_below="@+id/xa00U"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:editable="false"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa553"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/xa00Utext"
+                android:layout_below="@+id/xa00Utext"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/lightgray"
+                android:drawableRight="@drawable/subwindow_icon"
+                android:editable="false"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa058"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/xa553"
+                android:layout_below="@+id/xa553"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:editable="false"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/vwProjectName"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/xa058"
+                android:layout_alignBottom="@+id/xa058"
+                android:layout_alignRight="@+id/vwEndCustomer"
+                android:gravity="right"
+                android:text="Project(Device) Name"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/vwEndCustRegion"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/vwEndCustomer"
+                android:layout_below="@+id/xa00Utext"
+                android:layout_marginTop="15dp"
+                android:layout_toLeftOf="@+id/xa553"
+                android:gravity="right"
+                android:text="End Customer Region"
+                android:textColor="@color/black" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:layout_below="@+id/xa058" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tab1_r6"
+            android:layout_alignLeft="@+id/tab1_r6"
+            android:layout_alignRight="@+id/tab1_r6"
+            android:layout_alignTop="@+id/tab1_r6"
+            android:background="@drawable/yellow_bg" />
+
+        <RelativeLayout
+            android:id="@+id/tab1_r6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tab1_r4"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp" >
+
+            <TextView
+                android:id="@+id/vwOSAT"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:gravity="right"
+                android:text="Major OSAT"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa59U"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@+id/vwOSAT"
+                android:background="@color/lightgray"
+                android:drawableRight="@drawable/subwindow_icon"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa00R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/xa59U"
+                android:layout_below="@+id/xa59U"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/lightgray"
+                android:drawableRight="@drawable/subwindow_icon"
+                android:editable="false"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa00S"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/xa00R"
+                android:layout_below="@+id/xa00R"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/lightgray"
+                android:drawableRight="@drawable/subwindow_icon"
+                android:editable="false"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:layout_below="@+id/xa00S" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/vwNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tab1_r6"
+            android:layout_marginTop="10dp"
+            android:text="WinWay Internal Use only"
+            android:textColor="@color/black" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tab1_r5"
+            android:layout_alignLeft="@+id/tab1_r5"
+            android:layout_alignRight="@+id/tab1_r5"
+            android:layout_alignTop="@+id/tab1_r5"
+            android:background="@drawable/yellow_bg" />
+
+        <RelativeLayout
+            android:id="@+id/tab1_r5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vwNote"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp" >
+
+            <TextView
+                android:id="@+id/vwSaleRep"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:gravity="right"
+                android:text="Sale Rep"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/vwPurOrder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/vwSaleRep"
+                android:layout_alignRight="@+id/vwSaleRep"
+                android:layout_below="@+id/vwSaleRep"
+                android:layout_marginTop="15dp"
+                android:gravity="right"
+                android:text="Purchase Order"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/vwDateReceive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/vwPurOrder"
+                android:layout_alignRight="@+id/vwPurOrder"
+                android:layout_below="@+id/vwPurOrder"
+                android:layout_marginTop="15dp"
+                android:gravity="right"
+                android:text="Date Receive"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa053"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@+id/vwSaleRep"
+                android:background="@color/lightgray"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa054"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/xa053"
+                android:layout_below="@+id/xa053"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/lightgray"
+                android:editable="false"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/xa055"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/xa054"
+                android:layout_below="@+id/xa054"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/lightgray"
+                android:editable="false"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:layout_below="@+id/xa055" />
+        </RelativeLayout>
+
+        <TableLayout
+            android:id="@+id/qt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tab1_r5"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/red"
+                    android:gravity="center"
+                    android:text="QT_TYPE"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/red"
+                    android:gravity="center"
+                    android:text="QT_NO"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/red"
+                    android:gravity="center"
+                    android:text="UPD_DT"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/po"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/qt"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/red"
+                    android:gravity="center"
+                    android:text="PO_NO"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/red"
+                    android:gravity="center"
+                    android:text="PO# Date"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/red"
+                    android:gravity="center"
+                    android:text="SO_NO"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/so"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/po"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:divider="@color/white"
+            android:showDividers="middle"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:id="@+id/col"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/red"
+                    android:gravity="center"
+                    android:text="SO_NO"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/red"
+                    android:gravity="center"
+                    android:text="UPD_DT"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_below="@+id/so" />
+    </RelativeLayout>
+
+</ScrollView>

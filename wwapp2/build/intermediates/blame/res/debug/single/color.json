@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\color\\wallet_primary_text_holo_light.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\color\\wallet_primary_text_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text_holo.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\color\\abc_search_url_text_holo.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\color\\common_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\color\\common_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\color\\wallet_secondary_text_holo_dark.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\color\\wallet_secondary_text_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\color\\common_signin_btn_text_light.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\color\\common_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text_holo.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\color\\abc_search_url_text_holo.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\color\\common_signin_btn_text_light.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\color\\common_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\color\\wallet_primary_text_holo_light.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\color\\wallet_primary_text_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\color\\common_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\color\\common_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\color\\wallet_secondary_text_holo_dark.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\color\\wallet_secondary_text_holo_dark.xml"
+    }
+]

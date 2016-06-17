@@ -1,0 +1,191 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    tools:context="${packageName}.${activityClass}" >
+ <TableLayout
+            android:id="@+id/T1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"           
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:stretchColumns="*" >
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white" >
+    <RelativeLayout
+        android:id="@+id/apqplayout"
+        android:layout_width="96dp"
+        android:layout_height="96dp"       
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+         >
+        <ImageView
+            android:id="@+id/imgInventory"
+            android:layout_width="fill_parent"
+            android:layout_height="72dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:onClick="onApqpClick"
+            android:src="@drawable/sale_apqp" />
+
+        <TextView
+            android:id="@+id/apqp_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:text="APQP"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+   <RelativeLayout
+        android:id="@+id/qtlayout"
+        android:layout_width="96dp"
+        android:layout_height="96dp"       
+         android:layout_weight="1"
+           android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+         >
+        <ImageView
+            android:id="@+id/imgQT"
+            android:layout_width="fill_parent"
+            android:layout_height="72dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:onClick="onQtClick"
+            android:src="@drawable/sale_qt" />
+
+        <TextView
+            android:id="@+id/qt_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:text="QT"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+  </TableRow>
+    <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white" >
+  <RelativeLayout
+        android:id="@+id/custlayout"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+         android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+       >
+    <ImageView
+            android:id="@+id/imgCust"
+            android:layout_width="fill_parent"
+            android:layout_height="72dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:onClick="onCustClick"
+            android:src="@drawable/sale_customer" />
+         <TextView
+            android:id="@+id/cust_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:text="Customer"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+ <RelativeLayout
+        android:id="@+id/orderlayout"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+         android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        >
+    <ImageView
+            android:id="@+id/imgOrder"
+            android:layout_width="fill_parent"
+            android:layout_height="72dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:onClick="onOrderClick"
+            android:src="@drawable/index_order_info" />
+         <TextView
+            android:id="@+id/order_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:text="Order"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+     </TableRow>
+      <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white" >
+     <RelativeLayout
+        android:id="@+id/stocklayout"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+         android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+      >
+    <ImageView
+            android:id="@+id/imgStock"
+            android:layout_width="fill_parent"
+            android:layout_height="72dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:onClick="onStockClick"
+            android:src="@drawable/inventory_pin" />
+         <TextView
+            android:id="@+id/stock_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:text="Stock"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/projectlayout"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+         android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+      >
+    <ImageView
+            android:id="@+id/imgProject"
+            android:layout_width="fill_parent"
+            android:layout_height="72dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:onClick="onProjectClick"
+            android:src="@drawable/search_origin_index" />
+         <TextView
+            android:id="@+id/project_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:text="Project Search"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+    </TableRow>
+   </TableLayout>
+    
+</RelativeLayout>

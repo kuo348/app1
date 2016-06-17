@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:gravity="top"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"           
+            android:background="#FF0000"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.63"
+        android:background="@color/black"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/loginBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="48dp"
+            android:layout_marginLeft="10dp"
+            android:clickable="true"
+            android:onClick="Forget"
+            android:text="@string/forgotpassword"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/usrAccountTxt"
+            android:layout_width="300dp"
+            android:layout_height="40dp"           
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="76dp"
+            android:ems="10"
+            android:hint="@string/user_hint"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/darkgray"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_alignRight="@+id/usrPassTxt"
+            android:layout_below="@+id/usrPassTxt"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/mybutton"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:typeface="serif" />
+                
+        <EditText
+            android:id="@+id/usrPassTxt"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/usrAccountTxt"
+            android:layout_below="@+id/usrAccountTxt"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:hint="@string/password_hint"
+            android:inputType="textPassword"
+            android:textColorHint="@color/darkgray"
+            android:typeface="serif" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignLeft="@+id/loginBtn"
+            android:layout_below="@+id/loginBtn"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="44dp"
+            android:layout_toLeftOf="@+id/textView2"
+            android:src="@drawable/lforgot" 
+            android:contentDescription="forgot password"/>
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"         
+            android:background="#FF0000"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+</LinearLayout>
+<!--<?xml version="1.0" encoding="utf-8"?><RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/black"
+        android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+-->

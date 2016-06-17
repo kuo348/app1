@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+	<RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/tab3_r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/border" >
+
+                    <TextView
+                        android:id="@+id/vwxa037"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Handler manufacturer" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/xa037"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/vwxa037"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/border"
+                        android:drawableRight="@drawable/dropdown_icon"
+                        android:text="" >
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/vwxa038"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/xa037"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Handler model" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/xa038"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/vwxa038"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/border"
+                        android:drawableRight="@drawable/dropdown_icon"
+                        android:text="" >
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/vwxa039"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/xa038"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Tester manufacturer" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/xa039"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/vwxa039"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/border"
+                        android:drawableRight="@drawable/dropdown_icon"
+                        android:text="" >
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/vwxa040"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/xa039"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Handler model" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/xa040"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/vwxa040"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/border"
+                        android:drawableRight="@drawable/dropdown_icon"
+                        android:text="" >
+                    </EditText>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@+id/xa040" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/tab3_r2"
+                    android:layout_alignLeft="@+id/tab3_r2"
+                    android:layout_alignRight="@+id/tab3_r2"
+                    android:layout_alignTop="@+id/tab3_r2"
+                    android:background="@drawable/yellow_bg" />
+
+                <RelativeLayout
+                    android:id="@+id/tab3_r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tab3_r1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp" >
+
+                    <CheckBox
+                        android:id="@+id/xa073"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Single Site" />
+
+                    <CheckBox
+                        android:id="@+id/xa074"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/xa073"
+                        android:layout_toRightOf="@+id/xa073"
+                        android:text="Dual Site" />
+
+                    <CheckBox
+                        android:id="@+id/xa075"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/xa073"
+                        android:text="Quad Site" />
+
+                    <CheckBox
+                        android:id="@+id/xa076"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/xa074"
+                        android:layout_alignTop="@+id/xa075"
+                        android:layout_below="@+id/xa073"
+                        android:layout_toRightOf="@+id/xa075"
+                        android:text="Octad Site" />
+
+                    <CheckBox
+                        android:id="@+id/xa077"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/xa075"
+                        android:text="Other" />
+
+                    <EditText
+                        android:id="@+id/xa042"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/xa077"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/border"
+                        android:text="" >
+                    </EditText>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@+id/xa042" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/tab3_r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tab3_r2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/border" >
+
+                    <TextView
+                        android:id="@+id/tab3_r3_range"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Handler ttest arm contct force range" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/tab3_r3_min"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tab3_r3_range"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="min." >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/xa59B"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tab3_r3_range"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@+id/tab3_r3_min"
+                        android:background="@drawable/border" >
+
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/tab3_r3_min_unit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/tab3_r3_min"
+                        android:layout_below="@+id/tab3_r3_range"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/xa59B"
+                        android:text="(kgf)" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/tab3_r3_max"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tab3_r3_min"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="15dp"
+                        android:text="max." >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/xa59C"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/xa59B"
+                        android:layout_below="@+id/xa59B"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@+id/tab3_r3_max"
+                        android:background="@drawable/border" >
+
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/tab3_r3_max_unit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/tab3_r3_max"
+                        android:layout_below="@+id/tab3_r3_min_unit"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/xa59C"
+                        android:text="(kgf)" >
+                    </TextView>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:layout_below="@+id/xa59C" />
+                </RelativeLayout>
+                 <View
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:layout_below="@+id/tab3_r3" />
+            </RelativeLayout>
+</ScrollView>

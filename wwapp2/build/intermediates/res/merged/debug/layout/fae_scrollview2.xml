@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fae_scrollView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+         <!-- beign of fae_r2 -->
+
+            <RelativeLayout
+                android:id="@+id/fae_r2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 >
+                <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/yellow_bg"
+        android:layout_alignTop="@+id/fae_r2_1"
+        android:layout_alignBottom="@+id/fae_r2_1"
+        android:layout_alignLeft="@+id/fae_r2_1"
+        android:layout_alignRight="@+id/fae_r2_1"
+        />
+                <RelativeLayout
+                    android:id="@+id/fae_r2_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"               
+                   >
+                    <TextView
+                        android:id="@+id/vwProduct"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Product" >
+                    </TextView>
+                    <TextView
+                        android:id="@+id/vwSelect1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/vwProduct"
+                        android:layout_marginRight="10dp"
+                        android:layout_toLeftOf="@+id/button1"
+                        android:text="(請選擇)"
+                        android:textColor="@color/darkgray" >
+                    </TextView>
+                    <ImageButton
+                        android:id="@+id/button1"
+                        android:layout_width="26dp"
+                        android:layout_height="36dp"
+                        android:layout_alignBottom="@+id/vwSelect1"
+                        android:layout_alignParentTop="true" 
+                        android:layout_alignParentRight="true"                      
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="100dp"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/actionbar_bg"
+                        android:gravity="center_horizontal"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/home_announce" />
+                <RelativeLayout
+                        android:id="@+id/fae_r2_1_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+						android:layout_marginBottom="10dp"
+						android:layout_marginLeft="10dp"
+						android:layout_marginRight="10dp"
+                        android:layout_below="@+id/button1" > 
+                        <TableLayout                      
+    					android:layout_width="match_parent"
+    					android:layout_height="match_parent"
+						android:layout_marginTop="10dp"
+						android:layout_marginBottom="10dp"
+						android:layout_marginLeft="10dp"
+						android:layout_marginRight="10dp"
+   						android:stretchColumns="*"
+    					android:id="@+id/fae018" >
+                       </TableLayout>                 
+                     </RelativeLayout>  
+                      <View
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:layout_below="@+id/fae_r2_1_1"
+        />         
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/vwProductInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/fae_r2_1"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Product Info" >
+                </TextView>
+                 <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/yellow_bg"
+        android:layout_alignTop="@+id/fae_r2_2"
+        android:layout_alignBottom="@+id/fae_r2_2"
+        android:layout_alignLeft="@+id/fae_r2_2"
+        android:layout_alignRight="@+id/fae_r2_2"
+        />
+                <RelativeLayout
+                    android:id="@+id/fae_r2_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/vwProductInfo"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                     android:layout_marginBottom="10dp"
+                   >
+
+                    <TextView
+                        android:id="@+id/vwPackage"
+                         android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Package" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/vwSelect2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/vwPackage"
+                        android:layout_marginRight="10dp"
+                        android:layout_toLeftOf="@+id/button2"
+                        android:text="(請選擇)"
+                        android:textColor="@color/darkgray" >
+                    </TextView>
+
+                    <ImageButton
+                        android:id="@+id/button2"
+                        android:layout_width="26dp"
+                        android:layout_height="32dp"
+                        android:layout_alignBottom="@+id/vwSelect2"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="100dp"
+                        android:background="@drawable/actionbar_bg"
+                        android:src="@drawable/home_announce"
+                        android:gravity="center_horizontal"
+                        android:scaleType="fitCenter"
+                       />
+
+                    <RelativeLayout
+                        android:id="@+id/fae_r2_2_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/vwPackage" >
+                         <TableLayout                      
+    					android:layout_width="match_parent"
+    					android:layout_height="match_parent"
+						android:layout_marginTop="10dp"
+						android:layout_marginBottom="10dp"
+						android:layout_marginLeft="10dp"
+						android:layout_marginRight="10dp"
+   						android:stretchColumns="*"
+    					android:id="@+id/fae020" >
+                       </TableLayout>             
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/fae_r2_2_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/fae_r2_2_1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp" >
+
+                        <TextView
+                            android:id="@+id/vwDevice"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:text="Device Name" >
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/fae022"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/vwDevice"
+                            android:layout_alignParentRight="true"
+                            android:layout_toRightOf="@+id/vwDevice"
+                            android:layout_marginLeft="20dp"
+                            android:background="@color/white"
+                            android:clickable="true"
+                            android:focusableInTouchMode="true"
+                            android:imeOptions="actionDone"
+                            android:inputType="text"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textColor="@color/black" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/fae_r2_2_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/fae_r2_2_2"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp" >
+
+                        <TextView
+                            android:id="@+id/vwProduct2"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:text="Product P/N" >
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/fae023"
+                             android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/vwProduct2"
+                            android:layout_alignParentRight="true"
+                            android:layout_toRightOf="@+id/vwProduct2"
+                            android:layout_marginLeft="20dp"
+                            android:background="@color/white"
+                            android:clickable="true"
+                            android:focusableInTouchMode="true"
+                            android:imeOptions="actionDone"
+                            android:inputType="text"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textColor="@color/black" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/fae_r2_2_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/fae_r2_2_3"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp" >
+
+                        <TextView
+                            android:id="@+id/vwSN"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:text="SN" >
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/fae024"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/vwSN"
+                            android:layout_alignParentRight="true"
+                            android:layout_toRightOf="@+id/vwSN"
+                            android:layout_marginLeft="20dp"
+                            android:background="@color/white"
+                            android:clickable="true"
+                            android:focusableInTouchMode="true"
+                            android:imeOptions="actionDone"
+                            android:inputType="text"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textColor="@color/black" />
+                    </RelativeLayout>
+                     <View
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:layout_below="@+id/fae_r2_2_4"
+        />
+                </RelativeLayout>
+                 <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/yellow_bg"
+        android:layout_alignTop="@+id/fae_r2_3"
+        android:layout_alignBottom="@+id/fae_r2_3"
+        android:layout_alignLeft="@+id/fae_r2_3"
+        android:layout_alignRight="@+id/fae_r2_3"
+        />
+                <RelativeLayout
+                    android:id="@+id/fae_r2_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/fae_r2_2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"  
+                   >
+
+                    <TextView
+                        android:id="@+id/vwIssue"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Issue" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/vwSelect3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/vwIssue"
+                        android:layout_marginRight="10dp"
+                        android:layout_toLeftOf="@+id/button3"
+                        android:text="(請選擇)"
+                        android:textColor="@color/darkgray" >
+                    </TextView>
+
+                    <ImageButton
+                        android:id="@+id/button3"
+                        android:layout_width="26dp"
+                        android:layout_height="32dp"
+                        android:layout_alignBottom="@+id/vwIssue"
+                        android:layout_alignParentTop="true" 
+                        android:layout_alignParentRight="true"                      
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="100dp"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/actionbar_bg"
+                        android:gravity="center_horizontal"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/home_announce"/>
+
+                    <RelativeLayout
+                        android:id="@+id/fae_r2_3_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/button3" >
+                         <TableLayout                      
+    					android:layout_width="match_parent"
+    					android:layout_height="wrap_content"
+						android:layout_marginTop="10dp"
+						android:layout_marginBottom="10dp"
+						android:layout_marginLeft="10dp"
+						android:layout_marginRight="10dp"
+   						android:stretchColumns="*"
+    					android:id="@+id/fae025" >
+                       </TableLayout>                
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/vwIssueDetail"
+                         android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/fae_r2_3_1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Issue (Detail)" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/vwSelect4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/vwIssueDetail"
+                        android:layout_toLeftOf="@+id/button4"
+                        android:layout_below="@+id/fae_r2_3_1"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:text="(請選擇)"
+                        android:textColor="@color/darkgray" >
+                    </TextView>
+
+                    <ImageButton
+                        android:id="@+id/button4"
+                        android:layout_width="26dp"
+                        android:layout_height="32dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignBottom="@+id/vwIssueDetail"
+                        android:layout_below="@+id/fae_r2_3_1"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="100dp"
+                        android:background="@drawable/actionbar_bg"                       
+                        android:src="@drawable/home_announce"
+                        android:gravity="center_horizontal"
+                        android:scaleType="fitCenter"/>
+
+                    <RelativeLayout
+                        android:id="@+id/fae_r2_3_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/button4" >
+                          <TableLayout                      
+    					android:layout_width="match_parent"
+    					android:layout_height="wrap_content"
+						android:layout_marginTop="10dp"
+						android:layout_marginBottom="10dp"
+						android:layout_marginLeft="10dp"
+						android:layout_marginRight="10dp"
+   						android:stretchColumns="*"
+    					android:id="@+id/fae027" >
+                       </TableLayout>                
+                    </RelativeLayout>
+                    <View
+        				android:layout_width="wrap_content"
+        				android:layout_height="10dp"
+        				android:layout_below="@+id/fae_r2_3_2"/>
+                </RelativeLayout>
+                 <View android:layout_below="@+id/fae_r2_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+            </RelativeLayout>
+</RelativeLayout>
+</ScrollView>

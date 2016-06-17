@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip"
+    >
+
+    <!-- ListRow Left sied Thumbnail image -->
+
+    <LinearLayout
+        android:id="@+id/msg_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="0dip"      
+        android:padding="0dp"  >
+       
+              <ImageView
+            android:id="@+id/msg_img"
+            android:layout_width="50dip"
+            android:layout_height="50dip"           
+            android:src="@drawable/ic_launcher" />
+            
+    
+    </LinearLayout>
+    <!--
+     Rightend Arrow 
+     <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/group_arrow_right"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+    -->
+
+       <TextView
+           android:id="@+id/msg_kind_text"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignTop="@+id/msg_title"
+           android:layout_alignRight="@+id/msg_ll"
+           android:layout_marginLeft="0dp"
+           android:layout_marginTop="36dp"
+           android:gravity="center_horizontal"
+           android:text="Message"
+           android:textColor="@color/black"
+           android:textSize="10sp"
+           android:width="50dp" />
+
+      <View
+          android:id="@+id/msg_bgview"
+          android:layout_width="fill_parent"
+          android:layout_height="50dp"
+          android:layout_marginTop="0dp"
+          android:layout_marginLeft="6dp"
+          android:layout_toRightOf="@+id/msg_ll" 
+          android:background="@drawable/home_message_bg"/>
+
+     <TextView
+         android:id="@+id/msg_desc"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/msg_title"
+         android:layout_alignRight="@+id/msg_date"
+         android:layout_alignTop="@+id/msg_bgview"
+         android:layout_marginTop="28dp"
+         android:text="0000 WinWay"
+         android:singleLine="true"
+         android:textColor="@color/white"
+         android:textSize="15dip" />
+
+     <TextView
+         android:id="@+id/msg_date"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@+id/msg_title"
+         android:layout_alignRight="@+id/msg_bgview"
+         android:layout_marginRight="22dp"
+         android:gravity="right"
+         android:text="20140708"
+         android:textColor="@color/white"
+         android:textSize="10sp"
+         android:textStyle="bold" />
+
+     <TextView
+         android:id="@+id/msg_title"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/msg_bgview"
+         android:layout_alignTop="@+id/msg_bgview"
+         android:layout_marginLeft="14dp"
+         android:text="AP12345678"
+         android:textColor="@color/white"
+         android:textSize="15sp"
+         android:textStyle="bold"
+         android:typeface="sans" />
+
+</RelativeLayout>
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/imageView1"
+            android:text="CodeLearn Chapter 1"
+            android:textSize="16sp" />
+           <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff999999" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView1"
+            android:layout_alignLeft="@+id/textView1"
+            android:text="Description" />
+
+    </RelativeLayout> 
+-->

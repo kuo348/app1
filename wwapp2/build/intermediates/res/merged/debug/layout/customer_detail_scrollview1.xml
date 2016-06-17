@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/customer_detail_scrollView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <!-- title -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp" >
+
+        <ImageView
+            android:id="@+id/cust_detail_icon"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/customer_detail_icon_1" />
+
+        <TextView
+            android:id="@+id/lb_custname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/cust_detail_icon"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lb_custid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/lb_custname"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/cust_detail_icon"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+     <!-- basic -->
+
+    <RelativeLayout
+        android:id="@+id/cust_r2_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp" >
+
+        <ImageView
+            android:background="@color/white"
+            android:id="@+id/cust_detail_top_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/customer_detail_top_1" />
+
+       <TableLayout
+            android:id="@+id/cust_tb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cust_detail_top_icon"
+            android:background="@drawable/customer_detail_body_1"
+            android:divider="@drawable/customer_detail_line_1"
+            android:showDividers="middle"
+            android:stretchColumns="1"
+            >
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:gravity="left|center_vertical"
+               >
+                <TextView
+                    android:id="@+id/lb_customer_shortname"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"                  
+                    android:gravity="left|center_vertical"
+                    android:layout_marginLeft="2dp"
+                    android:text="客戶簡稱"
+                    android:background="@color/transparent"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/crimson" />
+
+                <TextView
+                    android:id="@+id/occ02"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:background="@color/transparent"
+                    android:layout_marginRight="2dp"                    
+                    android:gravity="left|center_vertical"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+            </TableRow>
+          
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical" >
+
+                <TextView
+                    android:id="@+id/lb_customer_fullname"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:text="客戶全名"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/crimson" />
+
+                <TextView
+                    android:id="@+id/occ18"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+            </TableRow>
+              <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical" >
+
+                <TextView
+                    android:id="@+id/lb_customer_uniform"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:text="電話"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/crimson" />
+
+                <TextView
+                    android:id="@+id/occ261"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:layout_weight="2"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+            </TableRow>
+              <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical" >
+
+                <TextView
+                    android:id="@+id/lb_customer_groupecode"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:text="地址"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/crimson" />
+
+                <TextView
+                    android:id="@+id/occ231"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="2"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+            </TableRow>
+              <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical" >
+
+                <TextView
+                    android:id="@+id/lb_category"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:text="客戶類別"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/crimson" />
+
+                <TextView
+                    android:id="@+id/occ03"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="2"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+            </TableRow>
+              <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:gravity="left|center_vertical">
+
+                <TextView
+                    android:id="@+id/lb_sales"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:text="負責業務"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/crimson" />
+
+                <TextView
+                    android:id="@+id/occ04"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:text=""
+                    android:layout_weight="2"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+            </TableRow>
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/cust_detail_bottom_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cust_tb1"
+            android:scaleType="fitXY"
+            android:src="@drawable/customer_detail_bottom_1" />
+    </RelativeLayout>
+    <!-- area -->
+
+    <RelativeLayout
+        android:id="@+id/cust_r2_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+       
+         >
+             <ImageView
+            android:id="@+id/cust_detail_top_icon2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/customer_detail_top_1" />
+
+        <TableLayout
+            android:id="@+id/cust_tb2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cust_detail_top_icon2"
+            android:divider="@drawable/customer_detail_line_1"
+            android:showDividers="middle"
+            android:background="@drawable/customer_detail_body_1"
+            android:stretchColumns="1"
+            >
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical" >
+
+                <TextView
+                    android:id="@+id/lb_region"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:layout_marginLeft="2dp"
+                    android:text="地區"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/crimson" />
+
+                <TextView
+                    android:id="@+id/occ22"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:text=""
+                    android:layout_weight="2"
+                    android:layout_marginRight="2dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:gravity="left|center_vertical">
+
+                <TextView
+                    android:id="@+id/lb_area"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:text="區域"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/crimson" />
+
+                <TextView
+                    android:id="@+id/occ20"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:layout_weight="2"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+            </TableRow>
+             <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical" >
+
+                <TextView
+                    android:id="@+id/lb_salearea"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:text="銷售區域"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/crimson" />
+
+                <TextView
+                    android:id="@+id/occud02"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:text=""
+                    android:layout_weight="2"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical" >
+
+                <TextView
+                    android:id="@+id/lb_uinform"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:layout_weight="1"
+                    android:text="統一編號"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/crimson" />
+
+                <TextView
+                    android:id="@+id/occ11"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:text=""
+                    android:layout_weight="2"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical" >
+
+                <TextView
+                    android:id="@+id/lb_groupcode"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:layout_weight="1"
+                    android:text="集團碼"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/crimson" />
+
+                <TextView
+                    android:id="@+id/occ34"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:text=""
+                    android:layout_weight="2"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+            </TableRow>  
+  
+              <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical" >
+
+                <TextView
+                    android:id="@+id/lb_tel2"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:text="電話-2"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/crimson" />
+
+                <TextView
+                    android:id="@+id/occ262"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="2"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+            </TableRow>
+             <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" 
+                android:gravity="left|center_vertical">
+
+                <TextView
+                    android:id="@+id/lb_fax1"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:text="傳真-1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/crimson" />
+
+                <TextView
+                    android:id="@+id/occ271"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                   android:layout_weight="2"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+            </TableRow>
+             <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:gravity="left|center_vertical">
+
+                <TextView
+                    android:id="@+id/lb_email"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:text="E-mail"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/crimson" />
+
+                <TextView
+                    android:id="@+id/occud04"
+                    android:layout_width="0dp"
+                   android:layout_height="36dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:text=""
+                    android:layout_weight="2"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+            </TableRow>
+             <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical" >
+
+                <TextView
+                    android:id="@+id/lb_window"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:text="業務窗口"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/crimson" />
+
+                <TextView
+                    android:id="@+id/occ29"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="2"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+            </TableRow>
+             <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:gravity="left|center_vertical">
+
+                <TextView
+                    android:id="@+id/lb_postcode"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:text="郵遞區號"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/crimson" />
+
+                <TextView
+                    android:id="@+id/occ35"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="2"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+            </TableRow>
+        
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                 > 
+
+                <TextView
+                    android:id="@+id/lb_shipping_address"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_alignBottom="@+id/occ241"
+                    android:layout_alignTop="@+id/occ241"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="1"
+                    android:gravity="left|center_vertical"
+                    android:background="@color/transparent"
+                    android:text="送貨地址"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/crimson" />
+
+                <TextView
+                    android:id="@+id/occ241"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="2"
+                    android:background="@color/transparent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+               
+            </TableRow>
+             <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:gravity="left|center_vertical">
+
+                <TextView
+                    android:id="@+id/lb_note"
+                    android:layout_width="0dp"
+                   android:layout_height="36dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:text="備註"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/crimson" />
+
+                <TextView
+                    android:id="@+id/occ233"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/transparent"
+                    android:gravity="left|center_vertical"
+                    android:text=""
+                    android:layout_weight="2"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+            </TableRow>
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/cust_detail_bottom_icon2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cust_tb2"
+            android:scaleType="fitXY"
+            android:src="@drawable/customer_detail_bottom_1" />   
+    </RelativeLayout>
+        <RelativeLayout
+         android:id="@+id/cust_r2_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp" >
+           <ImageView
+            android:id="@+id/cust_detail_top_icon6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/customer_detail_top_1" />
+
+        <TableLayout
+            android:id="@+id/cust_tb6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cust_detail_top_icon6"
+            android:background="@drawable/customer_detail_body_1"
+            android:divider="@drawable/customer_detail_line_1"
+            android:showDividers="middle"
+            android:stretchColumns="*"
+            >
+           <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                    <Button  
+                     android:id="@+id/btn_apqp"
+                     android:layout_width="wrap_content"   
+                     android:layout_height="wrap_content"  
+                     android:text="APQP"
+                     android:layout_marginRight="10dp"
+                     android:layout_marginLeft="10dp"
+                     android:gravity="left|center_vertical"
+                     android:background="@color/transparent"
+                     android:drawableRight="@drawable/customer_detail_arraw_2"
+                   />
+            </TableRow>
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/cust_detail_bottom_icon6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cust_tb6"
+            android:scaleType="fitXY"
+            android:src="@drawable/customer_detail_bottom_1" /> 
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/cust_r2_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp" >
+           <ImageView
+            android:id="@+id/cust_detail_top_icon3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/customer_detail_top_1" />
+
+        <TableLayout
+            android:id="@+id/cust_tb3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cust_detail_top_icon3"
+            android:background="@drawable/customer_detail_body_1"
+            android:divider="@drawable/customer_detail_line_1"
+            android:showDividers="middle"
+            android:stretchColumns="*"
+            >
+           <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                    <Button  
+                     android:id="@+id/btn_advance"
+                     android:layout_width="wrap_content"   
+                     android:layout_height="wrap_content"  
+                     android:text="進階條件"
+                     android:layout_marginRight="10dp"
+                     android:layout_marginLeft="10dp"
+                     android:gravity="left|center_vertical"
+                     android:background="@color/transparent"
+                     android:drawableRight="@drawable/customer_detail_arraw_2"
+                   />
+            </TableRow>
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/cust_detail_bottom_icon3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cust_tb3"
+            android:scaleType="fitXY"
+            android:src="@drawable/customer_detail_bottom_1" /> 
+    </RelativeLayout>
+    <!-- 慣用條件 -->
+
+    <RelativeLayout
+        android:id="@+id/cust_r2_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp" >
+         <ImageView
+            android:id="@+id/cust_detail_top_icon4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/customer_detail_top_1" />
+
+        <TableLayout
+            android:id="@+id/cust_tb4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cust_detail_top_icon4"
+            android:background="@drawable/customer_detail_body_1"
+            android:divider="@drawable/customer_detail_line_1"
+            android:showDividers="middle"
+            android:stretchColumns="*"
+            >
+           <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                    <Button  
+                     android:id="@+id/btn_condiction"
+                     android:layout_width="wrap_content"   
+                     android:layout_height="wrap_content"  
+                     android:text="慣用條件設定"
+                     android:layout_marginRight="10dp"
+                     android:layout_marginLeft="10dp"
+                     android:gravity="left|center_vertical"
+                     android:background="@color/transparent"
+                     android:drawableRight="@drawable/customer_detail_arraw_2"
+                   />
+            </TableRow>
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/cust_detail_bottom_icon4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cust_tb4"
+            android:scaleType="fitXY"
+            android:src="@drawable/customer_detail_bottom_1" /> 
+    </RelativeLayout>
+    <!-- 聯絡人地址 -->
+
+    <RelativeLayout
+         android:id="@+id/cust_r2_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp" >
+           <ImageView
+            android:id="@+id/cust_detail_top_icon5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/customer_detail_top_1" />
+
+        <TableLayout
+            android:id="@+id/cust_tb5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cust_detail_top_icon5"
+            android:background="@drawable/customer_detail_body_1"
+            android:divider="@drawable/customer_detail_line_1"
+            android:showDividers="middle"
+            android:stretchColumns="*"
+            >
+           <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                    <Button  
+                     android:id="@+id/btn_contact"
+                     android:layout_width="wrap_content"   
+                     android:layout_height="wrap_content"  
+                     android:text="聯絡人 / 地址"
+                     android:layout_marginRight="10dp"
+                     android:layout_marginLeft="10dp"
+                     android:gravity="left|center_vertical"
+                     android:background="@color/transparent"
+                     android:drawableRight="@drawable/customer_detail_arraw_2"
+                   />
+            </TableRow>
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/cust_detail_bottom_icon5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cust_tb5"
+            android:scaleType="fitXY"
+            android:src="@drawable/customer_detail_bottom_1" /> 
+    </RelativeLayout>
+
+    <View android:layout_width="match_parent"
+          android:layout_height="30dp" />
+    </LinearLayout>
+    
+</ScrollView>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/bom_layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/actionbar_bg" >
+
+        <Button
+                android:id="@+id/btn_return_bom"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@color/transparent"
+                android:drawableLeft="@drawable/group_arrow_left"
+                android:gravity="left|center_vertical"
+                android:text=""
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/partno"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/btn_return_bom"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/search_bar_icon_normal"          
+            android:hint="Part No"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:singleLine="true"
+             android:layout_toLeftOf="@+id/bom_layout2"
+            android:textColor="#000" />
+
+        <RelativeLayout
+            android:id="@+id/bom_layout2"
+            android:layout_width="142dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@color/transparent" >
+
+           
+
+            <ImageView
+                android:id="@+id/imgdown"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginRight="5dp"
+                android:layout_centerInParent="true"
+                android:layout_toLeftOf="@+id/imgup"
+                android:src="@drawable/search_down_icon_4" />
+             <ImageView
+                android:id="@+id/imgup"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_toLeftOf="@+id/imgcounts"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/search_up_icon_4" />
+             
+             <ImageView
+                android:id="@+id/imgcounts"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/expand_layer_icon" />
+        </RelativeLayout>
+    </RelativeLayout>
+     <HorizontalScrollView
+ android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:background="@color/white" 
+   >
+     <LinearLayout
+            android:id="@+id/bom_layout3"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/transparent" >
+      
+        <TableLayout 
+            android:id="@+id/bom_header"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/yellow"
+            >
+            <TableRow                       
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:stretchColumns="1"
+                        android:shrinkColumns="0,2,3"
+                        >
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="40dp"
+                            android:text="Part No"				
+							android:layout_marginBottom="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:gravity="center"     
+                            android:background="@color/transparent"	
+                            android:textColor="@color/crimson"                            
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textStyle="bold" />                     
+               
+                        <TextView
+                            android:layout_width="300dp"
+                            android:layout_height="40dp"
+                            android:text="Parts Name"						
+						    android:layout_marginBottom="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:gravity="center"  
+                            android:layout_weight="3"   
+                            android:background="@color/transparent"
+                            android:textColor="@color/crimson"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textStyle="bold" />
+                          <TextView
+                           android:id="@+id/unit"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:text="Unit"							
+							android:layout_marginBottom="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:gravity="center"     
+                            android:background="@color/transparent"			
+                            android:textColor="@color/crimson"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textStyle="bold" />
+                            <TextView
+                            android:id="@+id/qty"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:text="Qty"							
+							android:layout_marginBottom="1dp"
+                            android:layout_marginLeft="1dp"                        
+                            android:gravity="center"     
+                            android:background="@color/transparent"			
+                            android:textColor="@color/crimson"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textStyle="bold" />
+                    </TableRow>
+        </TableLayout>   
+           
+          <ListView
+        android:layout_below="@+id/bom_header"
+        android:id="@+id/treeview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingTop="8dp" />
+        </LinearLayout>
+        </HorizontalScrollView>
+</LinearLayout>

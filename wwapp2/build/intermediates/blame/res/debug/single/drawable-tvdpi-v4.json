@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png"
+    }
+]

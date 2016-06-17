@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@android:color/white"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/ln_01"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_marginBottom="10dp"-->
+        <RelativeLayout
+            android:id="@+id/addqt_bar"
+            android:background="@drawable/actionbar_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            >
+            <!--android:layout_alignParentTop="true"-->
+
+            <TextView android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/white"
+                android:id="@+id/addqt_title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create Pdf"
+                android:layout_centerInParent="true"
+                />
+            <Button android:textColor="@color/white"
+                android:id="@+id/btnReturnQtList"
+                android:background="@color/transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:text="QT"
+                android:drawableLeft="@drawable/group_arrow_left"
+                android:layout_alignBaseline="@+id/addqt_title_text"
+                android:layout_alignBottom="@+id/addqt_title_text"
+                android:layout_alignParentLeft="true" />
+        </RelativeLayout>
+
+
+        <!-- tb1 begin -->
+        <ImageView
+            android:id="@+id/cust_detail_top_icon_1"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/customer_detail_top_1"
+            />
+
+        <!-- cust_tb1 -->
+        <TableLayout
+            android:id="@+id/cust_tb_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cust_detail_top_icon"
+            android:background="@drawable/customer_detail_body_1"
+            android:divider="@drawable/customer_detail_line_1"
+            android:stretchColumns="2"
+            >
+            <!--android:showDividers="middle"-->
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="right|center_vertical"
+                    android:layout_weight="15"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    android:background="@color/transparent"
+                    android:visibility="invisible"
+                    />
+                <!--<CheckBox-->
+                    <!--android:id="@+id/Price_2"-->
+                    <!--android:text="Quotation with List Price"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="42dp"-->
+                    <!--android:gravity="left|center_vertical"-->
+                    <!--android:layout_weight="80"-->
+                    <!--/>-->
+                <RadioGroup
+                    android:id="@+id/rg_Price"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="70"
+                    >
+
+                    <RadioButton
+                        android:id="@+id/Price_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left|center_vertical"
+                        android:text="Quotation only Unit Price"
+                        android:checked="true"
+                        />
+                    <!--android:layout_weight="80"-->
+                    <RadioButton
+                        android:id="@+id/Price_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left|center_vertical"
+                        android:text="Quotation with List Price"
+                        />
+                    <!--android:layout_weight="80"-->
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="right|center_vertical"
+                    android:layout_weight="15"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    android:background="@color/transparent"
+                    android:visibility="invisible"
+                    />
+            </TableRow>
+
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/cust_detail_bottom_icon_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/customer_detail_bottom_1" />
+        <!-- tb1 End -->
+
+        <!-- tb2 begin -->
+        <ImageView
+            android:id="@+id/cust_detail_top_icon_2"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/customer_detail_top_1"
+            />
+
+        <!-- cust_tb2 -->
+        <TableLayout
+            android:id="@+id/cust_tb_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cust_detail_top_icon"
+            android:background="@drawable/customer_detail_body_1"
+            android:divider="@drawable/customer_detail_line_1"
+            android:stretchColumns="2"
+            >
+            <!--android:showDividers="middle"-->
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="right|center_vertical"
+                    android:layout_weight="12"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    android:background="@color/transparent"
+                    android:visibility="invisible"
+                    />
+                <RadioGroup
+                    android:id="@+id/rg_Language"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="76"
+                    >
+
+                    <RadioButton
+                        android:id="@+id/Language_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left|center_vertical"
+                        android:text="English"
+                        android:checked="true"
+                        />
+                    <!--android:layout_weight="80"-->
+                    <RadioButton
+                        android:id="@+id/Language_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left|center_vertical"
+                        android:text="Chinese"
+                        />
+                    <!--android:layout_weight="80"-->
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="right|center_vertical"
+                    android:layout_weight="12"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    android:background="@color/transparent"
+                    android:visibility="invisible"
+                    />
+            </TableRow>
+
+            <!--&lt;!&ndash; Status Note &ndash;&gt;-->
+            <!--<TableRow-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="left|center_vertical"-->
+                <!--&gt;-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="42dp"-->
+                    <!--android:gravity="right|center_vertical"-->
+                    <!--android:layout_weight="10"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                    <!--android:textColor="@color/blue"-->
+                    <!--android:background="@color/transparent"-->
+                    <!--android:visibility="invisible"-->
+                    <!--/>-->
+                <!--<CheckBox-->
+                    <!--android:id="@+id/Language_1"-->
+                    <!--android:text="English"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="42dp"-->
+                    <!--android:gravity="left|center_vertical"-->
+                    <!--android:layout_weight="80"-->
+                    <!--android:checked="true"-->
+                    <!--/>-->
+                <!--<TextView-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="42dp"-->
+                    <!--android:gravity="right|center_vertical"-->
+                    <!--android:layout_weight="10"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                    <!--android:textColor="@color/blue"-->
+                    <!--android:background="@color/transparent"-->
+                    <!--android:visibility="invisible"-->
+                    <!--/>-->
+            <!--</TableRow>-->
+
+            <!--&lt;!&ndash; Status Note &ndash;&gt;-->
+            <!--<TableRow-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="left|center_vertical"-->
+                <!--&gt;-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="42dp"-->
+                    <!--android:gravity="right|center_vertical"-->
+                    <!--android:layout_weight="10"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                    <!--android:textColor="@color/blue"-->
+                    <!--android:background="@color/transparent"-->
+                    <!--android:visibility="invisible"-->
+                    <!--/>-->
+                <!--<CheckBox-->
+                    <!--android:id="@+id/Language_2"-->
+                    <!--android:text="Chinese"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="42dp"-->
+                    <!--android:gravity="left|center_vertical"-->
+                    <!--android:layout_weight="80"-->
+                    <!--/>-->
+                <!--<TextView-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="42dp"-->
+                    <!--android:gravity="right|center_vertical"-->
+                    <!--android:layout_weight="10"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                    <!--android:textColor="@color/blue"-->
+                    <!--android:background="@color/transparent"-->
+                    <!--android:visibility="invisible"-->
+                    <!--/>-->
+            <!--</TableRow>-->
+
+
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/cust_detail_bottom_icon_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/customer_detail_bottom_1" />
+        <!-- tb2 End -->
+
+        <!-- tb3 begin -->
+        <ImageView
+            android:id="@+id/cust_detail_top_icon_3"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/customer_detail_top_1"
+            />
+
+        <!-- cust_tb3 -->
+        <TableLayout
+            android:id="@+id/cust_tb_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cust_detail_top_icon"
+            android:background="@drawable/customer_detail_body_1"
+            android:divider="@drawable/customer_detail_line_1"
+            android:stretchColumns="2"
+            >
+            <!--android:showDividers="middle"-->
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="right|center_vertical"
+                    android:layout_weight="15"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    android:background="@color/transparent"
+                    android:visibility="invisible"
+                    />
+                <RadioGroup
+                    android:id="@+id/rg_Detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="70"
+                    >
+
+                    <RadioButton
+                        android:id="@+id/Detail_1"
+                        android:text="Quotation Only"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left|center_vertical"
+                        android:checked="true"
+                        />
+                    <RadioButton
+                        android:id="@+id/Detail_2"
+                        android:text="Quotation with Detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left|center_vertical"
+                        />
+                    <RadioButton
+                        android:id="@+id/Detail_3"
+                        android:text="Quotation with Detail Price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left|center_vertical"
+                        />
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="right|center_vertical"
+                    android:layout_weight="15"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    android:background="@color/transparent"
+                    android:visibility="invisible"
+                    />
+            </TableRow>
+
+            <!--&lt;!&ndash; Status Note &ndash;&gt;-->
+            <!--<TableRow-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="left|center_vertical"-->
+            <!--&gt;-->
+
+            <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="42dp"-->
+            <!--android:gravity="right|center_vertical"-->
+            <!--android:layout_weight="10"-->
+            <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+            <!--android:textColor="@color/blue"-->
+            <!--android:background="@color/transparent"-->
+            <!--android:visibility="invisible"-->
+            <!--/>-->
+            <!--<CheckBox-->
+            <!--android:id="@+id/Language_1"-->
+            <!--android:text="English"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="42dp"-->
+            <!--android:gravity="left|center_vertical"-->
+            <!--android:layout_weight="80"-->
+            <!--android:checked="true"-->
+            <!--/>-->
+            <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="42dp"-->
+            <!--android:gravity="right|center_vertical"-->
+            <!--android:layout_weight="10"-->
+            <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+            <!--android:textColor="@color/blue"-->
+            <!--android:background="@color/transparent"-->
+            <!--android:visibility="invisible"-->
+            <!--/>-->
+            <!--</TableRow>-->
+
+            <!--&lt;!&ndash; Status Note &ndash;&gt;-->
+            <!--<TableRow-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="left|center_vertical"-->
+            <!--&gt;-->
+
+            <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="42dp"-->
+            <!--android:gravity="right|center_vertical"-->
+            <!--android:layout_weight="10"-->
+            <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+            <!--android:textColor="@color/blue"-->
+            <!--android:background="@color/transparent"-->
+            <!--android:visibility="invisible"-->
+            <!--/>-->
+            <!--<CheckBox-->
+            <!--android:id="@+id/Language_2"-->
+            <!--android:text="Chinese"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="42dp"-->
+            <!--android:gravity="left|center_vertical"-->
+            <!--android:layout_weight="80"-->
+            <!--/>-->
+            <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="42dp"-->
+            <!--android:gravity="right|center_vertical"-->
+            <!--android:layout_weight="10"-->
+            <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+            <!--android:textColor="@color/blue"-->
+            <!--android:background="@color/transparent"-->
+            <!--android:visibility="invisible"-->
+            <!--/>-->
+            <!--</TableRow>-->
+
+
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/cust_detail_bottom_icon_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/customer_detail_bottom_1" />
+        <!-- tb3 End -->
+
+        <!--&lt;!&ndash; tb3 begin &ndash;&gt;-->
+        <!--<ImageView-->
+            <!--android:id="@+id/cust_detail_top_icon_3"-->
+            <!--android:background="@color/white"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:adjustViewBounds="true"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:src="@drawable/customer_detail_top_1"-->
+            <!--/>-->
+
+        <!--&lt;!&ndash; cust_tb3 &ndash;&gt;-->
+        <!--<TableLayout-->
+            <!--android:id="@+id/cust_tb_3"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/cust_detail_top_icon"-->
+            <!--android:background="@drawable/customer_detail_body_1"-->
+            <!--android:divider="@drawable/customer_detail_line_1"-->
+            <!--android:stretchColumns="2"-->
+            <!--&gt;-->
+            <!--&lt;!&ndash;android:showDividers="middle"&ndash;&gt;-->
+
+            <!--&lt;!&ndash; Status Note &ndash;&gt;-->
+            <!--<TableRow-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="left|center_vertical"-->
+                <!--&gt;-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="42dp"-->
+                    <!--android:gravity="right|center_vertical"-->
+                    <!--android:layout_weight="10"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                    <!--android:textColor="@color/blue"-->
+                    <!--android:background="@color/transparent"-->
+                    <!--android:visibility="invisible"-->
+                    <!--/>-->
+                <!--<CheckBox-->
+                    <!--android:id="@+id/Detail_1"-->
+                    <!--android:text="Quotation Only"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="42dp"-->
+                    <!--android:gravity="left|center_vertical"-->
+                    <!--android:layout_weight="80"-->
+                    <!--android:checked="true"-->
+                    <!--/>-->
+                <!--<TextView-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="42dp"-->
+                    <!--android:gravity="right|center_vertical"-->
+                    <!--android:layout_weight="10"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                    <!--android:textColor="@color/blue"-->
+                    <!--android:background="@color/transparent"-->
+                    <!--android:visibility="invisible"-->
+                    <!--/>-->
+            <!--</TableRow>-->
+
+            <!--&lt;!&ndash; Status Note &ndash;&gt;-->
+            <!--<TableRow-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="left|center_vertical"-->
+                <!--&gt;-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="42dp"-->
+                    <!--android:gravity="right|center_vertical"-->
+                    <!--android:layout_weight="10"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                    <!--android:textColor="@color/blue"-->
+                    <!--android:background="@color/transparent"-->
+                    <!--android:visibility="invisible"-->
+                    <!--/>-->
+                <!--<CheckBox-->
+                    <!--android:id="@+id/Detail_2"-->
+                    <!--android:text="Quotation with Detail"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="42dp"-->
+                    <!--android:gravity="left|center_vertical"-->
+                    <!--android:layout_weight="80"-->
+                    <!--/>-->
+                <!--<TextView-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="42dp"-->
+                    <!--android:gravity="right|center_vertical"-->
+                    <!--android:layout_weight="10"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                    <!--android:textColor="@color/blue"-->
+                    <!--android:background="@color/transparent"-->
+                    <!--android:visibility="invisible"-->
+                    <!--/>-->
+            <!--</TableRow>-->
+
+            <!--&lt;!&ndash; Status Note &ndash;&gt;-->
+            <!--<TableRow-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="left|center_vertical"-->
+                <!--&gt;-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="42dp"-->
+                    <!--android:gravity="right|center_vertical"-->
+                    <!--android:layout_weight="10"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                    <!--android:textColor="@color/blue"-->
+                    <!--android:background="@color/transparent"-->
+                    <!--android:visibility="invisible"-->
+                    <!--/>-->
+                <!--<CheckBox-->
+                    <!--android:id="@+id/Detail_3"-->
+                    <!--android:text="Quotation with Detail Price"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="42dp"-->
+                    <!--android:gravity="left|center_vertical"-->
+                    <!--android:layout_weight="80"-->
+                    <!--/>-->
+                <!--<TextView-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="42dp"-->
+                    <!--android:gravity="right|center_vertical"-->
+                    <!--android:layout_weight="10"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                    <!--android:textColor="@color/blue"-->
+                    <!--android:background="@color/transparent"-->
+                    <!--android:visibility="invisible"-->
+                    <!--/>-->
+            <!--</TableRow>-->
+
+
+        <!--</TableLayout>-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/cust_detail_bottom_icon_3"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:src="@drawable/customer_detail_bottom_1" />-->
+        <!--&lt;!&ndash; tb3 End &ndash;&gt;-->
+
+        <!-- tb4 begin -->
+        <ImageView
+            android:id="@+id/cust_detail_top_icon_4"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/customer_detail_top_1"
+            />
+
+        <!-- cust_tb4 -->
+        <TableLayout
+            android:id="@+id/cust_tb_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cust_detail_top_icon"
+            android:background="@drawable/customer_detail_body_1"
+            android:divider="@drawable/customer_detail_line_1"
+            android:stretchColumns="2"
+            >
+            <!--android:showDividers="middle"-->
+
+            <!-- Status Note -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_weight="10"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    android:background="@color/transparent"
+                    android:visibility="invisible"
+                    />
+                <CheckBox
+                    android:id="@+id/ShowBank"
+                    android:text="Show Bank"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="left|center_vertical"
+                    android:layout_weight="80"
+                    android:checked="true"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_weight="10"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    android:background="@color/transparent"
+                    android:visibility="invisible"
+                    />
+            </TableRow>
+
+            <!-- Status Note -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_weight="10"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    android:background="@color/transparent"
+                    android:visibility="invisible"
+                    />
+                <CheckBox
+                    android:id="@+id/ShowTotal"
+                    android:text="Show Total"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="left|center_vertical"
+                    android:layout_weight="80"
+                    android:checked="true"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_weight="10"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    android:background="@color/transparent"
+                    android:visibility="invisible"
+                    />
+            </TableRow>
+
+            <!-- Status Note -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_weight="10"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    android:background="@color/transparent"
+                    android:visibility="invisible"
+                    />
+                <CheckBox
+                    android:id="@+id/ShowPercent"
+                    android:text="Show Sales%"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="left|center_vertical"
+                    android:layout_weight="80"
+                    android:checked="true"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_weight="10"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    android:background="@color/transparent"
+                    android:visibility="invisible"
+                    />
+            </TableRow>
+
+            <!-- Status Note -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_weight="10"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    android:background="@color/transparent"
+                    android:visibility="invisible"
+                    />
+                <CheckBox
+                    android:id="@+id/ShowSignature"
+                    android:text="Show Customer Signature"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="left|center_vertical"
+                    android:layout_weight="80"
+                    android:checked="true"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_weight="10"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    android:background="@color/transparent"
+                    android:visibility="invisible"
+                    />
+            </TableRow>
+
+            <!-- Status Note -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_weight="10"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    android:background="@color/transparent"
+                    android:visibility="invisible"
+                    />
+                <CheckBox
+                    android:id="@+id/ShowStamp"
+                    android:text="Show Company stamp"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="left|center_vertical"
+                    android:layout_weight="80"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="right|center_vertical"
+                    android:layout_weight="10"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue"
+                    android:background="@color/transparent"
+                    android:visibility="invisible"
+                    />
+            </TableRow>
+
+
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/cust_detail_bottom_icon_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/customer_detail_bottom_1" />
+        <!-- tb4 End -->
+
+    </LinearLayout>
+
+    <Button android:textColor="@color/white"
+        android:id="@+id/btnOk"
+        android:background="@color/red"
+        android:layout_width="150dp"
+        android:layout_height="32.0dip"
+        android:layout_marginBottom="14.0dip"
+        android:text="OK"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onSearchQtClick" />
+</RelativeLayout>

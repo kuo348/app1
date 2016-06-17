@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/customer_detail_body_1"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/cust_r1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/actionbar_bg" >
+<TextView
+            android:id="@+id/cust_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="基本資料"
+             android:layout_centerInParent="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white" />
+  <Button
+                android:id="@+id/btn_return"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:background="@color/transparent"
+                android:drawableLeft="@drawable/group_arrow_left"
+                android:gravity="left|center_vertical"
+                android:text=""
+                 android:layout_marginLeft="10dp"
+                android:textColor="@color/white" />
+</RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/cust_r2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        >
+     <include
+            android:id="@+id/customer_detail_scrollView1_def"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/customer_detail_scrollview1" />
+     </RelativeLayout>
+      <RelativeLayout
+        android:id="@+id/cust_r3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+       >
+      <include
+            android:id="@+id/customer_detail_scrollView2_def"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/customer_detail_scrollview2" />
+      </RelativeLayout>
+</LinearLayout>

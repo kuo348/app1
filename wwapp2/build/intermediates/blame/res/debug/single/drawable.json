@@ -1,0 +1,530 @@
+[
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\view_border.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\view_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_border.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\edit_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\item_table1.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\item_table1.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\item_table4.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\item_table4.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\button_border.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\button_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\apqp_radiogroup_select.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\apqp_radiogroup_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\mybutton.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\mybutton.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\splash.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_left.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\tablefixheaders\\unspecified\\res\\drawable\\shadow_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_bottom.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\tablefixheaders\\unspecified\\res\\drawable\\shadow_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\apqp2_black_border_1.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\apqp2_black_border_1.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_holo_light.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_ic_clear_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\navbar_moreselector.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\navbar_moreselector.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\search_bar_edit_bg.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\search_bar_edit_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_text_light.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable\\common_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\lforgot.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\lforgot.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\navbar_background.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\navbar_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_holo_dark.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_textfield_searchview_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\item_table3.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\item_table3.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\view_border.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\view_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\navbar_pictureselector.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\navbar_pictureselector.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable\\common_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\apqp_radiogroup_divider.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\apqp_radiogroup_divider.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\list_item_bg_normal.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\list_item_bg_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\laysemitransparentwithborders.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\laysemitransparentwithborders.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\msg_tab_widget2.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\msg_tab_widget2.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable\\common_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_border.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\checkbox_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\border.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\border.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_top.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\tablefixheaders\\unspecified\\res\\drawable\\shadow_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\counter_bg.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\counter_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\view_border2.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\view_border2.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\navbar_fileselector.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\navbar_fileselector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable\\common_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_holo_light.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_textfield_searchview_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_right_holo_dark.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_textfield_searchview_right_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_holo_dark.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_textfield_searchview_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_right.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\tablefixheaders\\unspecified\\res\\drawable\\shadow_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\logo.jpg",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\logo.jpg"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_right_holo_light.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_textfield_searchview_right_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\item_table1.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\item_table1.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\list_item_bg_normal.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\list_item_bg_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\splash.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\apqp_radiogroup_select.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\apqp_radiogroup_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\view_border2.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\view_border2.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\counter_bg.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\counter_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\lforgot.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\lforgot.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\navbar_background.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\navbar_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\item_table1_header.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\item_table1_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\gogo.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\gogo.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\list_selector.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\list_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_bottom.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\tablefixheaders\\unspecified\\res\\drawable\\shadow_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_ab_holo.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_tab_indicator_ab_holo.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\list_item_bg_pressed.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\list_item_bg_pressed.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\customer_listitem.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\customer_listitem.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_right_holo_light.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_textfield_searchview_right_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\item_table4.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\item_table4.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\msg_tab_widget1.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\msg_tab_widget1.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\home_bg.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\home_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable\\common_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\mybutton.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\mybutton.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_dark.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_search_dropdown_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\navbar_pictureselector.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\navbar_pictureselector.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\apqp2_black_border_2.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\apqp2_black_border_2.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_ic_clear.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\msg_tab_widget1.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\msg_tab_widget1.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\navbar_fileselector.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\navbar_fileselector.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable\\common_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\navbar_backgroundselector.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\navbar_backgroundselector.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\app_icon.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\app_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\navbar_videoselector.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\navbar_videoselector.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_holo_light.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_textfield_searchview_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_border.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\edit_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_right_holo_dark.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_textfield_searchview_right_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\msg_tab_widget_sharp.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\msg_tab_widget_sharp.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\msg_tab_widget2.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\msg_tab_widget2.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\button_border.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\button_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable\\common_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\apqp2_black_border_3.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\apqp2_black_border_3.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\apqp_radiogroup_divider.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\apqp_radiogroup_divider.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_left.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\tablefixheaders\\unspecified\\res\\drawable\\shadow_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\apqp2_black_border_1.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\apqp2_black_border_1.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\navbar_moreselector.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\navbar_moreselector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\item_table1_header.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\item_table1_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\navbar_videoselector.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\navbar_videoselector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_ab_holo_dark.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_spinner_ab_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\apqp2_black_border_3.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\apqp2_black_border_3.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_top.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\tablefixheaders\\unspecified\\res\\drawable\\shadow_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\progressbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\list_selector.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\list_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_ic_clear.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\customer_listitem.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\customer_listitem.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\progressbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\navbar_allselector.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\navbar_allselector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\apqp2_black_border_2.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\apqp2_black_border_2.png"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_ab_holo_light.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_spinner_ab_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\navbar_backgroundselector.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\navbar_backgroundselector.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\msg_tab_widget_sharp.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\msg_tab_widget_sharp.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_light.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_search_dropdown_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_light.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_search_dropdown_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\laysemitransparentwithborders.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\laysemitransparentwithborders.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\search_bar_edit_bg.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\search_bar_edit_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\navbar_allselector.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\navbar_allselector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\gogo.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\gogo.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_right.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\tablefixheaders\\unspecified\\res\\drawable\\shadow_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\yellow_bg.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\yellow_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\logo.jpg",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\logo.jpg"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\home_bg.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\home_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\item_table3.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\item_table3.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_text_light.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\google-play-services_lib\\unspecified\\res\\drawable\\common_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_ab_holo.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_tab_indicator_ab_holo.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_ab_holo_light.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_spinner_ab_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\yellow_bg.png",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\yellow_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_dark.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_search_dropdown_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_border.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\checkbox_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_ab_holo_dark.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_spinner_ab_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_holo_light.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_ic_clear_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\list_item_bg_pressed.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\list_item_bg_pressed.xml"
+    },
+    {
+        "merged": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\kuo348\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\exploded-aar\\AndroidStudio\\appcompat_v7_3\\unspecified\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\app_icon.png",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\app_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\build\\intermediates\\res\\merged\\debug\\drawable\\border.xml",
+        "source": "C:\\Users\\cooper\\Dropbox\\AndroidStudio\\wwapp2\\res\\drawable\\border.xml"
+    }
+]

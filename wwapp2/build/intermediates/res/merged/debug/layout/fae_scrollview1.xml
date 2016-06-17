@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fae_scrollView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+         <!-- beign of fae_r1 -->
+                <RelativeLayout
+                    android:id="@+id/fae_r1_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp" >
+                    <TextView
+                        android:id="@+id/sheetno"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sheet No." >
+                    </TextView>
+                    <TextView
+                        android:id="@+id/fae001"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/sheetno"
+                        android:layout_marginLeft="40dp"
+                        android:layout_toRightOf="@+id/sheetno"
+                        android:text="2014102706" >
+                    </TextView>
+                    <TextView
+                        android:id="@+id/issuetime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/sheetno"
+                        android:text="Issue Time." >
+                    </TextView>
+                    <TextView
+                        android:id="@+id/fae002"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/fae001"
+                        android:layout_alignTop="@+id/issuetime"
+                        android:layout_toRightOf="@+id/issuetime"
+                        android:text="13:28:13" >
+                    </TextView>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/fae_r1_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/fae_r1_1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/border" >
+                    <TextView
+                        android:id="@+id/vwServiceType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Service Type" >
+                    </TextView>
+                    <CheckBox
+                        android:id="@+id/fae004_001"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/vwServiceType"
+                        android:checked="false"
+                        android:text="Delivering"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black" />
+                    <CheckBox
+                        android:id="@+id/fae004_002"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/fae004_001"
+                        android:layout_centerHorizontal="true"
+                        android:layout_toRightOf="@+id/fae004_001"
+                        android:checked="false"
+                        android:text="Installation"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black" />
+                    <CheckBox
+                        android:id="@+id/fae004_003"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/fae004_001"
+                        android:layout_below="@+id/fae004_001"
+                        android:checked="false"
+                        android:text="Support / Service"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black" />
+                </RelativeLayout>
+                <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/yellow_bg"
+        android:layout_alignTop="@+id/fae_r1_3"
+        android:layout_alignBottom="@+id/fae_r1_3"
+        android:layout_alignLeft="@+id/fae_r1_3"
+        android:layout_alignRight="@+id/fae_r1_3" />
+                <RelativeLayout
+                    android:id="@+id/fae_r1_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/fae_r1_2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp" >
+                    <!-- begin of  /fae_r1_3 -->
+                    <RelativeLayout
+                        android:id="@+id/fae_r1_3_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp">
+                        <TextView
+                            android:id="@+id/vwCustomer"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:text="Customer" >
+                        </TextView>
+                        <EditText
+                            android:id="@+id/fae006"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/vwCustomer"
+                            android:layout_alignParentRight="true"
+                            android:layout_toRightOf="@+id/vwCustomer"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/white"
+                            android:clickable="true"
+                            android:drawableRight="@drawable/subwindow_icon"
+                            android:focusableInTouchMode="true"
+                            android:imeOptions="actionDone"
+                            android:inputType="text"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textColor="@color/black" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/fae_r1_3_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/fae_r1_3_1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp" >
+                        <TextView
+                            android:id="@+id/vwEndCustomer"
+                           android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:text="End Customer" >
+                        </TextView>
+                        <EditText
+                            android:id="@+id/fae008"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/vwEndCustomer"
+                            android:layout_alignParentRight="true"
+                            android:layout_toRightOf="@+id/vwEndCustomer"
+                            android:layout_marginLeft="10dp"
+                            android:background="@color/white"
+                            android:clickable="true"
+                            android:drawableRight="@drawable/subwindow_icon"
+                            android:focusableInTouchMode="true"
+                            android:imeOptions="actionDone"
+                            android:inputType="text"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textColor="@color/black" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/fae_r1_3_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/fae_r1_3_2"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp" >
+                        <TextView
+                            android:id="@+id/vwUser"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:text="User" >
+                        </TextView>
+                        <EditText
+                            android:id="@+id/fae009"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/vwUser"
+                            android:layout_alignParentRight="true"
+                            android:layout_toRightOf="@+id/vwUser"
+                            android:layout_marginLeft="10dp"
+                            android:background="@color/white"
+                            android:clickable="true"
+                            android:focusableInTouchMode="true"
+                            android:imeOptions="actionDone"
+                            android:inputType="text"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textColor="@color/black" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/fae_r1_3_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/fae_r1_3_3"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp" >
+                        <TextView
+                            android:id="@+id/vwTel"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:text="Tel" >
+                        </TextView>
+                        <EditText
+                            android:id="@+id/fae010"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/vwTel"
+                            android:layout_alignParentRight="true"
+                            android:layout_toRightOf="@+id/vwTel"
+                            android:layout_marginLeft="10dp"
+                            android:background="@color/white"
+                            android:clickable="true"
+                            android:focusableInTouchMode="true"
+                            android:imeOptions="actionDone"
+                            android:inputType="text"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textColor="@color/black" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/fae_r1_3_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/fae_r1_3_4"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp" >
+                        <TextView
+                            android:id="@+id/vwResponsibleFAE"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:text="Responsible FAE" >
+                        </TextView>
+                        <EditText
+                            android:id="@+id/fae012"
+                             android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/vwResponsibleFAE"
+                             android:layout_alignParentRight="true"
+                            android:layout_toRightOf="@+id/vwResponsibleFAE"
+                            android:layout_marginLeft="0dp"
+                            android:background="@color/white"
+                            android:clickable="true"
+                            android:focusableInTouchMode="true"
+                            android:imeOptions="actionDone"
+                            android:inputType="text"
+                            android:singleLine="true"
+                            android:text=""
+                            android:drawableRight="@drawable/dropdown_icon"
+                            android:textColor="@color/black" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/fae_r1_3_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/fae_r1_3_5"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp" >
+                        <TextView
+                            android:id="@+id/vwTerritory"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:text="Territory" >
+                        </TextView>
+                        <EditText
+                            android:id="@+id/fae013"
+                             android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/vwTerritory"
+                            android:layout_alignParentRight="true"
+                            android:layout_toRightOf="@+id/vwTerritory"
+                            android:layout_marginLeft="10dp"
+                            android:background="@color/white"
+                            android:clickable="true"
+                            android:drawableRight="@drawable/dropdown_icon"
+                            android:focusableInTouchMode="true"
+                            android:imeOptions="actionDone"
+                            android:inputType="text"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textColor="@color/black" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/fae_r1_3_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/fae_r1_3_6"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp" >
+                        <TextView
+                            android:id="@+id/vwOnSiteService"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:text="On-Site Service" >
+                        </TextView>
+                        <EditText
+                            android:id="@+id/fae014"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/vwOnSiteService"
+                            android:layout_alignParentRight="true"
+                            android:layout_toRightOf="@+id/vwOnSiteService"
+                            android:layout_marginLeft="10dp"
+                            android:background="@color/white"
+                            android:clickable="true"
+                            android:drawableRight="@drawable/dropdown_icon"
+                            android:focusableInTouchMode="true"
+                            android:imeOptions="actionDone"
+                            android:inputType="text"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textColor="@color/black" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/fae_r1_3_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/fae_r1_3_7"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp" >
+                        <TextView
+                            android:id="@+id/vwServiceRecord"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:text="C/T or FAE/nService Record" >
+                        </TextView>
+                        <TextView
+                            android:id="@+id/fae015"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/vwServiceRecord"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="5dp"
+                            android:text="" >
+                        </TextView>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/fae_r1_3_9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/fae_r1_3_8"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp">
+                        <TextView
+                            android:id="@+id/vwSales"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:text="WinWay Sales" >
+                        </TextView>
+                        <EditText
+                            android:id="@+id/fae017"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/vwSales"
+                           android:layout_alignParentRight="true"
+                            android:layout_toRightOf="@+id/vwSales"
+                            android:layout_marginLeft="10dp"
+                            android:background="@color/white"
+                            android:clickable="true"
+                            android:drawableRight="@drawable/dropdown_icon"
+                            android:focusableInTouchMode="true"
+                            android:imeOptions="actionDone"
+                            android:inputType="text"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textColor="@color/black" />
+                        <View android:layout_below="@+id/fae017"
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+                </RelativeLayout> 
+                </RelativeLayout>  
+                  <View
+                android:layout_below="@+id/fae_r1_3"
+        		android:layout_width="match_parent"
+        		android:layout_height="10dp"
+       		 />                       
+    </RelativeLayout>
+
+</ScrollView>

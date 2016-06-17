@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:paddingBottom="6dp"
+    android:paddingLeft="6dp"
+    android:paddingTop="6dp" 
+    >
+
+    <ImageView
+        android:id="@+id/display_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="4dp" />
+
+    <TextView android:id="@+id/partno_cell"
+         android:layout_width="wrap_content"
+         android:layout_toRightOf="@+id/display_imageview"
+         android:layout_marginLeft="2dp"
+         android:text="71104690"
+         android:layout_height="wrap_content"/>
+ 
+     <TextView android:id="@+id/partname_cell"
+         android:layout_width="wrap_content"
+         android:text="SOCKET /POGO PIN/ASSSYEMBLY"
+         android:layout_height="wrap_content" 
+         android:gravity="left"
+         android:layout_gravity="left"
+         android:layout_marginLeft="220dp"
+         />
+ 
+     <TextView android:id="@+id/unit_cell"
+         android:layout_width="40dp"
+          android:text="PCS"
+           android:gravity="center"
+           android:layout_toLeftOf="@+id/qty_cell"
+         android:layout_height="wrap_content"  
+        />
+      <TextView android:id="@+id/qty_cell"
+         android:layout_width="50dp"
+          android:text="1"
+          android:gravity="right"
+         android:layout_alignParentRight="true"
+         android:layout_height="wrap_content"  
+         android:layout_marginRight="10dp"
+         
+      />
+
+</RelativeLayout >

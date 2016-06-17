@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/albumlist_r1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/actionbar_bg" >
+
+        <Button
+            android:id="@+id/btn_albumlist_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/group_arrow_left"
+            android:text="Inventory"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white" />      
+        <ImageButton
+            android:id="@+id/btn_preshipping"
+            android:layout_width="24dp"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/navbar_item_camera_1"
+            android:scaleType="centerCrop"
+            />
+        <ImageButton
+            android:id="@+id/btn_upload"
+            android:layout_width="24dp"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="60dp"
+            android:background="@drawable/navbar_item_upload_1"
+            android:scaleType="centerCrop"
+             />
+        <ImageButton
+            android:id="@+id/btn_delall"
+            android:layout_width="24dp"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="110dp"
+            android:background="@drawable/navbar_item_trashcan_1"
+            android:scaleType="centerCrop"
+           />
+    </RelativeLayout>
+<ListView
+    android:id="@+id/albumlistview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="0dp" >
+</ListView>
+<RelativeLayout
+    android:padding="6dip"
+    android:id="@+id/album_actionbar2"
+    android:layout_width="fill_parent"
+    android:layout_height="76dp"
+    android:background="@drawable/album_edit_6"
+    android:visibility="gone"
+    >
+    <ImageButton 
+      android:id="@+id/item_cancel"
+      android:layout_alignParentRight="true"
+      android:layout_width="64dp"
+      android:layout_height="64dp"
+      android:scaleType="centerCrop"
+      android:background="@color/transparent"
+      android:src="@drawable/album_edit_5"/>
+     <ImageButton 
+      android:id="@+id/item_shutter"
+      android:layout_toLeftOf="@+id/item_cancel"
+      android:layout_alignParentRight="true"
+      android:layout_marginRight="64dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:scaleType="center"
+      android:background="@color/transparent"
+      android:src="@drawable/album_edit_4"/>
+     <ImageButton 
+      android:id="@+id/item_del"
+      android:layout_toLeftOf="@+id/item_shutter"
+      android:layout_alignParentRight="true"
+      android:layout_marginRight="128dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:scaleType="center"
+      android:background="@color/transparent"
+      android:src="@drawable/album_edit_3"/>
+      <ImageButton 
+      android:id="@+id/item_upload"
+      android:layout_toLeftOf="@+id/item_del"
+      android:layout_alignParentRight="true"
+      android:layout_marginRight="192dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:scaleType="center"
+      android:background="@color/transparent"
+      android:src="@drawable/album_edit_2"/>
+</RelativeLayout>
+</LinearLayout>

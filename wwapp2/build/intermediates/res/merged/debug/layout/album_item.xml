@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="2dip"    >
+  <TextView 
+      android:id="@+id/albumname"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@color/transparent"
+      android:text="220-12345678"
+      android:textColor="@color/black"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      >   
+  </TextView>
+<RelativeLayout
+    android:layout_below="@+id/albumname"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/album_gallery"
+    > 
+    <!-- 
+   <HorizontalScrollView
+      android:id="@+id/horizontalScrollView1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_marginRight="40dp"
+      android:layout_centerVertical="true"
+      android:layout_marginLeft="2dp" >
+      <LinearLayout
+          android:id="@+id/sv"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal" >
+      </LinearLayout>
+  </HorizontalScrollView> 
+  -->
+   <Gallery         
+          android:id="@+id/gallery1"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="2dip"       
+          android:layout_marginRight="40dp"
+          android:spacing="5dp"
+          android:gravity="left"
+          android:background="#AA000000"
+          /> 
+        
+  <ImageButton 
+      android:id="@+id/btn_album_edit"
+      android:layout_alignParentRight="true"
+      android:layout_width="40dp"
+      android:layout_height="48dp"
+      android:background="@color/transparent"
+      android:src="@drawable/btn_album_edit"
+      />
+</RelativeLayout>
+<RelativeLayout
+    android:padding="6dip"
+    android:id="@+id/album_actionbar"
+    android:layout_below="@+id/album_gallery"
+    android:layout_width="fill_parent"
+    android:layout_height="76dp"
+    android:layout_marginLeft="10dp"
+    android:background="@drawable/album_edit_6"
+    android:visibility="gone"
+    >
+    <ImageButton 
+      android:id="@+id/item_cancel"
+      android:layout_alignParentRight="true"
+      android:layout_width="64dp"
+      android:layout_height="64dp"
+      android:scaleType="centerCrop"    
+      android:background="@color/transparent"
+      android:src="@drawable/album_edit_5"/>
+     <ImageButton 
+      android:id="@+id/item_shutter"
+      android:layout_toLeftOf="@+id/item_cancel"
+      android:layout_alignParentRight="true"
+      android:layout_marginRight="64dp"
+      android:layout_width="64dp"
+      android:layout_height="64dp"
+      android:scaleType="centerCrop"
+      android:background="@color/transparent"
+      android:src="@drawable/album_edit_4"/>
+     <ImageButton 
+      android:id="@+id/item_del"
+      android:layout_toLeftOf="@+id/item_shutter"
+      android:layout_alignParentRight="true"
+      android:layout_marginRight="128dp"
+      android:layout_width="64dp"
+      android:layout_height="64dp"
+      android:scaleType="centerCrop"
+      android:background="@color/transparent"
+      android:src="@drawable/album_edit_3"/>
+      <ImageButton 
+      android:id="@+id/item_upload"
+      android:layout_toLeftOf="@+id/item_del"
+      android:layout_alignParentRight="true"
+      android:layout_marginRight="192dp"
+      android:layout_width="64dp"
+      android:layout_height="64dp"
+      android:scaleType="centerCrop"
+      android:background="@color/transparent"
+      android:src="@drawable/album_edit_2"/>
+</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@+id/addqt_bar"
+        android:background="@drawable/actionbar_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_alignParentTop="true">
+        <TextView android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white"
+            android:id="@+id/addqt_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:layout_centerInParent="true" />
+        <Button android:textColor="@color/white"
+            android:id="@+id/btnReturnQtList"
+            android:background="@color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:text="QT"
+            android:drawableLeft="@drawable/group_arrow_left"
+            android:layout_alignBaseline="@+id/addqt_title_text"
+            android:layout_alignBottom="@+id/addqt_title_text"
+            android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/r1"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:layout_marginTop="16.0dip"
+        android:layout_below="@+id/addqt_bar"
+        android:layout_alignParentLeft="true"
+        android:visibility="gone"
+        >
+
+        <TextView android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white"
+            android:gravity="right"
+            android:id="@+id/qt_type"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:text="QT Type:"
+            android:layout_weight="1.0"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            />
+
+        <EditText android:textColor="@color/black"
+            android:id="@+id/xa593"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/white"
+            android:clickable="true"
+            android:drawableRight="@drawable/dropdown_icon"
+            android:editable="false"
+            android:focusableInTouchMode="true"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:singleLine="true"
+            android:text=""
+            android:layout_toRightOf="@+id/qt_type"
+            android:layout_alignBottom="@+id/qt_type"
+
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/r2"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:layout_below="@+id/r1"
+        android:layout_alignParentLeft="true">
+        <TextView android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white"
+            android:gravity="right"
+            android:id="@+id/vw_qtno"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10.0dip"
+            android:text="QT NO:"
+            android:layout_weight="1.0"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" />
+        <EditText 
+            android:id="@+id/qtno"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:ems="12" android:layout_weight="1.0"
+            android:layout_toRightOf="@+id/vw_qtno"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/r3"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip" 
+        android:layout_below="@+id/r2"
+        android:layout_alignParentLeft="true">
+
+        <TextView
+            android:id="@+id/contact_name"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10.0dip"
+            android:layout_weight="1.0"
+            android:gravity="right"
+            android:text="Contact Name:"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/CUST_CONTACT"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:ems="12" android:layout_weight="1.0"
+            android:layout_toRightOf="@+id/contact_name"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/r4"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:layout_below="@+id/r3"
+        android:layout_alignParentLeft="true">
+
+        <TextView
+            android:id="@+id/cust"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10.0dip"
+            android:gravity="right"
+            android:text="Cust No/Name:"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/customer"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:ems="12"
+            android:layout_weight="1.0"
+            android:layout_toRightOf="@+id/cust"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+
+    <!--<RelativeLayout android:id="@+id/r5" -->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="60.0dip" -->
+        <!--android:layout_below="@+id/r4"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!-->-->
+        <!--&lt;!&ndash;android:visibility="gone"&ndash;&gt;-->
+        <!--<TextView-->
+            <!--android:textAppearance="?android:textAppearanceMedium"-->
+            <!--android:textColor="@color/white" android:id="@+id/email"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="10.0dip"-->
+            <!--android:layout_marginTop="10.0dip"-->
+            <!--android:text="E-mail: "-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentTop="true" />-->
+        <!--<EditText-->
+            <!--android:id="@+id/xa010"-->
+            <!--android:textColor="@color/black"-->
+            <!--android:background="@color/white"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:ems="12"-->
+            <!--android:layout_below="@+id/email"-->
+            <!--android:layout_alignLeft="@+id/email"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:inputType="textEmailAddress" />-->
+    <!--</RelativeLayout>-->
+    <RelativeLayout android:id="@+id/r6"
+        android:layout_width="fill_parent"
+        android:layout_height="60.0dip"
+        android:layout_below="@+id/r4"
+        android:layout_alignParentLeft="true"
+        android:visibility="gone"
+        >
+        <TextView android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white"
+            android:id="@+id/project"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:text="Project (Device) Name: "
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" />
+        <EditText android:textColor="@color/black"
+            android:id="@+id/xa058"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="12"
+            android:layout_below="@+id/project"
+            android:layout_alignLeft="@+id/project"
+            android:layout_marginRight="10dp"
+            />
+    </RelativeLayout>
+    
+    <RelativeLayout android:id="@+id/r7"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:layout_below="@+id/r6"
+        android:layout_alignParentLeft="true">
+
+        <TextView 
+            android:id="@+id/sales_rep"
+            android:textColor="@color/white"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:text="Sales Rep: "
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="right"
+            android:textAppearance="?android:textAppearanceMedium"
+            />
+        
+        <EditText 
+            android:id="@+id/QT_SALES"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="12"
+            android:drawableRight="@drawable/dropdown_icon"
+            android:layout_alignBottom="@+id/sales_rep"
+            android:layout_toRightOf="@+id/sales_rep"
+            android:layout_toEndOf="@+id/sales_rep" />
+        <!--            android:layout_alignLeft="@+id/sales_rep"-->
+
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/r8"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:layout_below="@+id/r7"
+        android:layout_alignParentLeft="true">
+
+        <TextView
+            android:id="@+id/lb_DESCRIPTION"
+            android:textColor="@color/white"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:text="Description: "
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="right"
+            android:textAppearance="?android:textAppearanceMedium"
+            />
+
+        <EditText
+            android:id="@+id/ed_DESCRIPTION"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="12"
+            android:layout_alignBottom="@+id/lb_DESCRIPTION"
+            android:layout_toRightOf="@+id/lb_DESCRIPTION"
+            android:layout_toEndOf="@+id/lb_DESCRIPTION" />
+        <!--            android:layout_alignLeft="@+id/sales_rep"-->
+
+    </RelativeLayout>
+
+    <Button android:textColor="@color/white"
+        android:id="@+id/btnAdvSearch"
+        android:background="@color/red"
+        android:layout_width="150dp"
+        android:layout_height="32.0dip"
+        android:layout_marginBottom="14.0dip"
+        android:text="Search"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onSearchQtClick" />
+</RelativeLayout>

@@ -1,0 +1,528 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    tools:context="${packageName}.${activityClass}" >
+
+    <LinearLayout
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:showDividers="end" >
+
+        <!-- Titlebar begin -->
+
+        <include
+            android:id="@+id/title_layout_ref"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            layout="@layout/title_layout" />
+<RelativeLayout
+            android:id="@+id/apqp_editbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"            
+            android:background="@drawable/actionbar_bg" >
+
+            <TextView
+                android:id="@+id/subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Customer"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_apqp_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_border"                
+                android:text="Edit"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white" />
+           <Button
+                android:id="@+id/btn_apqp_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_border"                
+                android:text="Save"
+                android:visibility="gone"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white" />
+            <Button
+                android:id="@+id/btn_apqp_confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_border"               
+                android:text="Confirm"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white"
+                android:visibility="gone" />
+              <Button
+                android:id="@+id/btn_apqp_change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_border"               
+                android:text="Change"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white"
+                android:visibility="gone" />
+               <Button
+                android:id="@+id/btn_apqp_issue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_border"               
+                android:text="Issue"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white"
+                 />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/apqptab"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/actionbar_bg"
+            android:visibility="visible" >
+            <LinearLayout
+                android:id="@+id/tabbar1"
+				android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                 >
+				 <RelativeLayout android:id="@+id/r1"
+				    android:layout_weight="1.0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    >
+                <TextView
+                    android:id="@+id/l1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="2dp"
+                    android:text="1. "
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/b1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" 
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"					
+                    android:layout_toRightOf="@+id/l1"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical"
+                    android:text="Customer"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white" />
+ </RelativeLayout>
+ <RelativeLayout android:id="@+id/r2"
+				    android:layout_weight="1.0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    >
+                <TextView
+                    android:id="@+id/l2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_toLeftOf="@+id/b2"
+                    android:text="2. "
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/b2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"                   
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/transparent"
+                    android:text="Duplication"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white" />
+ </RelativeLayout>
+ <RelativeLayout android:id="@+id/r3"
+				    android:layout_weight="1.0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    >
+                <TextView
+                    android:id="@+id/l3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/b3"
+                    android:text="3. "
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/b3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/transparent"
+                    android:text="Handler"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white" />
+		 </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabbar2"
+				android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                android:layout_below="@+id/tabbar1" >
+                 <RelativeLayout android:id="@+id/r4"
+				    android:layout_weight="1.0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    >
+                <TextView
+                    android:id="@+id/l4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="2dp"
+                    android:text="4. "
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/b4"
+					android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"                  
+					android:layout_toRightOf="@+id/l4"
+                    android:background="@color/transparent"
+                    android:layout_centerVertical="true"
+                    android:text="Socket App"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white" />
+					</RelativeLayout>
+                <RelativeLayout android:id="@+id/r5"
+				    android:layout_weight="1.0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center" 
+								   
+                    >
+               <TextView
+                    android:id="@+id/l5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_toLeftOf="@+id/b5"
+                    android:text="5. "	
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/b5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"                   
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/transparent"
+                    android:text="Comment"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white" />
+                  </RelativeLayout>
+                   <RelativeLayout android:id="@+id/r6"
+				     android:layout_weight="1.0"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+					  android:gravity="center"
+                    >
+                <TextView
+                    android:id="@+id/l6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/b6"
+                    android:text="D. "                   
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/b6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"                                    
+                    android:layout_marginRight="5dp"
+                    android:background="@color/transparent"
+                    android:text="Forecast"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white" />
+                 </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        
+        <!-- sheetbar end -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/titlebar"
+        android:orientation="vertical"
+        android:visibility="visible" >
+ <include
+            android:id="@+id/scrollView1_def"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/scrollview1" />
+       
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab2"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tab1"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <include
+            android:id="@+id/scrollView2_ref"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/scrollview2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab3"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tab2"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <include
+            android:id="@+id/scrollView3_ref"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/scrollview3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab4"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tab3"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <include
+            android:id="@+id/scrollView4_ref"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/scrollview4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab5"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tab4"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <include
+            android:id="@+id/scrollView5_ref"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/scrollview5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab6"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tab5"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <include
+            android:id="@+id/scrollView6_ref"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/scrollview6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab7"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tab6"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <include
+            android:id="@+id/scrollView7_ref"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/scrollview7" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab8"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tab7"
+        android:orientation="vertical"
+        android:visibility="gone" >
+		  <include
+            android:id="@+id/scrollView8_ref"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/scrollview8" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab9"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tab8"
+        android:orientation="vertical"
+        android:visibility="gone" >
+		  <include
+            android:id="@+id/scrollView9_ref"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/scrollview9" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tabA"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tab9"
+        android:orientation="vertical"
+        android:visibility="gone" >
+		  <include
+            android:id="@+id/scrollViewA_ref"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/scrollviewa" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/tabB"
+        android:layout_below="@+id/tabA"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+		   <include
+            android:id="@+id/scrollViewB_ref"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/tabB_commentbar"
+            layout="@layout/scrollviewb" />	
+            <RelativeLayout  
+            android:id="@+id/tabB_commentbar"             
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"          
+            android:layout_alignParentBottom="true" >
+ <TableLayout
+            android:id="@+id/tabb_r3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"       
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:stretchColumns="*"           
+            
+             >
+        <TableRow  
+            android:layout_width="wrap_content"
+		    android:layout_height="wrap_content">
+		    <Button android:id="@+id/fae_comment" 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:text="FAE Comment for Sales"
+		        android:background="@color/black"
+		        android:textColor="@color/white"
+		        android:layout_marginBottom="1dp"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"     
+		        ></Button>
+		     <Button android:id="@+id/sale_comment" 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:text="Sales Comment for FAE"
+		         android:background="@color/black"
+		        android:textColor="@color/white"
+		         android:layout_marginBottom="1dp"
+               android:layout_marginLeft="1dp"
+              android:gravity="center"     
+		        ></Button>
+		    </TableRow>
+		</TableLayout>
+			</RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/tabD"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/tabB"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+		    <include
+            android:id="@+id/scrollViewD_ref"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/scrollviewd" />
+    </LinearLayout>
+	 
+</RelativeLayout>

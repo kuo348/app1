@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:divider="@color/list_divider" 
+        android:showDividers="end">
+        <RelativeLayout android:background="@drawable/actionbar_bg" 
+            android:layout_width="fill_parent" 
+            android:layout_height="44dp" 
+            android:layout_alignParentTop="true">
+            <TextView android:textAppearance="?android:textAppearanceMedium" 
+                android:textColor="@color/white" 
+                android:id="@+id/detail_title_text" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="Search Result" 
+                android:layout_centerInParent="true" />
+            <Button  android:id="@+id/btnReturnApqpSearch" 
+                android:textColor="@color/white"              
+                android:background="@color/transparent" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:layout_marginLeft="10dp" 
+                android:text="Search" 
+                android:drawableLeft="@drawable/group_arrow_left" 
+                android:layout_alignParentLeft="true" 
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+        <com.winway.wwapp2.PullDownView 
+            android:id="@+id/apqplistview" 
+            android:padding="0dp" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+</RelativeLayout>
